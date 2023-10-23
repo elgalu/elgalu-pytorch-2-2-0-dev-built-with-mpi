@@ -1,0 +1,21 @@
+# ninja log v5
+1156	1166	1698063279530151236	sox_src-populate-prefix/src/sox_src-populate-stamp/sox_src-populate-build	c01781943fcee69d
+1146	1156	1698063279522151184	sox_src-populate-prefix/src/sox_src-populate-stamp/sox_src-populate-configure	e44327214a9ae70f
+1185	1200	1698063279566151471	sox_src-populate-prefix/src/sox_src-populate-stamp/sox_src-populate-done	6dd84ead42129d4a
+12	1125	1698063279490150976	/build_src/audio/build/temp.linux-x86_64-cpython-311/_deps/sox_src-subbuild/sox_src-populate-prefix/src/sox_src-populate-stamp/sox_src-populate-download	adadf25511802829
+1185	1200	1698063279566151471	/build_src/audio/build/temp.linux-x86_64-cpython-311/_deps/sox_src-subbuild/CMakeFiles/sox_src-populate-complete	6dd84ead42129d4a
+1125	1135	1698063279502151053	/build_src/audio/build/temp.linux-x86_64-cpython-311/_deps/sox_src-subbuild/sox_src-populate-prefix/src/sox_src-populate-stamp/sox_src-populate-update	b66a3ac6c195ea32
+1156	1166	1698063279530151236	/build_src/audio/build/temp.linux-x86_64-cpython-311/_deps/sox_src-subbuild/sox_src-populate-prefix/src/sox_src-populate-stamp/sox_src-populate-build	c01781943fcee69d
+1146	1156	1698063279522151184	/build_src/audio/build/temp.linux-x86_64-cpython-311/_deps/sox_src-subbuild/sox_src-populate-prefix/src/sox_src-populate-stamp/sox_src-populate-configure	e44327214a9ae70f
+0	12	1698063278378143727	sox_src-populate-prefix/src/sox_src-populate-stamp/sox_src-populate-mkdir	1300bc06881eba2b
+1125	1135	1698063279502151053	sox_src-populate-prefix/src/sox_src-populate-stamp/sox_src-populate-update	b66a3ac6c195ea32
+0	12	1698063278378143727	/build_src/audio/build/temp.linux-x86_64-cpython-311/_deps/sox_src-subbuild/sox_src-populate-prefix/src/sox_src-populate-stamp/sox_src-populate-mkdir	1300bc06881eba2b
+1176	1185	1698063279550151367	/build_src/audio/build/temp.linux-x86_64-cpython-311/_deps/sox_src-subbuild/sox_src-populate-prefix/src/sox_src-populate-stamp/sox_src-populate-test	e2687fcaeae1f91a
+12	1125	1698063279490150976	sox_src-populate-prefix/src/sox_src-populate-stamp/sox_src-populate-download	adadf25511802829
+1176	1185	1698063279550151367	sox_src-populate-prefix/src/sox_src-populate-stamp/sox_src-populate-test	e2687fcaeae1f91a
+1185	1200	1698063279566151471	/build_src/audio/build/temp.linux-x86_64-cpython-311/_deps/sox_src-subbuild/sox_src-populate-prefix/src/sox_src-populate-stamp/sox_src-populate-done	6dd84ead42129d4a
+1135	1146	1698063279510151105	sox_src-populate-prefix/src/sox_src-populate-stamp/sox_src-populate-patch	4878171b414ce9c
+1166	1176	1698063279542151315	/build_src/audio/build/temp.linux-x86_64-cpython-311/_deps/sox_src-subbuild/sox_src-populate-prefix/src/sox_src-populate-stamp/sox_src-populate-install	8184e2a6a6f01b80
+1166	1176	1698063279542151315	sox_src-populate-prefix/src/sox_src-populate-stamp/sox_src-populate-install	8184e2a6a6f01b80
+1185	1200	1698063279566151471	CMakeFiles/sox_src-populate-complete	6dd84ead42129d4a
+1135	1146	1698063279510151105	/build_src/audio/build/temp.linux-x86_64-cpython-311/_deps/sox_src-subbuild/sox_src-populate-prefix/src/sox_src-populate-stamp/sox_src-populate-patch	4878171b414ce9c

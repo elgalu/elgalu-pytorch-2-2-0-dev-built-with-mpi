@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/build_src/audio/build/temp.linux-x86_64-cpython-311/_deps/f6-subbuild/CMakeFiles/f6-populate"
+		},
+		{
+			"file" : "/build_src/audio/build/temp.linux-x86_64-cpython-311/_deps/f6-subbuild/CMakeFiles/f6-populate.rule"
+		},
+		{
+			"file" : "/build_src/audio/build/temp.linux-x86_64-cpython-311/_deps/f6-subbuild/CMakeFiles/f6-populate-complete.rule"
+		},
+		{
+			"file" : "/build_src/audio/build/temp.linux-x86_64-cpython-311/_deps/f6-subbuild/f6-populate-prefix/src/f6-populate-stamp/f6-populate-build.rule"
+		},
+		{
+			"file" : "/build_src/audio/build/temp.linux-x86_64-cpython-311/_deps/f6-subbuild/f6-populate-prefix/src/f6-populate-stamp/f6-populate-configure.rule"
+		},
+		{
+			"file" : "/build_src/audio/build/temp.linux-x86_64-cpython-311/_deps/f6-subbuild/f6-populate-prefix/src/f6-populate-stamp/f6-populate-download.rule"
+		},
+		{
+			"file" : "/build_src/audio/build/temp.linux-x86_64-cpython-311/_deps/f6-subbuild/f6-populate-prefix/src/f6-populate-stamp/f6-populate-install.rule"
+		},
+		{
+			"file" : "/build_src/audio/build/temp.linux-x86_64-cpython-311/_deps/f6-subbuild/f6-populate-prefix/src/f6-populate-stamp/f6-populate-mkdir.rule"
+		},
+		{
+			"file" : "/build_src/audio/build/temp.linux-x86_64-cpython-311/_deps/f6-subbuild/f6-populate-prefix/src/f6-populate-stamp/f6-populate-patch.rule"
+		},
+		{
+			"file" : "/build_src/audio/build/temp.linux-x86_64-cpython-311/_deps/f6-subbuild/f6-populate-prefix/src/f6-populate-stamp/f6-populate-test.rule"
+		},
+		{
+			"file" : "/build_src/audio/build/temp.linux-x86_64-cpython-311/_deps/f6-subbuild/f6-populate-prefix/src/f6-populate-stamp/f6-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"f6-populate"
+		],
+		"name" : "f6-populate"
+	}
+}

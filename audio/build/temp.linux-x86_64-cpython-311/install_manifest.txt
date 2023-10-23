@@ -1,0 +1,12 @@
+/build_src/audio/build/lib.linux-x86_64-cpython-311/torchaudio/lib/libtorchaudio.so
+/build_src/audio/build/lib.linux-x86_64-cpython-311/torchaudio/lib/_torchaudio.so
+/build_src/audio/build/lib.linux-x86_64-cpython-311/torchaudio/lib/libtorchaudio_sox.so
+/build_src/audio/build/lib.linux-x86_64-cpython-311/torchaudio/lib/_torchaudio_sox.so
+/build_src/audio/build/lib.linux-x86_64-cpython-311/torchaudio/lib/libtorchaudio_ffmpeg4.so
+/build_src/audio/build/lib.linux-x86_64-cpython-311/torchaudio/lib/libtorchaudio_ffmpeg5.so
+/build_src/audio/build/lib.linux-x86_64-cpython-311/torchaudio/lib/libtorchaudio_ffmpeg6.so
+/build_src/audio/build/lib.linux-x86_64-cpython-311/torchaudio/lib/_torchaudio_ffmpeg4.so
+/build_src/audio/build/lib.linux-x86_64-cpython-311/torchaudio/lib/_torchaudio_ffmpeg5.so
+/build_src/audio/build/lib.linux-x86_64-cpython-311/torchaudio/lib/_torchaudio_ffmpeg6.so
+/build_src/audio/build/lib.linux-x86_64-cpython-311/torchaudio/lib/libctc_prefix_decoder.so
+/build_src/audio/build/lib.linux-x86_64-cpython-311/torchaudio/lib/pybind11_prefixctc.so

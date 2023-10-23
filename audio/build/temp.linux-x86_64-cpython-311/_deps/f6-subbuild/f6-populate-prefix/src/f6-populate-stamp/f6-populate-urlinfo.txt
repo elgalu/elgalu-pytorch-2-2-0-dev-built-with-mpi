@@ -1,0 +1,12 @@
+# This is a generated file and its contents are an internal implementation detail.
+# The download step will be re-executed if anything in this file changes.
+# No other meaning or use of this file is supported.
+
+method=url
+command=/opt/conda/bin/cmake;-P;/build_src/audio/build/temp.linux-x86_64-cpython-311/_deps/f6-subbuild/f6-populate-prefix/src/f6-populate-stamp/download-f6-populate.cmake;COMMAND;/opt/conda/bin/cmake;-P;/build_src/audio/build/temp.linux-x86_64-cpython-311/_deps/f6-subbuild/f6-populate-prefix/src/f6-populate-stamp/verify-f6-populate.cmake;COMMAND;/opt/conda/bin/cmake;-P;/build_src/audio/build/temp.linux-x86_64-cpython-311/_deps/f6-subbuild/f6-populate-prefix/src/f6-populate-stamp/extract-f6-populate.cmake
+source_dir=/build_src/audio/build/temp.linux-x86_64-cpython-311/_deps/f6-src
+work_dir=/build_src/audio/build/temp.linux-x86_64-cpython-311/_deps
+url(s)=https://pytorch.s3.amazonaws.com/torchaudio/ffmpeg/2023-07-06/linux_x86_64/6.0.tar.gz
+hash=SHA256=04d3916404bab5efadd29f68361b7d13ea71e6242c6473edcb747a41a9fb97a6
+no_extract=
+

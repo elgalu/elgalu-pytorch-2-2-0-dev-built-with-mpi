@@ -1,0 +1,14 @@
+prefix=/work/third_party/ffmpeg
+exec_prefix=${prefix}
+libdir=/work/third_party/ffmpeg/lib
+includedir=/work/third_party/ffmpeg/include
+
+Name: libavutil
+Description: FFmpeg utility library
+Version: 58.2.100
+Requires: 
+Requires.private: 
+Conflicts:
+Libs: -L${libdir} -Wl,-rpath,/work/third_party/ffmpeg/lib -lavutil 
+Libs.private: -pthread -lm
+Cflags: -I${includedir}

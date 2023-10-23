@@ -1,0 +1,14 @@
+prefix=/work/third_party/ffmpeg
+exec_prefix=${prefix}
+libdir=/work/third_party/ffmpeg/lib
+includedir=/work/third_party/ffmpeg/include
+
+Name: libavfilter
+Description: FFmpeg audio/video filtering library
+Version: 8.24.100
+Requires: 
+Requires.private: libavutil >= 57.17.100
+Conflicts:
+Libs: -L${libdir} -Wl,-rpath,/work/third_party/ffmpeg/lib -lavfilter 
+Libs.private: -pthread -lm
+Cflags: -I${includedir}

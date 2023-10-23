@@ -1,0 +1,14 @@
+# Target labels
+ f4-populate
+# Source files and their labels
+/build_src/audio/build/temp.linux-x86_64-cpython-311/_deps/f4-subbuild/CMakeFiles/f4-populate
+/build_src/audio/build/temp.linux-x86_64-cpython-311/_deps/f4-subbuild/CMakeFiles/f4-populate.rule
+/build_src/audio/build/temp.linux-x86_64-cpython-311/_deps/f4-subbuild/CMakeFiles/f4-populate-complete.rule
+/build_src/audio/build/temp.linux-x86_64-cpython-311/_deps/f4-subbuild/f4-populate-prefix/src/f4-populate-stamp/f4-populate-build.rule
+/build_src/audio/build/temp.linux-x86_64-cpython-311/_deps/f4-subbuild/f4-populate-prefix/src/f4-populate-stamp/f4-populate-configure.rule
+/build_src/audio/build/temp.linux-x86_64-cpython-311/_deps/f4-subbuild/f4-populate-prefix/src/f4-populate-stamp/f4-populate-download.rule
+/build_src/audio/build/temp.linux-x86_64-cpython-311/_deps/f4-subbuild/f4-populate-prefix/src/f4-populate-stamp/f4-populate-install.rule
+/build_src/audio/build/temp.linux-x86_64-cpython-311/_deps/f4-subbuild/f4-populate-prefix/src/f4-populate-stamp/f4-populate-mkdir.rule
+/build_src/audio/build/temp.linux-x86_64-cpython-311/_deps/f4-subbuild/f4-populate-prefix/src/f4-populate-stamp/f4-populate-patch.rule
+/build_src/audio/build/temp.linux-x86_64-cpython-311/_deps/f4-subbuild/f4-populate-prefix/src/f4-populate-stamp/f4-populate-test.rule
+/build_src/audio/build/temp.linux-x86_64-cpython-311/_deps/f4-subbuild/f4-populate-prefix/src/f4-populate-stamp/f4-populate-update.rule

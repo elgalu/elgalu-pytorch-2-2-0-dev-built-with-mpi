@@ -1,0 +1,14 @@
+# Target labels
+ sox_src-populate
+# Source files and their labels
+/build_src/audio/build/temp.linux-x86_64-cpython-311/_deps/sox_src-subbuild/CMakeFiles/sox_src-populate
+/build_src/audio/build/temp.linux-x86_64-cpython-311/_deps/sox_src-subbuild/CMakeFiles/sox_src-populate.rule
+/build_src/audio/build/temp.linux-x86_64-cpython-311/_deps/sox_src-subbuild/CMakeFiles/sox_src-populate-complete.rule
+/build_src/audio/build/temp.linux-x86_64-cpython-311/_deps/sox_src-subbuild/sox_src-populate-prefix/src/sox_src-populate-stamp/sox_src-populate-build.rule
+/build_src/audio/build/temp.linux-x86_64-cpython-311/_deps/sox_src-subbuild/sox_src-populate-prefix/src/sox_src-populate-stamp/sox_src-populate-configure.rule
+/build_src/audio/build/temp.linux-x86_64-cpython-311/_deps/sox_src-subbuild/sox_src-populate-prefix/src/sox_src-populate-stamp/sox_src-populate-download.rule
+/build_src/audio/build/temp.linux-x86_64-cpython-311/_deps/sox_src-subbuild/sox_src-populate-prefix/src/sox_src-populate-stamp/sox_src-populate-install.rule
+/build_src/audio/build/temp.linux-x86_64-cpython-311/_deps/sox_src-subbuild/sox_src-populate-prefix/src/sox_src-populate-stamp/sox_src-populate-mkdir.rule
+/build_src/audio/build/temp.linux-x86_64-cpython-311/_deps/sox_src-subbuild/sox_src-populate-prefix/src/sox_src-populate-stamp/sox_src-populate-patch.rule
+/build_src/audio/build/temp.linux-x86_64-cpython-311/_deps/sox_src-subbuild/sox_src-populate-prefix/src/sox_src-populate-stamp/sox_src-populate-test.rule
+/build_src/audio/build/temp.linux-x86_64-cpython-311/_deps/sox_src-subbuild/sox_src-populate-prefix/src/sox_src-populate-stamp/sox_src-populate-update.rule

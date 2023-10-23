@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/build_src/audio/build/temp.linux-x86_64-cpython-311/_deps/f4-subbuild/CMakeFiles/f4-populate"
+		},
+		{
+			"file" : "/build_src/audio/build/temp.linux-x86_64-cpython-311/_deps/f4-subbuild/CMakeFiles/f4-populate.rule"
+		},
+		{
+			"file" : "/build_src/audio/build/temp.linux-x86_64-cpython-311/_deps/f4-subbuild/CMakeFiles/f4-populate-complete.rule"
+		},
+		{
+			"file" : "/build_src/audio/build/temp.linux-x86_64-cpython-311/_deps/f4-subbuild/f4-populate-prefix/src/f4-populate-stamp/f4-populate-build.rule"
+		},
+		{
+			"file" : "/build_src/audio/build/temp.linux-x86_64-cpython-311/_deps/f4-subbuild/f4-populate-prefix/src/f4-populate-stamp/f4-populate-configure.rule"
+		},
+		{
+			"file" : "/build_src/audio/build/temp.linux-x86_64-cpython-311/_deps/f4-subbuild/f4-populate-prefix/src/f4-populate-stamp/f4-populate-download.rule"
+		},
+		{
+			"file" : "/build_src/audio/build/temp.linux-x86_64-cpython-311/_deps/f4-subbuild/f4-populate-prefix/src/f4-populate-stamp/f4-populate-install.rule"
+		},
+		{
+			"file" : "/build_src/audio/build/temp.linux-x86_64-cpython-311/_deps/f4-subbuild/f4-populate-prefix/src/f4-populate-stamp/f4-populate-mkdir.rule"
+		},
+		{
+			"file" : "/build_src/audio/build/temp.linux-x86_64-cpython-311/_deps/f4-subbuild/f4-populate-prefix/src/f4-populate-stamp/f4-populate-patch.rule"
+		},
+		{
+			"file" : "/build_src/audio/build/temp.linux-x86_64-cpython-311/_deps/f4-subbuild/f4-populate-prefix/src/f4-populate-stamp/f4-populate-test.rule"
+		},
+		{
+			"file" : "/build_src/audio/build/temp.linux-x86_64-cpython-311/_deps/f4-subbuild/f4-populate-prefix/src/f4-populate-stamp/f4-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"f4-populate"
+		],
+		"name" : "f4-populate"
+	}
+}

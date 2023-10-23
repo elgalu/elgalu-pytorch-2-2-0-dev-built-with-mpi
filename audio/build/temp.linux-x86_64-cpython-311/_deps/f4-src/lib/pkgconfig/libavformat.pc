@@ -1,0 +1,14 @@
+prefix=/pytorch/audio/ffmpeg
+exec_prefix=${prefix}
+libdir=/pytorch/audio/ffmpeg/lib
+includedir=/pytorch/audio/ffmpeg/include
+
+Name: libavformat
+Description: FFmpeg container format library
+Version: 58.76.100
+Requires: 
+Requires.private: libavcodec >= 58.134.100, libavutil >= 56.70.100
+Conflicts:
+Libs: -L${libdir} -Wl,-rpath,/pytorch/audio/ffmpeg/lib -lavformat 
+Libs.private: -lm
+Cflags: -I${includedir}

@@ -1,0 +1,470 @@
+[
+{
+  "directory": "/build_src/audio/build/temp.linux-x86_64-cpython-311",
+  "command": "/opt/conda/bin/x86_64-conda-linux-gnu-c++ -DINCLUDE_ALIGN -DINCLUDE_RIR -DUSE_C10D_GLOO -DUSE_C10D_MPI -DUSE_C10D_NCCL -DUSE_CUDA -DUSE_DISTRIBUTED -DUSE_RPC -DUSE_TENSORPIPE -Dlibtorchaudio_EXPORTS -I/build_src/audio/src -isystem /opt/conda/lib/python3.11/site-packages/torch/include -isystem /opt/conda/lib/python3.11/site-packages/torch/include/torch/csrc/api/include -fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /opt/conda/include -Wall -D_GLIBCXX_USE_CXX11_ABI=1 -O3 -DNDEBUG -std=gnu++17 -fPIC -D_GLIBCXX_USE_CXX11_ABI=1 -fopenmp -o src/libtorchaudio/CMakeFiles/libtorchaudio.dir/lfilter.cpp.o -c /build_src/audio/src/libtorchaudio/lfilter.cpp",
+  "file": "/build_src/audio/src/libtorchaudio/lfilter.cpp",
+  "output": "src/libtorchaudio/CMakeFiles/libtorchaudio.dir/lfilter.cpp.o"
+},
+{
+  "directory": "/build_src/audio/build/temp.linux-x86_64-cpython-311",
+  "command": "/opt/conda/bin/x86_64-conda-linux-gnu-c++ -DINCLUDE_ALIGN -DINCLUDE_RIR -DUSE_C10D_GLOO -DUSE_C10D_MPI -DUSE_C10D_NCCL -DUSE_CUDA -DUSE_DISTRIBUTED -DUSE_RPC -DUSE_TENSORPIPE -Dlibtorchaudio_EXPORTS -I/build_src/audio/src -isystem /opt/conda/lib/python3.11/site-packages/torch/include -isystem /opt/conda/lib/python3.11/site-packages/torch/include/torch/csrc/api/include -fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /opt/conda/include -Wall -D_GLIBCXX_USE_CXX11_ABI=1 -O3 -DNDEBUG -std=gnu++17 -fPIC -D_GLIBCXX_USE_CXX11_ABI=1 -fopenmp -o src/libtorchaudio/CMakeFiles/libtorchaudio.dir/overdrive.cpp.o -c /build_src/audio/src/libtorchaudio/overdrive.cpp",
+  "file": "/build_src/audio/src/libtorchaudio/overdrive.cpp",
+  "output": "src/libtorchaudio/CMakeFiles/libtorchaudio.dir/overdrive.cpp.o"
+},
+{
+  "directory": "/build_src/audio/build/temp.linux-x86_64-cpython-311",
+  "command": "/opt/conda/bin/x86_64-conda-linux-gnu-c++ -DINCLUDE_ALIGN -DINCLUDE_RIR -DUSE_C10D_GLOO -DUSE_C10D_MPI -DUSE_C10D_NCCL -DUSE_CUDA -DUSE_DISTRIBUTED -DUSE_RPC -DUSE_TENSORPIPE -Dlibtorchaudio_EXPORTS -I/build_src/audio/src -isystem /opt/conda/lib/python3.11/site-packages/torch/include -isystem /opt/conda/lib/python3.11/site-packages/torch/include/torch/csrc/api/include -fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /opt/conda/include -Wall -D_GLIBCXX_USE_CXX11_ABI=1 -O3 -DNDEBUG -std=gnu++17 -fPIC -D_GLIBCXX_USE_CXX11_ABI=1 -fopenmp -o src/libtorchaudio/CMakeFiles/libtorchaudio.dir/utils.cpp.o -c /build_src/audio/src/libtorchaudio/utils.cpp",
+  "file": "/build_src/audio/src/libtorchaudio/utils.cpp",
+  "output": "src/libtorchaudio/CMakeFiles/libtorchaudio.dir/utils.cpp.o"
+},
+{
+  "directory": "/build_src/audio/build/temp.linux-x86_64-cpython-311",
+  "command": "/opt/conda/bin/x86_64-conda-linux-gnu-c++ -DINCLUDE_ALIGN -DINCLUDE_RIR -DUSE_C10D_GLOO -DUSE_C10D_MPI -DUSE_C10D_NCCL -DUSE_CUDA -DUSE_DISTRIBUTED -DUSE_RPC -DUSE_TENSORPIPE -Dlibtorchaudio_EXPORTS -I/build_src/audio/src -isystem /opt/conda/lib/python3.11/site-packages/torch/include -isystem /opt/conda/lib/python3.11/site-packages/torch/include/torch/csrc/api/include -fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /opt/conda/include -Wall -D_GLIBCXX_USE_CXX11_ABI=1 -O3 -DNDEBUG -std=gnu++17 -fPIC -D_GLIBCXX_USE_CXX11_ABI=1 -fopenmp -o src/libtorchaudio/CMakeFiles/libtorchaudio.dir/rnnt/cpu/compute_alphas.cpp.o -c /build_src/audio/src/libtorchaudio/rnnt/cpu/compute_alphas.cpp",
+  "file": "/build_src/audio/src/libtorchaudio/rnnt/cpu/compute_alphas.cpp",
+  "output": "src/libtorchaudio/CMakeFiles/libtorchaudio.dir/rnnt/cpu/compute_alphas.cpp.o"
+},
+{
+  "directory": "/build_src/audio/build/temp.linux-x86_64-cpython-311",
+  "command": "/opt/conda/bin/x86_64-conda-linux-gnu-c++ -DINCLUDE_ALIGN -DINCLUDE_RIR -DUSE_C10D_GLOO -DUSE_C10D_MPI -DUSE_C10D_NCCL -DUSE_CUDA -DUSE_DISTRIBUTED -DUSE_RPC -DUSE_TENSORPIPE -Dlibtorchaudio_EXPORTS -I/build_src/audio/src -isystem /opt/conda/lib/python3.11/site-packages/torch/include -isystem /opt/conda/lib/python3.11/site-packages/torch/include/torch/csrc/api/include -fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /opt/conda/include -Wall -D_GLIBCXX_USE_CXX11_ABI=1 -O3 -DNDEBUG -std=gnu++17 -fPIC -D_GLIBCXX_USE_CXX11_ABI=1 -fopenmp -o src/libtorchaudio/CMakeFiles/libtorchaudio.dir/rnnt/cpu/compute_betas.cpp.o -c /build_src/audio/src/libtorchaudio/rnnt/cpu/compute_betas.cpp",
+  "file": "/build_src/audio/src/libtorchaudio/rnnt/cpu/compute_betas.cpp",
+  "output": "src/libtorchaudio/CMakeFiles/libtorchaudio.dir/rnnt/cpu/compute_betas.cpp.o"
+},
+{
+  "directory": "/build_src/audio/build/temp.linux-x86_64-cpython-311",
+  "command": "/opt/conda/bin/x86_64-conda-linux-gnu-c++ -DINCLUDE_ALIGN -DINCLUDE_RIR -DUSE_C10D_GLOO -DUSE_C10D_MPI -DUSE_C10D_NCCL -DUSE_CUDA -DUSE_DISTRIBUTED -DUSE_RPC -DUSE_TENSORPIPE -Dlibtorchaudio_EXPORTS -I/build_src/audio/src -isystem /opt/conda/lib/python3.11/site-packages/torch/include -isystem /opt/conda/lib/python3.11/site-packages/torch/include/torch/csrc/api/include -fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /opt/conda/include -Wall -D_GLIBCXX_USE_CXX11_ABI=1 -O3 -DNDEBUG -std=gnu++17 -fPIC -D_GLIBCXX_USE_CXX11_ABI=1 -fopenmp -o src/libtorchaudio/CMakeFiles/libtorchaudio.dir/rnnt/cpu/compute.cpp.o -c /build_src/audio/src/libtorchaudio/rnnt/cpu/compute.cpp",
+  "file": "/build_src/audio/src/libtorchaudio/rnnt/cpu/compute.cpp",
+  "output": "src/libtorchaudio/CMakeFiles/libtorchaudio.dir/rnnt/cpu/compute.cpp.o"
+},
+{
+  "directory": "/build_src/audio/build/temp.linux-x86_64-cpython-311",
+  "command": "/opt/conda/bin/x86_64-conda-linux-gnu-c++ -DINCLUDE_ALIGN -DINCLUDE_RIR -DUSE_C10D_GLOO -DUSE_C10D_MPI -DUSE_C10D_NCCL -DUSE_CUDA -DUSE_DISTRIBUTED -DUSE_RPC -DUSE_TENSORPIPE -Dlibtorchaudio_EXPORTS -I/build_src/audio/src -isystem /opt/conda/lib/python3.11/site-packages/torch/include -isystem /opt/conda/lib/python3.11/site-packages/torch/include/torch/csrc/api/include -fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /opt/conda/include -Wall -D_GLIBCXX_USE_CXX11_ABI=1 -O3 -DNDEBUG -std=gnu++17 -fPIC -D_GLIBCXX_USE_CXX11_ABI=1 -fopenmp -o src/libtorchaudio/CMakeFiles/libtorchaudio.dir/rnnt/compute_alphas.cpp.o -c /build_src/audio/src/libtorchaudio/rnnt/compute_alphas.cpp",
+  "file": "/build_src/audio/src/libtorchaudio/rnnt/compute_alphas.cpp",
+  "output": "src/libtorchaudio/CMakeFiles/libtorchaudio.dir/rnnt/compute_alphas.cpp.o"
+},
+{
+  "directory": "/build_src/audio/build/temp.linux-x86_64-cpython-311",
+  "command": "/opt/conda/bin/x86_64-conda-linux-gnu-c++ -DINCLUDE_ALIGN -DINCLUDE_RIR -DUSE_C10D_GLOO -DUSE_C10D_MPI -DUSE_C10D_NCCL -DUSE_CUDA -DUSE_DISTRIBUTED -DUSE_RPC -DUSE_TENSORPIPE -Dlibtorchaudio_EXPORTS -I/build_src/audio/src -isystem /opt/conda/lib/python3.11/site-packages/torch/include -isystem /opt/conda/lib/python3.11/site-packages/torch/include/torch/csrc/api/include -fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /opt/conda/include -Wall -D_GLIBCXX_USE_CXX11_ABI=1 -O3 -DNDEBUG -std=gnu++17 -fPIC -D_GLIBCXX_USE_CXX11_ABI=1 -fopenmp -o src/libtorchaudio/CMakeFiles/libtorchaudio.dir/rnnt/compute_betas.cpp.o -c /build_src/audio/src/libtorchaudio/rnnt/compute_betas.cpp",
+  "file": "/build_src/audio/src/libtorchaudio/rnnt/compute_betas.cpp",
+  "output": "src/libtorchaudio/CMakeFiles/libtorchaudio.dir/rnnt/compute_betas.cpp.o"
+},
+{
+  "directory": "/build_src/audio/build/temp.linux-x86_64-cpython-311",
+  "command": "/opt/conda/bin/x86_64-conda-linux-gnu-c++ -DINCLUDE_ALIGN -DINCLUDE_RIR -DUSE_C10D_GLOO -DUSE_C10D_MPI -DUSE_C10D_NCCL -DUSE_CUDA -DUSE_DISTRIBUTED -DUSE_RPC -DUSE_TENSORPIPE -Dlibtorchaudio_EXPORTS -I/build_src/audio/src -isystem /opt/conda/lib/python3.11/site-packages/torch/include -isystem /opt/conda/lib/python3.11/site-packages/torch/include/torch/csrc/api/include -fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /opt/conda/include -Wall -D_GLIBCXX_USE_CXX11_ABI=1 -O3 -DNDEBUG -std=gnu++17 -fPIC -D_GLIBCXX_USE_CXX11_ABI=1 -fopenmp -o src/libtorchaudio/CMakeFiles/libtorchaudio.dir/rnnt/compute.cpp.o -c /build_src/audio/src/libtorchaudio/rnnt/compute.cpp",
+  "file": "/build_src/audio/src/libtorchaudio/rnnt/compute.cpp",
+  "output": "src/libtorchaudio/CMakeFiles/libtorchaudio.dir/rnnt/compute.cpp.o"
+},
+{
+  "directory": "/build_src/audio/build/temp.linux-x86_64-cpython-311",
+  "command": "/opt/conda/bin/x86_64-conda-linux-gnu-c++ -DINCLUDE_ALIGN -DINCLUDE_RIR -DUSE_C10D_GLOO -DUSE_C10D_MPI -DUSE_C10D_NCCL -DUSE_CUDA -DUSE_DISTRIBUTED -DUSE_RPC -DUSE_TENSORPIPE -Dlibtorchaudio_EXPORTS -I/build_src/audio/src -isystem /opt/conda/lib/python3.11/site-packages/torch/include -isystem /opt/conda/lib/python3.11/site-packages/torch/include/torch/csrc/api/include -fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /opt/conda/include -Wall -D_GLIBCXX_USE_CXX11_ABI=1 -O3 -DNDEBUG -std=gnu++17 -fPIC -D_GLIBCXX_USE_CXX11_ABI=1 -fopenmp -o src/libtorchaudio/CMakeFiles/libtorchaudio.dir/rnnt/autograd.cpp.o -c /build_src/audio/src/libtorchaudio/rnnt/autograd.cpp",
+  "file": "/build_src/audio/src/libtorchaudio/rnnt/autograd.cpp",
+  "output": "src/libtorchaudio/CMakeFiles/libtorchaudio.dir/rnnt/autograd.cpp.o"
+},
+{
+  "directory": "/build_src/audio/build/temp.linux-x86_64-cpython-311",
+  "command": "/opt/conda/bin/nvcc -forward-unknown-to-host-compiler -DINCLUDE_ALIGN -DINCLUDE_RIR -DUSE_C10D_GLOO -DUSE_C10D_MPI -DUSE_C10D_NCCL -DUSE_CUDA -DUSE_DISTRIBUTED -DUSE_RPC -DUSE_TENSORPIPE -Dlibtorchaudio_EXPORTS -I/build_src/audio/src -isystem /opt/conda/lib/python3.11/site-packages/torch/include -isystem /opt/conda/lib/python3.11/site-packages/torch/include/torch/csrc/api/include -isystem /opt/conda/include      -DCUDA_HAS_FP16=1     -D__CUDA_NO_HALF_OPERATORS__     -D__CUDA_NO_HALF_CONVERSIONS__     -D__CUDA_NO_HALF2_OPERATORS__ -DONNX_NAMESPACE=onnx_c2 -gencode arch=compute_52,code=sm_52 -gencode arch=compute_70,code=sm_70 -gencode arch=compute_75,code=sm_75 -gencode arch=compute_80,code=sm_80 -gencode arch=compute_86,code=sm_86 -gencode arch=compute_90,code=sm_90 -gencode arch=compute_70,code=compute_70 -Xcudafe --diag_suppress=cc_clobber_ignored,--diag_suppress=field_without_dll_interface,--diag_suppress=base_class_has_different_dll_interface,--diag_suppress=dll_interface_conflict_none_assumed,--diag_suppress=dll_interface_conflict_dllexport_assumed,--diag_suppress=bad_friend_decl --expt-relaxed-constexpr --expt-extended-lambda -O3 -DNDEBUG -std=c++17 -Xcompiler=-fPIC -D_GLIBCXX_USE_CXX11_ABI=1 -x cu -c /build_src/audio/src/libtorchaudio/rnnt/gpu/compute_alphas.cu -o src/libtorchaudio/CMakeFiles/libtorchaudio.dir/rnnt/gpu/compute_alphas.cu.o",
+  "file": "/build_src/audio/src/libtorchaudio/rnnt/gpu/compute_alphas.cu",
+  "output": "src/libtorchaudio/CMakeFiles/libtorchaudio.dir/rnnt/gpu/compute_alphas.cu.o"
+},
+{
+  "directory": "/build_src/audio/build/temp.linux-x86_64-cpython-311",
+  "command": "/opt/conda/bin/nvcc -forward-unknown-to-host-compiler -DINCLUDE_ALIGN -DINCLUDE_RIR -DUSE_C10D_GLOO -DUSE_C10D_MPI -DUSE_C10D_NCCL -DUSE_CUDA -DUSE_DISTRIBUTED -DUSE_RPC -DUSE_TENSORPIPE -Dlibtorchaudio_EXPORTS -I/build_src/audio/src -isystem /opt/conda/lib/python3.11/site-packages/torch/include -isystem /opt/conda/lib/python3.11/site-packages/torch/include/torch/csrc/api/include -isystem /opt/conda/include      -DCUDA_HAS_FP16=1     -D__CUDA_NO_HALF_OPERATORS__     -D__CUDA_NO_HALF_CONVERSIONS__     -D__CUDA_NO_HALF2_OPERATORS__ -DONNX_NAMESPACE=onnx_c2 -gencode arch=compute_52,code=sm_52 -gencode arch=compute_70,code=sm_70 -gencode arch=compute_75,code=sm_75 -gencode arch=compute_80,code=sm_80 -gencode arch=compute_86,code=sm_86 -gencode arch=compute_90,code=sm_90 -gencode arch=compute_70,code=compute_70 -Xcudafe --diag_suppress=cc_clobber_ignored,--diag_suppress=field_without_dll_interface,--diag_suppress=base_class_has_different_dll_interface,--diag_suppress=dll_interface_conflict_none_assumed,--diag_suppress=dll_interface_conflict_dllexport_assumed,--diag_suppress=bad_friend_decl --expt-relaxed-constexpr --expt-extended-lambda -O3 -DNDEBUG -std=c++17 -Xcompiler=-fPIC -D_GLIBCXX_USE_CXX11_ABI=1 -x cu -c /build_src/audio/src/libtorchaudio/rnnt/gpu/compute_betas.cu -o src/libtorchaudio/CMakeFiles/libtorchaudio.dir/rnnt/gpu/compute_betas.cu.o",
+  "file": "/build_src/audio/src/libtorchaudio/rnnt/gpu/compute_betas.cu",
+  "output": "src/libtorchaudio/CMakeFiles/libtorchaudio.dir/rnnt/gpu/compute_betas.cu.o"
+},
+{
+  "directory": "/build_src/audio/build/temp.linux-x86_64-cpython-311",
+  "command": "/opt/conda/bin/nvcc -forward-unknown-to-host-compiler -DINCLUDE_ALIGN -DINCLUDE_RIR -DUSE_C10D_GLOO -DUSE_C10D_MPI -DUSE_C10D_NCCL -DUSE_CUDA -DUSE_DISTRIBUTED -DUSE_RPC -DUSE_TENSORPIPE -Dlibtorchaudio_EXPORTS -I/build_src/audio/src -isystem /opt/conda/lib/python3.11/site-packages/torch/include -isystem /opt/conda/lib/python3.11/site-packages/torch/include/torch/csrc/api/include -isystem /opt/conda/include      -DCUDA_HAS_FP16=1     -D__CUDA_NO_HALF_OPERATORS__     -D__CUDA_NO_HALF_CONVERSIONS__     -D__CUDA_NO_HALF2_OPERATORS__ -DONNX_NAMESPACE=onnx_c2 -gencode arch=compute_52,code=sm_52 -gencode arch=compute_70,code=sm_70 -gencode arch=compute_75,code=sm_75 -gencode arch=compute_80,code=sm_80 -gencode arch=compute_86,code=sm_86 -gencode arch=compute_90,code=sm_90 -gencode arch=compute_70,code=compute_70 -Xcudafe --diag_suppress=cc_clobber_ignored,--diag_suppress=field_without_dll_interface,--diag_suppress=base_class_has_different_dll_interface,--diag_suppress=dll_interface_conflict_none_assumed,--diag_suppress=dll_interface_conflict_dllexport_assumed,--diag_suppress=bad_friend_decl --expt-relaxed-constexpr --expt-extended-lambda -O3 -DNDEBUG -std=c++17 -Xcompiler=-fPIC -D_GLIBCXX_USE_CXX11_ABI=1 -x cu -c /build_src/audio/src/libtorchaudio/rnnt/gpu/compute.cu -o src/libtorchaudio/CMakeFiles/libtorchaudio.dir/rnnt/gpu/compute.cu.o",
+  "file": "/build_src/audio/src/libtorchaudio/rnnt/gpu/compute.cu",
+  "output": "src/libtorchaudio/CMakeFiles/libtorchaudio.dir/rnnt/gpu/compute.cu.o"
+},
+{
+  "directory": "/build_src/audio/build/temp.linux-x86_64-cpython-311",
+  "command": "/opt/conda/bin/x86_64-conda-linux-gnu-c++ -DINCLUDE_ALIGN -DINCLUDE_RIR -DUSE_C10D_GLOO -DUSE_C10D_MPI -DUSE_C10D_NCCL -DUSE_CUDA -DUSE_DISTRIBUTED -DUSE_RPC -DUSE_TENSORPIPE -Dlibtorchaudio_EXPORTS -I/build_src/audio/src -isystem /opt/conda/lib/python3.11/site-packages/torch/include -isystem /opt/conda/lib/python3.11/site-packages/torch/include/torch/csrc/api/include -fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /opt/conda/include -Wall -D_GLIBCXX_USE_CXX11_ABI=1 -O3 -DNDEBUG -std=gnu++17 -fPIC -D_GLIBCXX_USE_CXX11_ABI=1 -fopenmp -o src/libtorchaudio/CMakeFiles/libtorchaudio.dir/rir/rir.cpp.o -c /build_src/audio/src/libtorchaudio/rir/rir.cpp",
+  "file": "/build_src/audio/src/libtorchaudio/rir/rir.cpp",
+  "output": "src/libtorchaudio/CMakeFiles/libtorchaudio.dir/rir/rir.cpp.o"
+},
+{
+  "directory": "/build_src/audio/build/temp.linux-x86_64-cpython-311",
+  "command": "/opt/conda/bin/x86_64-conda-linux-gnu-c++ -DINCLUDE_ALIGN -DINCLUDE_RIR -DUSE_C10D_GLOO -DUSE_C10D_MPI -DUSE_C10D_NCCL -DUSE_CUDA -DUSE_DISTRIBUTED -DUSE_RPC -DUSE_TENSORPIPE -Dlibtorchaudio_EXPORTS -I/build_src/audio/src -isystem /opt/conda/lib/python3.11/site-packages/torch/include -isystem /opt/conda/lib/python3.11/site-packages/torch/include/torch/csrc/api/include -fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /opt/conda/include -Wall -D_GLIBCXX_USE_CXX11_ABI=1 -O3 -DNDEBUG -std=gnu++17 -fPIC -D_GLIBCXX_USE_CXX11_ABI=1 -fopenmp -o src/libtorchaudio/CMakeFiles/libtorchaudio.dir/rir/ray_tracing.cpp.o -c /build_src/audio/src/libtorchaudio/rir/ray_tracing.cpp",
+  "file": "/build_src/audio/src/libtorchaudio/rir/ray_tracing.cpp",
+  "output": "src/libtorchaudio/CMakeFiles/libtorchaudio.dir/rir/ray_tracing.cpp.o"
+},
+{
+  "directory": "/build_src/audio/build/temp.linux-x86_64-cpython-311",
+  "command": "/opt/conda/bin/x86_64-conda-linux-gnu-c++ -DINCLUDE_ALIGN -DINCLUDE_RIR -DUSE_C10D_GLOO -DUSE_C10D_MPI -DUSE_C10D_NCCL -DUSE_CUDA -DUSE_DISTRIBUTED -DUSE_RPC -DUSE_TENSORPIPE -Dlibtorchaudio_EXPORTS -I/build_src/audio/src -isystem /opt/conda/lib/python3.11/site-packages/torch/include -isystem /opt/conda/lib/python3.11/site-packages/torch/include/torch/csrc/api/include -fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /opt/conda/include -Wall -D_GLIBCXX_USE_CXX11_ABI=1 -O3 -DNDEBUG -std=gnu++17 -fPIC -D_GLIBCXX_USE_CXX11_ABI=1 -fopenmp -o src/libtorchaudio/CMakeFiles/libtorchaudio.dir/forced_align/compute.cpp.o -c /build_src/audio/src/libtorchaudio/forced_align/compute.cpp",
+  "file": "/build_src/audio/src/libtorchaudio/forced_align/compute.cpp",
+  "output": "src/libtorchaudio/CMakeFiles/libtorchaudio.dir/forced_align/compute.cpp.o"
+},
+{
+  "directory": "/build_src/audio/build/temp.linux-x86_64-cpython-311",
+  "command": "/opt/conda/bin/x86_64-conda-linux-gnu-c++ -DINCLUDE_ALIGN -DINCLUDE_RIR -DUSE_C10D_GLOO -DUSE_C10D_MPI -DUSE_C10D_NCCL -DUSE_CUDA -DUSE_DISTRIBUTED -DUSE_RPC -DUSE_TENSORPIPE -Dlibtorchaudio_EXPORTS -I/build_src/audio/src -isystem /opt/conda/lib/python3.11/site-packages/torch/include -isystem /opt/conda/lib/python3.11/site-packages/torch/include/torch/csrc/api/include -fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /opt/conda/include -Wall -D_GLIBCXX_USE_CXX11_ABI=1 -O3 -DNDEBUG -std=gnu++17 -fPIC -D_GLIBCXX_USE_CXX11_ABI=1 -fopenmp -o src/libtorchaudio/CMakeFiles/libtorchaudio.dir/forced_align/cpu/compute.cpp.o -c /build_src/audio/src/libtorchaudio/forced_align/cpu/compute.cpp",
+  "file": "/build_src/audio/src/libtorchaudio/forced_align/cpu/compute.cpp",
+  "output": "src/libtorchaudio/CMakeFiles/libtorchaudio.dir/forced_align/cpu/compute.cpp.o"
+},
+{
+  "directory": "/build_src/audio/build/temp.linux-x86_64-cpython-311",
+  "command": "/opt/conda/bin/nvcc -forward-unknown-to-host-compiler -DINCLUDE_ALIGN -DINCLUDE_RIR -DUSE_C10D_GLOO -DUSE_C10D_MPI -DUSE_C10D_NCCL -DUSE_CUDA -DUSE_DISTRIBUTED -DUSE_RPC -DUSE_TENSORPIPE -Dlibtorchaudio_EXPORTS -I/build_src/audio/src -isystem /opt/conda/lib/python3.11/site-packages/torch/include -isystem /opt/conda/lib/python3.11/site-packages/torch/include/torch/csrc/api/include -isystem /opt/conda/include      -DCUDA_HAS_FP16=1     -D__CUDA_NO_HALF_OPERATORS__     -D__CUDA_NO_HALF_CONVERSIONS__     -D__CUDA_NO_HALF2_OPERATORS__ -DONNX_NAMESPACE=onnx_c2 -gencode arch=compute_52,code=sm_52 -gencode arch=compute_70,code=sm_70 -gencode arch=compute_75,code=sm_75 -gencode arch=compute_80,code=sm_80 -gencode arch=compute_86,code=sm_86 -gencode arch=compute_90,code=sm_90 -gencode arch=compute_70,code=compute_70 -Xcudafe --diag_suppress=cc_clobber_ignored,--diag_suppress=field_without_dll_interface,--diag_suppress=base_class_has_different_dll_interface,--diag_suppress=dll_interface_conflict_none_assumed,--diag_suppress=dll_interface_conflict_dllexport_assumed,--diag_suppress=bad_friend_decl --expt-relaxed-constexpr --expt-extended-lambda -O3 -DNDEBUG -std=c++17 -Xcompiler=-fPIC -D_GLIBCXX_USE_CXX11_ABI=1 -x cu -c /build_src/audio/src/libtorchaudio/forced_align/gpu/compute.cu -o src/libtorchaudio/CMakeFiles/libtorchaudio.dir/forced_align/gpu/compute.cu.o",
+  "file": "/build_src/audio/src/libtorchaudio/forced_align/gpu/compute.cu",
+  "output": "src/libtorchaudio/CMakeFiles/libtorchaudio.dir/forced_align/gpu/compute.cu.o"
+},
+{
+  "directory": "/build_src/audio/build/temp.linux-x86_64-cpython-311",
+  "command": "/opt/conda/bin/nvcc -forward-unknown-to-host-compiler -DINCLUDE_ALIGN -DINCLUDE_RIR -DUSE_C10D_GLOO -DUSE_C10D_MPI -DUSE_C10D_NCCL -DUSE_CUDA -DUSE_DISTRIBUTED -DUSE_RPC -DUSE_TENSORPIPE -Dlibtorchaudio_EXPORTS -I/build_src/audio/src -isystem /opt/conda/lib/python3.11/site-packages/torch/include -isystem /opt/conda/lib/python3.11/site-packages/torch/include/torch/csrc/api/include -isystem /opt/conda/include      -DCUDA_HAS_FP16=1     -D__CUDA_NO_HALF_OPERATORS__     -D__CUDA_NO_HALF_CONVERSIONS__     -D__CUDA_NO_HALF2_OPERATORS__ -DONNX_NAMESPACE=onnx_c2 -gencode arch=compute_52,code=sm_52 -gencode arch=compute_70,code=sm_70 -gencode arch=compute_75,code=sm_75 -gencode arch=compute_80,code=sm_80 -gencode arch=compute_86,code=sm_86 -gencode arch=compute_90,code=sm_90 -gencode arch=compute_70,code=compute_70 -Xcudafe --diag_suppress=cc_clobber_ignored,--diag_suppress=field_without_dll_interface,--diag_suppress=base_class_has_different_dll_interface,--diag_suppress=dll_interface_conflict_none_assumed,--diag_suppress=dll_interface_conflict_dllexport_assumed,--diag_suppress=bad_friend_decl --expt-relaxed-constexpr --expt-extended-lambda -O3 -DNDEBUG -std=c++17 -Xcompiler=-fPIC -D_GLIBCXX_USE_CXX11_ABI=1 -x cu -c /build_src/audio/src/libtorchaudio/iir_cuda.cu -o src/libtorchaudio/CMakeFiles/libtorchaudio.dir/iir_cuda.cu.o",
+  "file": "/build_src/audio/src/libtorchaudio/iir_cuda.cu",
+  "output": "src/libtorchaudio/CMakeFiles/libtorchaudio.dir/iir_cuda.cu.o"
+},
+{
+  "directory": "/build_src/audio/build/temp.linux-x86_64-cpython-311",
+  "command": "/opt/conda/bin/x86_64-conda-linux-gnu-c++ -DUSE_C10D_GLOO -DUSE_C10D_MPI -DUSE_C10D_NCCL -DUSE_CUDA -DUSE_DISTRIBUTED -DUSE_RPC -DUSE_TENSORPIPE -D_torchaudio_EXPORTS -I/build_src/audio/src -I/opt/conda/include/python3.11 -isystem /opt/conda/lib/python3.11/site-packages/torch/include -isystem /opt/conda/lib/python3.11/site-packages/torch/include/torch/csrc/api/include -fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /opt/conda/include -Wall -D_GLIBCXX_USE_CXX11_ABI=1 -O3 -DNDEBUG -std=gnu++17 -fPIC -D_GLIBCXX_USE_CXX11_ABI=1 -fopenmp -o src/libtorchaudio/CMakeFiles/_torchaudio.dir/pybind/pybind.cpp.o -c /build_src/audio/src/libtorchaudio/pybind/pybind.cpp",
+  "file": "/build_src/audio/src/libtorchaudio/pybind/pybind.cpp",
+  "output": "src/libtorchaudio/CMakeFiles/_torchaudio.dir/pybind/pybind.cpp.o"
+},
+{
+  "directory": "/build_src/audio/build/temp.linux-x86_64-cpython-311",
+  "command": "/opt/conda/bin/x86_64-conda-linux-gnu-cc -Dsox_EXPORTS -I/build_src/audio/build/temp.linux-x86_64-cpython-311/_deps/sox_src-src/src -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /opt/conda/include -O3 -DNDEBUG -std=gnu11 -fPIC -o third_party/sox/CMakeFiles/sox.dir/stub.c.o -c /build_src/audio/third_party/sox/stub.c",
+  "file": "/build_src/audio/third_party/sox/stub.c",
+  "output": "third_party/sox/CMakeFiles/sox.dir/stub.c.o"
+},
+{
+  "directory": "/build_src/audio/build/temp.linux-x86_64-cpython-311",
+  "command": "/opt/conda/bin/x86_64-conda-linux-gnu-c++ -DUSE_C10D_GLOO -DUSE_C10D_MPI -DUSE_C10D_NCCL -DUSE_DISTRIBUTED -DUSE_RPC -DUSE_TENSORPIPE -Dlibtorchaudio_sox_EXPORTS -I/build_src/audio/src -I/build_src/audio/build/temp.linux-x86_64-cpython-311/_deps/sox_src-src/src -isystem /opt/conda/lib/python3.11/site-packages/torch/include -isystem /opt/conda/lib/python3.11/site-packages/torch/include/torch/csrc/api/include -fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /opt/conda/include -Wall -D_GLIBCXX_USE_CXX11_ABI=1 -O3 -DNDEBUG -std=gnu++17 -fPIC -D_GLIBCXX_USE_CXX11_ABI=1 -o src/libtorchaudio/sox/CMakeFiles/libtorchaudio_sox.dir/io.cpp.o -c /build_src/audio/src/libtorchaudio/sox/io.cpp",
+  "file": "/build_src/audio/src/libtorchaudio/sox/io.cpp",
+  "output": "src/libtorchaudio/sox/CMakeFiles/libtorchaudio_sox.dir/io.cpp.o"
+},
+{
+  "directory": "/build_src/audio/build/temp.linux-x86_64-cpython-311",
+  "command": "/opt/conda/bin/x86_64-conda-linux-gnu-c++ -DUSE_C10D_GLOO -DUSE_C10D_MPI -DUSE_C10D_NCCL -DUSE_DISTRIBUTED -DUSE_RPC -DUSE_TENSORPIPE -Dlibtorchaudio_sox_EXPORTS -I/build_src/audio/src -I/build_src/audio/build/temp.linux-x86_64-cpython-311/_deps/sox_src-src/src -isystem /opt/conda/lib/python3.11/site-packages/torch/include -isystem /opt/conda/lib/python3.11/site-packages/torch/include/torch/csrc/api/include -fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /opt/conda/include -Wall -D_GLIBCXX_USE_CXX11_ABI=1 -O3 -DNDEBUG -std=gnu++17 -fPIC -D_GLIBCXX_USE_CXX11_ABI=1 -o src/libtorchaudio/sox/CMakeFiles/libtorchaudio_sox.dir/utils.cpp.o -c /build_src/audio/src/libtorchaudio/sox/utils.cpp",
+  "file": "/build_src/audio/src/libtorchaudio/sox/utils.cpp",
+  "output": "src/libtorchaudio/sox/CMakeFiles/libtorchaudio_sox.dir/utils.cpp.o"
+},
+{
+  "directory": "/build_src/audio/build/temp.linux-x86_64-cpython-311",
+  "command": "/opt/conda/bin/x86_64-conda-linux-gnu-c++ -DUSE_C10D_GLOO -DUSE_C10D_MPI -DUSE_C10D_NCCL -DUSE_DISTRIBUTED -DUSE_RPC -DUSE_TENSORPIPE -Dlibtorchaudio_sox_EXPORTS -I/build_src/audio/src -I/build_src/audio/build/temp.linux-x86_64-cpython-311/_deps/sox_src-src/src -isystem /opt/conda/lib/python3.11/site-packages/torch/include -isystem /opt/conda/lib/python3.11/site-packages/torch/include/torch/csrc/api/include -fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /opt/conda/include -Wall -D_GLIBCXX_USE_CXX11_ABI=1 -O3 -DNDEBUG -std=gnu++17 -fPIC -D_GLIBCXX_USE_CXX11_ABI=1 -o src/libtorchaudio/sox/CMakeFiles/libtorchaudio_sox.dir/effects.cpp.o -c /build_src/audio/src/libtorchaudio/sox/effects.cpp",
+  "file": "/build_src/audio/src/libtorchaudio/sox/effects.cpp",
+  "output": "src/libtorchaudio/sox/CMakeFiles/libtorchaudio_sox.dir/effects.cpp.o"
+},
+{
+  "directory": "/build_src/audio/build/temp.linux-x86_64-cpython-311",
+  "command": "/opt/conda/bin/x86_64-conda-linux-gnu-c++ -DUSE_C10D_GLOO -DUSE_C10D_MPI -DUSE_C10D_NCCL -DUSE_DISTRIBUTED -DUSE_RPC -DUSE_TENSORPIPE -Dlibtorchaudio_sox_EXPORTS -I/build_src/audio/src -I/build_src/audio/build/temp.linux-x86_64-cpython-311/_deps/sox_src-src/src -isystem /opt/conda/lib/python3.11/site-packages/torch/include -isystem /opt/conda/lib/python3.11/site-packages/torch/include/torch/csrc/api/include -fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /opt/conda/include -Wall -D_GLIBCXX_USE_CXX11_ABI=1 -O3 -DNDEBUG -std=gnu++17 -fPIC -D_GLIBCXX_USE_CXX11_ABI=1 -o src/libtorchaudio/sox/CMakeFiles/libtorchaudio_sox.dir/effects_chain.cpp.o -c /build_src/audio/src/libtorchaudio/sox/effects_chain.cpp",
+  "file": "/build_src/audio/src/libtorchaudio/sox/effects_chain.cpp",
+  "output": "src/libtorchaudio/sox/CMakeFiles/libtorchaudio_sox.dir/effects_chain.cpp.o"
+},
+{
+  "directory": "/build_src/audio/build/temp.linux-x86_64-cpython-311",
+  "command": "/opt/conda/bin/x86_64-conda-linux-gnu-c++ -DUSE_C10D_GLOO -DUSE_C10D_MPI -DUSE_C10D_NCCL -DUSE_DISTRIBUTED -DUSE_RPC -DUSE_TENSORPIPE -Dlibtorchaudio_sox_EXPORTS -I/build_src/audio/src -I/build_src/audio/build/temp.linux-x86_64-cpython-311/_deps/sox_src-src/src -isystem /opt/conda/lib/python3.11/site-packages/torch/include -isystem /opt/conda/lib/python3.11/site-packages/torch/include/torch/csrc/api/include -fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /opt/conda/include -Wall -D_GLIBCXX_USE_CXX11_ABI=1 -O3 -DNDEBUG -std=gnu++17 -fPIC -D_GLIBCXX_USE_CXX11_ABI=1 -o src/libtorchaudio/sox/CMakeFiles/libtorchaudio_sox.dir/types.cpp.o -c /build_src/audio/src/libtorchaudio/sox/types.cpp",
+  "file": "/build_src/audio/src/libtorchaudio/sox/types.cpp",
+  "output": "src/libtorchaudio/sox/CMakeFiles/libtorchaudio_sox.dir/types.cpp.o"
+},
+{
+  "directory": "/build_src/audio/build/temp.linux-x86_64-cpython-311",
+  "command": "/opt/conda/bin/x86_64-conda-linux-gnu-c++ -DUSE_C10D_GLOO -DUSE_C10D_MPI -DUSE_C10D_NCCL -DUSE_DISTRIBUTED -DUSE_RPC -DUSE_TENSORPIPE -D_torchaudio_sox_EXPORTS -I/build_src/audio/src -I/opt/conda/include/python3.11 -I/build_src/audio/build/temp.linux-x86_64-cpython-311/_deps/sox_src-src/src -isystem /opt/conda/lib/python3.11/site-packages/torch/include -isystem /opt/conda/lib/python3.11/site-packages/torch/include/torch/csrc/api/include -fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /opt/conda/include -Wall -D_GLIBCXX_USE_CXX11_ABI=1 -O3 -DNDEBUG -std=gnu++17 -fPIC -D_GLIBCXX_USE_CXX11_ABI=1 -o src/libtorchaudio/sox/CMakeFiles/_torchaudio_sox.dir/pybind/pybind.cpp.o -c /build_src/audio/src/libtorchaudio/sox/pybind/pybind.cpp",
+  "file": "/build_src/audio/src/libtorchaudio/sox/pybind/pybind.cpp",
+  "output": "src/libtorchaudio/sox/CMakeFiles/_torchaudio_sox.dir/pybind/pybind.cpp.o"
+},
+{
+  "directory": "/build_src/audio/build/temp.linux-x86_64-cpython-311",
+  "command": "/opt/conda/bin/x86_64-conda-linux-gnu-c++ -DUSE_C10D_GLOO -DUSE_C10D_MPI -DUSE_C10D_NCCL -DUSE_CUDA -DUSE_DISTRIBUTED -DUSE_RPC -DUSE_TENSORPIPE -Dlibtorchaudio_ffmpeg4_EXPORTS -I/build_src/audio/src -I/build_src/audio/build/temp.linux-x86_64-cpython-311/_deps/f4-src/include -isystem /opt/conda/lib/python3.11/site-packages/torch/include -isystem /opt/conda/lib/python3.11/site-packages/torch/include/torch/csrc/api/include -fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /opt/conda/include -Wall -D_GLIBCXX_USE_CXX11_ABI=1 -O3 -DNDEBUG -std=gnu++17 -fPIC -D_GLIBCXX_USE_CXX11_ABI=1 -o src/libtorio/ffmpeg/CMakeFiles/libtorchaudio_ffmpeg4.dir/ffmpeg.cpp.o -c /build_src/audio/src/libtorio/ffmpeg/ffmpeg.cpp",
+  "file": "/build_src/audio/src/libtorio/ffmpeg/ffmpeg.cpp",
+  "output": "src/libtorio/ffmpeg/CMakeFiles/libtorchaudio_ffmpeg4.dir/ffmpeg.cpp.o"
+},
+{
+  "directory": "/build_src/audio/build/temp.linux-x86_64-cpython-311",
+  "command": "/opt/conda/bin/x86_64-conda-linux-gnu-c++ -DUSE_C10D_GLOO -DUSE_C10D_MPI -DUSE_C10D_NCCL -DUSE_CUDA -DUSE_DISTRIBUTED -DUSE_RPC -DUSE_TENSORPIPE -Dlibtorchaudio_ffmpeg4_EXPORTS -I/build_src/audio/src -I/build_src/audio/build/temp.linux-x86_64-cpython-311/_deps/f4-src/include -isystem /opt/conda/lib/python3.11/site-packages/torch/include -isystem /opt/conda/lib/python3.11/site-packages/torch/include/torch/csrc/api/include -fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /opt/conda/include -Wall -D_GLIBCXX_USE_CXX11_ABI=1 -O3 -DNDEBUG -std=gnu++17 -fPIC -D_GLIBCXX_USE_CXX11_ABI=1 -o src/libtorio/ffmpeg/CMakeFiles/libtorchaudio_ffmpeg4.dir/filter_graph.cpp.o -c /build_src/audio/src/libtorio/ffmpeg/filter_graph.cpp",
+  "file": "/build_src/audio/src/libtorio/ffmpeg/filter_graph.cpp",
+  "output": "src/libtorio/ffmpeg/CMakeFiles/libtorchaudio_ffmpeg4.dir/filter_graph.cpp.o"
+},
+{
+  "directory": "/build_src/audio/build/temp.linux-x86_64-cpython-311",
+  "command": "/opt/conda/bin/x86_64-conda-linux-gnu-c++ -DUSE_C10D_GLOO -DUSE_C10D_MPI -DUSE_C10D_NCCL -DUSE_CUDA -DUSE_DISTRIBUTED -DUSE_RPC -DUSE_TENSORPIPE -Dlibtorchaudio_ffmpeg4_EXPORTS -I/build_src/audio/src -I/build_src/audio/build/temp.linux-x86_64-cpython-311/_deps/f4-src/include -isystem /opt/conda/lib/python3.11/site-packages/torch/include -isystem /opt/conda/lib/python3.11/site-packages/torch/include/torch/csrc/api/include -fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /opt/conda/include -Wall -D_GLIBCXX_USE_CXX11_ABI=1 -O3 -DNDEBUG -std=gnu++17 -fPIC -D_GLIBCXX_USE_CXX11_ABI=1 -o src/libtorio/ffmpeg/CMakeFiles/libtorchaudio_ffmpeg4.dir/hw_context.cpp.o -c /build_src/audio/src/libtorio/ffmpeg/hw_context.cpp",
+  "file": "/build_src/audio/src/libtorio/ffmpeg/hw_context.cpp",
+  "output": "src/libtorio/ffmpeg/CMakeFiles/libtorchaudio_ffmpeg4.dir/hw_context.cpp.o"
+},
+{
+  "directory": "/build_src/audio/build/temp.linux-x86_64-cpython-311",
+  "command": "/opt/conda/bin/x86_64-conda-linux-gnu-c++ -DUSE_C10D_GLOO -DUSE_C10D_MPI -DUSE_C10D_NCCL -DUSE_CUDA -DUSE_DISTRIBUTED -DUSE_RPC -DUSE_TENSORPIPE -Dlibtorchaudio_ffmpeg4_EXPORTS -I/build_src/audio/src -I/build_src/audio/build/temp.linux-x86_64-cpython-311/_deps/f4-src/include -isystem /opt/conda/lib/python3.11/site-packages/torch/include -isystem /opt/conda/lib/python3.11/site-packages/torch/include/torch/csrc/api/include -fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /opt/conda/include -Wall -D_GLIBCXX_USE_CXX11_ABI=1 -O3 -DNDEBUG -std=gnu++17 -fPIC -D_GLIBCXX_USE_CXX11_ABI=1 -o src/libtorio/ffmpeg/CMakeFiles/libtorchaudio_ffmpeg4.dir/stream_reader/buffer/chunked_buffer.cpp.o -c /build_src/audio/src/libtorio/ffmpeg/stream_reader/buffer/chunked_buffer.cpp",
+  "file": "/build_src/audio/src/libtorio/ffmpeg/stream_reader/buffer/chunked_buffer.cpp",
+  "output": "src/libtorio/ffmpeg/CMakeFiles/libtorchaudio_ffmpeg4.dir/stream_reader/buffer/chunked_buffer.cpp.o"
+},
+{
+  "directory": "/build_src/audio/build/temp.linux-x86_64-cpython-311",
+  "command": "/opt/conda/bin/x86_64-conda-linux-gnu-c++ -DUSE_C10D_GLOO -DUSE_C10D_MPI -DUSE_C10D_NCCL -DUSE_CUDA -DUSE_DISTRIBUTED -DUSE_RPC -DUSE_TENSORPIPE -Dlibtorchaudio_ffmpeg4_EXPORTS -I/build_src/audio/src -I/build_src/audio/build/temp.linux-x86_64-cpython-311/_deps/f4-src/include -isystem /opt/conda/lib/python3.11/site-packages/torch/include -isystem /opt/conda/lib/python3.11/site-packages/torch/include/torch/csrc/api/include -fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /opt/conda/include -Wall -D_GLIBCXX_USE_CXX11_ABI=1 -O3 -DNDEBUG -std=gnu++17 -fPIC -D_GLIBCXX_USE_CXX11_ABI=1 -o src/libtorio/ffmpeg/CMakeFiles/libtorchaudio_ffmpeg4.dir/stream_reader/buffer/unchunked_buffer.cpp.o -c /build_src/audio/src/libtorio/ffmpeg/stream_reader/buffer/unchunked_buffer.cpp",
+  "file": "/build_src/audio/src/libtorio/ffmpeg/stream_reader/buffer/unchunked_buffer.cpp",
+  "output": "src/libtorio/ffmpeg/CMakeFiles/libtorchaudio_ffmpeg4.dir/stream_reader/buffer/unchunked_buffer.cpp.o"
+},
+{
+  "directory": "/build_src/audio/build/temp.linux-x86_64-cpython-311",
+  "command": "/opt/conda/bin/x86_64-conda-linux-gnu-c++ -DUSE_C10D_GLOO -DUSE_C10D_MPI -DUSE_C10D_NCCL -DUSE_CUDA -DUSE_DISTRIBUTED -DUSE_RPC -DUSE_TENSORPIPE -Dlibtorchaudio_ffmpeg4_EXPORTS -I/build_src/audio/src -I/build_src/audio/build/temp.linux-x86_64-cpython-311/_deps/f4-src/include -isystem /opt/conda/lib/python3.11/site-packages/torch/include -isystem /opt/conda/lib/python3.11/site-packages/torch/include/torch/csrc/api/include -fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /opt/conda/include -Wall -D_GLIBCXX_USE_CXX11_ABI=1 -O3 -DNDEBUG -std=gnu++17 -fPIC -D_GLIBCXX_USE_CXX11_ABI=1 -o src/libtorio/ffmpeg/CMakeFiles/libtorchaudio_ffmpeg4.dir/stream_reader/conversion.cpp.o -c /build_src/audio/src/libtorio/ffmpeg/stream_reader/conversion.cpp",
+  "file": "/build_src/audio/src/libtorio/ffmpeg/stream_reader/conversion.cpp",
+  "output": "src/libtorio/ffmpeg/CMakeFiles/libtorchaudio_ffmpeg4.dir/stream_reader/conversion.cpp.o"
+},
+{
+  "directory": "/build_src/audio/build/temp.linux-x86_64-cpython-311",
+  "command": "/opt/conda/bin/x86_64-conda-linux-gnu-c++ -DUSE_C10D_GLOO -DUSE_C10D_MPI -DUSE_C10D_NCCL -DUSE_CUDA -DUSE_DISTRIBUTED -DUSE_RPC -DUSE_TENSORPIPE -Dlibtorchaudio_ffmpeg4_EXPORTS -I/build_src/audio/src -I/build_src/audio/build/temp.linux-x86_64-cpython-311/_deps/f4-src/include -isystem /opt/conda/lib/python3.11/site-packages/torch/include -isystem /opt/conda/lib/python3.11/site-packages/torch/include/torch/csrc/api/include -fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /opt/conda/include -Wall -D_GLIBCXX_USE_CXX11_ABI=1 -O3 -DNDEBUG -std=gnu++17 -fPIC -D_GLIBCXX_USE_CXX11_ABI=1 -o src/libtorio/ffmpeg/CMakeFiles/libtorchaudio_ffmpeg4.dir/stream_reader/packet_buffer.cpp.o -c /build_src/audio/src/libtorio/ffmpeg/stream_reader/packet_buffer.cpp",
+  "file": "/build_src/audio/src/libtorio/ffmpeg/stream_reader/packet_buffer.cpp",
+  "output": "src/libtorio/ffmpeg/CMakeFiles/libtorchaudio_ffmpeg4.dir/stream_reader/packet_buffer.cpp.o"
+},
+{
+  "directory": "/build_src/audio/build/temp.linux-x86_64-cpython-311",
+  "command": "/opt/conda/bin/x86_64-conda-linux-gnu-c++ -DUSE_C10D_GLOO -DUSE_C10D_MPI -DUSE_C10D_NCCL -DUSE_CUDA -DUSE_DISTRIBUTED -DUSE_RPC -DUSE_TENSORPIPE -Dlibtorchaudio_ffmpeg4_EXPORTS -I/build_src/audio/src -I/build_src/audio/build/temp.linux-x86_64-cpython-311/_deps/f4-src/include -isystem /opt/conda/lib/python3.11/site-packages/torch/include -isystem /opt/conda/lib/python3.11/site-packages/torch/include/torch/csrc/api/include -fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /opt/conda/include -Wall -D_GLIBCXX_USE_CXX11_ABI=1 -O3 -DNDEBUG -std=gnu++17 -fPIC -D_GLIBCXX_USE_CXX11_ABI=1 -o src/libtorio/ffmpeg/CMakeFiles/libtorchaudio_ffmpeg4.dir/stream_reader/post_process.cpp.o -c /build_src/audio/src/libtorio/ffmpeg/stream_reader/post_process.cpp",
+  "file": "/build_src/audio/src/libtorio/ffmpeg/stream_reader/post_process.cpp",
+  "output": "src/libtorio/ffmpeg/CMakeFiles/libtorchaudio_ffmpeg4.dir/stream_reader/post_process.cpp.o"
+},
+{
+  "directory": "/build_src/audio/build/temp.linux-x86_64-cpython-311",
+  "command": "/opt/conda/bin/x86_64-conda-linux-gnu-c++ -DUSE_C10D_GLOO -DUSE_C10D_MPI -DUSE_C10D_NCCL -DUSE_CUDA -DUSE_DISTRIBUTED -DUSE_RPC -DUSE_TENSORPIPE -Dlibtorchaudio_ffmpeg4_EXPORTS -I/build_src/audio/src -I/build_src/audio/build/temp.linux-x86_64-cpython-311/_deps/f4-src/include -isystem /opt/conda/lib/python3.11/site-packages/torch/include -isystem /opt/conda/lib/python3.11/site-packages/torch/include/torch/csrc/api/include -fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /opt/conda/include -Wall -D_GLIBCXX_USE_CXX11_ABI=1 -O3 -DNDEBUG -std=gnu++17 -fPIC -D_GLIBCXX_USE_CXX11_ABI=1 -o src/libtorio/ffmpeg/CMakeFiles/libtorchaudio_ffmpeg4.dir/stream_reader/stream_processor.cpp.o -c /build_src/audio/src/libtorio/ffmpeg/stream_reader/stream_processor.cpp",
+  "file": "/build_src/audio/src/libtorio/ffmpeg/stream_reader/stream_processor.cpp",
+  "output": "src/libtorio/ffmpeg/CMakeFiles/libtorchaudio_ffmpeg4.dir/stream_reader/stream_processor.cpp.o"
+},
+{
+  "directory": "/build_src/audio/build/temp.linux-x86_64-cpython-311",
+  "command": "/opt/conda/bin/x86_64-conda-linux-gnu-c++ -DUSE_C10D_GLOO -DUSE_C10D_MPI -DUSE_C10D_NCCL -DUSE_CUDA -DUSE_DISTRIBUTED -DUSE_RPC -DUSE_TENSORPIPE -Dlibtorchaudio_ffmpeg4_EXPORTS -I/build_src/audio/src -I/build_src/audio/build/temp.linux-x86_64-cpython-311/_deps/f4-src/include -isystem /opt/conda/lib/python3.11/site-packages/torch/include -isystem /opt/conda/lib/python3.11/site-packages/torch/include/torch/csrc/api/include -fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /opt/conda/include -Wall -D_GLIBCXX_USE_CXX11_ABI=1 -O3 -DNDEBUG -std=gnu++17 -fPIC -D_GLIBCXX_USE_CXX11_ABI=1 -o src/libtorio/ffmpeg/CMakeFiles/libtorchaudio_ffmpeg4.dir/stream_reader/stream_reader.cpp.o -c /build_src/audio/src/libtorio/ffmpeg/stream_reader/stream_reader.cpp",
+  "file": "/build_src/audio/src/libtorio/ffmpeg/stream_reader/stream_reader.cpp",
+  "output": "src/libtorio/ffmpeg/CMakeFiles/libtorchaudio_ffmpeg4.dir/stream_reader/stream_reader.cpp.o"
+},
+{
+  "directory": "/build_src/audio/build/temp.linux-x86_64-cpython-311",
+  "command": "/opt/conda/bin/x86_64-conda-linux-gnu-c++ -DUSE_C10D_GLOO -DUSE_C10D_MPI -DUSE_C10D_NCCL -DUSE_CUDA -DUSE_DISTRIBUTED -DUSE_RPC -DUSE_TENSORPIPE -Dlibtorchaudio_ffmpeg4_EXPORTS -I/build_src/audio/src -I/build_src/audio/build/temp.linux-x86_64-cpython-311/_deps/f4-src/include -isystem /opt/conda/lib/python3.11/site-packages/torch/include -isystem /opt/conda/lib/python3.11/site-packages/torch/include/torch/csrc/api/include -fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /opt/conda/include -Wall -D_GLIBCXX_USE_CXX11_ABI=1 -O3 -DNDEBUG -std=gnu++17 -fPIC -D_GLIBCXX_USE_CXX11_ABI=1 -o src/libtorio/ffmpeg/CMakeFiles/libtorchaudio_ffmpeg4.dir/stream_writer/encode_process.cpp.o -c /build_src/audio/src/libtorio/ffmpeg/stream_writer/encode_process.cpp",
+  "file": "/build_src/audio/src/libtorio/ffmpeg/stream_writer/encode_process.cpp",
+  "output": "src/libtorio/ffmpeg/CMakeFiles/libtorchaudio_ffmpeg4.dir/stream_writer/encode_process.cpp.o"
+},
+{
+  "directory": "/build_src/audio/build/temp.linux-x86_64-cpython-311",
+  "command": "/opt/conda/bin/x86_64-conda-linux-gnu-c++ -DUSE_C10D_GLOO -DUSE_C10D_MPI -DUSE_C10D_NCCL -DUSE_CUDA -DUSE_DISTRIBUTED -DUSE_RPC -DUSE_TENSORPIPE -Dlibtorchaudio_ffmpeg4_EXPORTS -I/build_src/audio/src -I/build_src/audio/build/temp.linux-x86_64-cpython-311/_deps/f4-src/include -isystem /opt/conda/lib/python3.11/site-packages/torch/include -isystem /opt/conda/lib/python3.11/site-packages/torch/include/torch/csrc/api/include -fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /opt/conda/include -Wall -D_GLIBCXX_USE_CXX11_ABI=1 -O3 -DNDEBUG -std=gnu++17 -fPIC -D_GLIBCXX_USE_CXX11_ABI=1 -o src/libtorio/ffmpeg/CMakeFiles/libtorchaudio_ffmpeg4.dir/stream_writer/encoder.cpp.o -c /build_src/audio/src/libtorio/ffmpeg/stream_writer/encoder.cpp",
+  "file": "/build_src/audio/src/libtorio/ffmpeg/stream_writer/encoder.cpp",
+  "output": "src/libtorio/ffmpeg/CMakeFiles/libtorchaudio_ffmpeg4.dir/stream_writer/encoder.cpp.o"
+},
+{
+  "directory": "/build_src/audio/build/temp.linux-x86_64-cpython-311",
+  "command": "/opt/conda/bin/x86_64-conda-linux-gnu-c++ -DUSE_C10D_GLOO -DUSE_C10D_MPI -DUSE_C10D_NCCL -DUSE_CUDA -DUSE_DISTRIBUTED -DUSE_RPC -DUSE_TENSORPIPE -Dlibtorchaudio_ffmpeg4_EXPORTS -I/build_src/audio/src -I/build_src/audio/build/temp.linux-x86_64-cpython-311/_deps/f4-src/include -isystem /opt/conda/lib/python3.11/site-packages/torch/include -isystem /opt/conda/lib/python3.11/site-packages/torch/include/torch/csrc/api/include -fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /opt/conda/include -Wall -D_GLIBCXX_USE_CXX11_ABI=1 -O3 -DNDEBUG -std=gnu++17 -fPIC -D_GLIBCXX_USE_CXX11_ABI=1 -o src/libtorio/ffmpeg/CMakeFiles/libtorchaudio_ffmpeg4.dir/stream_writer/packet_writer.cpp.o -c /build_src/audio/src/libtorio/ffmpeg/stream_writer/packet_writer.cpp",
+  "file": "/build_src/audio/src/libtorio/ffmpeg/stream_writer/packet_writer.cpp",
+  "output": "src/libtorio/ffmpeg/CMakeFiles/libtorchaudio_ffmpeg4.dir/stream_writer/packet_writer.cpp.o"
+},
+{
+  "directory": "/build_src/audio/build/temp.linux-x86_64-cpython-311",
+  "command": "/opt/conda/bin/x86_64-conda-linux-gnu-c++ -DUSE_C10D_GLOO -DUSE_C10D_MPI -DUSE_C10D_NCCL -DUSE_CUDA -DUSE_DISTRIBUTED -DUSE_RPC -DUSE_TENSORPIPE -Dlibtorchaudio_ffmpeg4_EXPORTS -I/build_src/audio/src -I/build_src/audio/build/temp.linux-x86_64-cpython-311/_deps/f4-src/include -isystem /opt/conda/lib/python3.11/site-packages/torch/include -isystem /opt/conda/lib/python3.11/site-packages/torch/include/torch/csrc/api/include -fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /opt/conda/include -Wall -D_GLIBCXX_USE_CXX11_ABI=1 -O3 -DNDEBUG -std=gnu++17 -fPIC -D_GLIBCXX_USE_CXX11_ABI=1 -o src/libtorio/ffmpeg/CMakeFiles/libtorchaudio_ffmpeg4.dir/stream_writer/stream_writer.cpp.o -c /build_src/audio/src/libtorio/ffmpeg/stream_writer/stream_writer.cpp",
+  "file": "/build_src/audio/src/libtorio/ffmpeg/stream_writer/stream_writer.cpp",
+  "output": "src/libtorio/ffmpeg/CMakeFiles/libtorchaudio_ffmpeg4.dir/stream_writer/stream_writer.cpp.o"
+},
+{
+  "directory": "/build_src/audio/build/temp.linux-x86_64-cpython-311",
+  "command": "/opt/conda/bin/x86_64-conda-linux-gnu-c++ -DUSE_C10D_GLOO -DUSE_C10D_MPI -DUSE_C10D_NCCL -DUSE_CUDA -DUSE_DISTRIBUTED -DUSE_RPC -DUSE_TENSORPIPE -Dlibtorchaudio_ffmpeg4_EXPORTS -I/build_src/audio/src -I/build_src/audio/build/temp.linux-x86_64-cpython-311/_deps/f4-src/include -isystem /opt/conda/lib/python3.11/site-packages/torch/include -isystem /opt/conda/lib/python3.11/site-packages/torch/include/torch/csrc/api/include -fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /opt/conda/include -Wall -D_GLIBCXX_USE_CXX11_ABI=1 -O3 -DNDEBUG -std=gnu++17 -fPIC -D_GLIBCXX_USE_CXX11_ABI=1 -o src/libtorio/ffmpeg/CMakeFiles/libtorchaudio_ffmpeg4.dir/stream_writer/tensor_converter.cpp.o -c /build_src/audio/src/libtorio/ffmpeg/stream_writer/tensor_converter.cpp",
+  "file": "/build_src/audio/src/libtorio/ffmpeg/stream_writer/tensor_converter.cpp",
+  "output": "src/libtorio/ffmpeg/CMakeFiles/libtorchaudio_ffmpeg4.dir/stream_writer/tensor_converter.cpp.o"
+},
+{
+  "directory": "/build_src/audio/build/temp.linux-x86_64-cpython-311",
+  "command": "/opt/conda/bin/x86_64-conda-linux-gnu-c++ -DUSE_C10D_GLOO -DUSE_C10D_MPI -DUSE_C10D_NCCL -DUSE_CUDA -DUSE_DISTRIBUTED -DUSE_RPC -DUSE_TENSORPIPE -Dlibtorchaudio_ffmpeg5_EXPORTS -I/build_src/audio/src -I/build_src/audio/build/temp.linux-x86_64-cpython-311/_deps/f5-src/include -isystem /opt/conda/lib/python3.11/site-packages/torch/include -isystem /opt/conda/lib/python3.11/site-packages/torch/include/torch/csrc/api/include -fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /opt/conda/include -Wall -D_GLIBCXX_USE_CXX11_ABI=1 -O3 -DNDEBUG -std=gnu++17 -fPIC -D_GLIBCXX_USE_CXX11_ABI=1 -o src/libtorio/ffmpeg/CMakeFiles/libtorchaudio_ffmpeg5.dir/ffmpeg.cpp.o -c /build_src/audio/src/libtorio/ffmpeg/ffmpeg.cpp",
+  "file": "/build_src/audio/src/libtorio/ffmpeg/ffmpeg.cpp",
+  "output": "src/libtorio/ffmpeg/CMakeFiles/libtorchaudio_ffmpeg5.dir/ffmpeg.cpp.o"
+},
+{
+  "directory": "/build_src/audio/build/temp.linux-x86_64-cpython-311",
+  "command": "/opt/conda/bin/x86_64-conda-linux-gnu-c++ -DUSE_C10D_GLOO -DUSE_C10D_MPI -DUSE_C10D_NCCL -DUSE_CUDA -DUSE_DISTRIBUTED -DUSE_RPC -DUSE_TENSORPIPE -Dlibtorchaudio_ffmpeg5_EXPORTS -I/build_src/audio/src -I/build_src/audio/build/temp.linux-x86_64-cpython-311/_deps/f5-src/include -isystem /opt/conda/lib/python3.11/site-packages/torch/include -isystem /opt/conda/lib/python3.11/site-packages/torch/include/torch/csrc/api/include -fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /opt/conda/include -Wall -D_GLIBCXX_USE_CXX11_ABI=1 -O3 -DNDEBUG -std=gnu++17 -fPIC -D_GLIBCXX_USE_CXX11_ABI=1 -o src/libtorio/ffmpeg/CMakeFiles/libtorchaudio_ffmpeg5.dir/filter_graph.cpp.o -c /build_src/audio/src/libtorio/ffmpeg/filter_graph.cpp",
+  "file": "/build_src/audio/src/libtorio/ffmpeg/filter_graph.cpp",
+  "output": "src/libtorio/ffmpeg/CMakeFiles/libtorchaudio_ffmpeg5.dir/filter_graph.cpp.o"
+},
+{
+  "directory": "/build_src/audio/build/temp.linux-x86_64-cpython-311",
+  "command": "/opt/conda/bin/x86_64-conda-linux-gnu-c++ -DUSE_C10D_GLOO -DUSE_C10D_MPI -DUSE_C10D_NCCL -DUSE_CUDA -DUSE_DISTRIBUTED -DUSE_RPC -DUSE_TENSORPIPE -Dlibtorchaudio_ffmpeg5_EXPORTS -I/build_src/audio/src -I/build_src/audio/build/temp.linux-x86_64-cpython-311/_deps/f5-src/include -isystem /opt/conda/lib/python3.11/site-packages/torch/include -isystem /opt/conda/lib/python3.11/site-packages/torch/include/torch/csrc/api/include -fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /opt/conda/include -Wall -D_GLIBCXX_USE_CXX11_ABI=1 -O3 -DNDEBUG -std=gnu++17 -fPIC -D_GLIBCXX_USE_CXX11_ABI=1 -o src/libtorio/ffmpeg/CMakeFiles/libtorchaudio_ffmpeg5.dir/hw_context.cpp.o -c /build_src/audio/src/libtorio/ffmpeg/hw_context.cpp",
+  "file": "/build_src/audio/src/libtorio/ffmpeg/hw_context.cpp",
+  "output": "src/libtorio/ffmpeg/CMakeFiles/libtorchaudio_ffmpeg5.dir/hw_context.cpp.o"
+},
+{
+  "directory": "/build_src/audio/build/temp.linux-x86_64-cpython-311",
+  "command": "/opt/conda/bin/x86_64-conda-linux-gnu-c++ -DUSE_C10D_GLOO -DUSE_C10D_MPI -DUSE_C10D_NCCL -DUSE_CUDA -DUSE_DISTRIBUTED -DUSE_RPC -DUSE_TENSORPIPE -Dlibtorchaudio_ffmpeg5_EXPORTS -I/build_src/audio/src -I/build_src/audio/build/temp.linux-x86_64-cpython-311/_deps/f5-src/include -isystem /opt/conda/lib/python3.11/site-packages/torch/include -isystem /opt/conda/lib/python3.11/site-packages/torch/include/torch/csrc/api/include -fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /opt/conda/include -Wall -D_GLIBCXX_USE_CXX11_ABI=1 -O3 -DNDEBUG -std=gnu++17 -fPIC -D_GLIBCXX_USE_CXX11_ABI=1 -o src/libtorio/ffmpeg/CMakeFiles/libtorchaudio_ffmpeg5.dir/stream_reader/buffer/chunked_buffer.cpp.o -c /build_src/audio/src/libtorio/ffmpeg/stream_reader/buffer/chunked_buffer.cpp",
+  "file": "/build_src/audio/src/libtorio/ffmpeg/stream_reader/buffer/chunked_buffer.cpp",
+  "output": "src/libtorio/ffmpeg/CMakeFiles/libtorchaudio_ffmpeg5.dir/stream_reader/buffer/chunked_buffer.cpp.o"
+},
+{
+  "directory": "/build_src/audio/build/temp.linux-x86_64-cpython-311",
+  "command": "/opt/conda/bin/x86_64-conda-linux-gnu-c++ -DUSE_C10D_GLOO -DUSE_C10D_MPI -DUSE_C10D_NCCL -DUSE_CUDA -DUSE_DISTRIBUTED -DUSE_RPC -DUSE_TENSORPIPE -Dlibtorchaudio_ffmpeg5_EXPORTS -I/build_src/audio/src -I/build_src/audio/build/temp.linux-x86_64-cpython-311/_deps/f5-src/include -isystem /opt/conda/lib/python3.11/site-packages/torch/include -isystem /opt/conda/lib/python3.11/site-packages/torch/include/torch/csrc/api/include -fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /opt/conda/include -Wall -D_GLIBCXX_USE_CXX11_ABI=1 -O3 -DNDEBUG -std=gnu++17 -fPIC -D_GLIBCXX_USE_CXX11_ABI=1 -o src/libtorio/ffmpeg/CMakeFiles/libtorchaudio_ffmpeg5.dir/stream_reader/buffer/unchunked_buffer.cpp.o -c /build_src/audio/src/libtorio/ffmpeg/stream_reader/buffer/unchunked_buffer.cpp",
+  "file": "/build_src/audio/src/libtorio/ffmpeg/stream_reader/buffer/unchunked_buffer.cpp",
+  "output": "src/libtorio/ffmpeg/CMakeFiles/libtorchaudio_ffmpeg5.dir/stream_reader/buffer/unchunked_buffer.cpp.o"
+},
+{
+  "directory": "/build_src/audio/build/temp.linux-x86_64-cpython-311",
+  "command": "/opt/conda/bin/x86_64-conda-linux-gnu-c++ -DUSE_C10D_GLOO -DUSE_C10D_MPI -DUSE_C10D_NCCL -DUSE_CUDA -DUSE_DISTRIBUTED -DUSE_RPC -DUSE_TENSORPIPE -Dlibtorchaudio_ffmpeg5_EXPORTS -I/build_src/audio/src -I/build_src/audio/build/temp.linux-x86_64-cpython-311/_deps/f5-src/include -isystem /opt/conda/lib/python3.11/site-packages/torch/include -isystem /opt/conda/lib/python3.11/site-packages/torch/include/torch/csrc/api/include -fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /opt/conda/include -Wall -D_GLIBCXX_USE_CXX11_ABI=1 -O3 -DNDEBUG -std=gnu++17 -fPIC -D_GLIBCXX_USE_CXX11_ABI=1 -o src/libtorio/ffmpeg/CMakeFiles/libtorchaudio_ffmpeg5.dir/stream_reader/conversion.cpp.o -c /build_src/audio/src/libtorio/ffmpeg/stream_reader/conversion.cpp",
+  "file": "/build_src/audio/src/libtorio/ffmpeg/stream_reader/conversion.cpp",
+  "output": "src/libtorio/ffmpeg/CMakeFiles/libtorchaudio_ffmpeg5.dir/stream_reader/conversion.cpp.o"
+},
+{
+  "directory": "/build_src/audio/build/temp.linux-x86_64-cpython-311",
+  "command": "/opt/conda/bin/x86_64-conda-linux-gnu-c++ -DUSE_C10D_GLOO -DUSE_C10D_MPI -DUSE_C10D_NCCL -DUSE_CUDA -DUSE_DISTRIBUTED -DUSE_RPC -DUSE_TENSORPIPE -Dlibtorchaudio_ffmpeg5_EXPORTS -I/build_src/audio/src -I/build_src/audio/build/temp.linux-x86_64-cpython-311/_deps/f5-src/include -isystem /opt/conda/lib/python3.11/site-packages/torch/include -isystem /opt/conda/lib/python3.11/site-packages/torch/include/torch/csrc/api/include -fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /opt/conda/include -Wall -D_GLIBCXX_USE_CXX11_ABI=1 -O3 -DNDEBUG -std=gnu++17 -fPIC -D_GLIBCXX_USE_CXX11_ABI=1 -o src/libtorio/ffmpeg/CMakeFiles/libtorchaudio_ffmpeg5.dir/stream_reader/packet_buffer.cpp.o -c /build_src/audio/src/libtorio/ffmpeg/stream_reader/packet_buffer.cpp",
+  "file": "/build_src/audio/src/libtorio/ffmpeg/stream_reader/packet_buffer.cpp",
+  "output": "src/libtorio/ffmpeg/CMakeFiles/libtorchaudio_ffmpeg5.dir/stream_reader/packet_buffer.cpp.o"
+},
+{
+  "directory": "/build_src/audio/build/temp.linux-x86_64-cpython-311",
+  "command": "/opt/conda/bin/x86_64-conda-linux-gnu-c++ -DUSE_C10D_GLOO -DUSE_C10D_MPI -DUSE_C10D_NCCL -DUSE_CUDA -DUSE_DISTRIBUTED -DUSE_RPC -DUSE_TENSORPIPE -Dlibtorchaudio_ffmpeg5_EXPORTS -I/build_src/audio/src -I/build_src/audio/build/temp.linux-x86_64-cpython-311/_deps/f5-src/include -isystem /opt/conda/lib/python3.11/site-packages/torch/include -isystem /opt/conda/lib/python3.11/site-packages/torch/include/torch/csrc/api/include -fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /opt/conda/include -Wall -D_GLIBCXX_USE_CXX11_ABI=1 -O3 -DNDEBUG -std=gnu++17 -fPIC -D_GLIBCXX_USE_CXX11_ABI=1 -o src/libtorio/ffmpeg/CMakeFiles/libtorchaudio_ffmpeg5.dir/stream_reader/post_process.cpp.o -c /build_src/audio/src/libtorio/ffmpeg/stream_reader/post_process.cpp",
+  "file": "/build_src/audio/src/libtorio/ffmpeg/stream_reader/post_process.cpp",
+  "output": "src/libtorio/ffmpeg/CMakeFiles/libtorchaudio_ffmpeg5.dir/stream_reader/post_process.cpp.o"
+},
+{
+  "directory": "/build_src/audio/build/temp.linux-x86_64-cpython-311",
+  "command": "/opt/conda/bin/x86_64-conda-linux-gnu-c++ -DUSE_C10D_GLOO -DUSE_C10D_MPI -DUSE_C10D_NCCL -DUSE_CUDA -DUSE_DISTRIBUTED -DUSE_RPC -DUSE_TENSORPIPE -Dlibtorchaudio_ffmpeg5_EXPORTS -I/build_src/audio/src -I/build_src/audio/build/temp.linux-x86_64-cpython-311/_deps/f5-src/include -isystem /opt/conda/lib/python3.11/site-packages/torch/include -isystem /opt/conda/lib/python3.11/site-packages/torch/include/torch/csrc/api/include -fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /opt/conda/include -Wall -D_GLIBCXX_USE_CXX11_ABI=1 -O3 -DNDEBUG -std=gnu++17 -fPIC -D_GLIBCXX_USE_CXX11_ABI=1 -o src/libtorio/ffmpeg/CMakeFiles/libtorchaudio_ffmpeg5.dir/stream_reader/stream_processor.cpp.o -c /build_src/audio/src/libtorio/ffmpeg/stream_reader/stream_processor.cpp",
+  "file": "/build_src/audio/src/libtorio/ffmpeg/stream_reader/stream_processor.cpp",
+  "output": "src/libtorio/ffmpeg/CMakeFiles/libtorchaudio_ffmpeg5.dir/stream_reader/stream_processor.cpp.o"
+},
+{
+  "directory": "/build_src/audio/build/temp.linux-x86_64-cpython-311",
+  "command": "/opt/conda/bin/x86_64-conda-linux-gnu-c++ -DUSE_C10D_GLOO -DUSE_C10D_MPI -DUSE_C10D_NCCL -DUSE_CUDA -DUSE_DISTRIBUTED -DUSE_RPC -DUSE_TENSORPIPE -Dlibtorchaudio_ffmpeg5_EXPORTS -I/build_src/audio/src -I/build_src/audio/build/temp.linux-x86_64-cpython-311/_deps/f5-src/include -isystem /opt/conda/lib/python3.11/site-packages/torch/include -isystem /opt/conda/lib/python3.11/site-packages/torch/include/torch/csrc/api/include -fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /opt/conda/include -Wall -D_GLIBCXX_USE_CXX11_ABI=1 -O3 -DNDEBUG -std=gnu++17 -fPIC -D_GLIBCXX_USE_CXX11_ABI=1 -o src/libtorio/ffmpeg/CMakeFiles/libtorchaudio_ffmpeg5.dir/stream_reader/stream_reader.cpp.o -c /build_src/audio/src/libtorio/ffmpeg/stream_reader/stream_reader.cpp",
+  "file": "/build_src/audio/src/libtorio/ffmpeg/stream_reader/stream_reader.cpp",
+  "output": "src/libtorio/ffmpeg/CMakeFiles/libtorchaudio_ffmpeg5.dir/stream_reader/stream_reader.cpp.o"
+},
+{
+  "directory": "/build_src/audio/build/temp.linux-x86_64-cpython-311",
+  "command": "/opt/conda/bin/x86_64-conda-linux-gnu-c++ -DUSE_C10D_GLOO -DUSE_C10D_MPI -DUSE_C10D_NCCL -DUSE_CUDA -DUSE_DISTRIBUTED -DUSE_RPC -DUSE_TENSORPIPE -Dlibtorchaudio_ffmpeg5_EXPORTS -I/build_src/audio/src -I/build_src/audio/build/temp.linux-x86_64-cpython-311/_deps/f5-src/include -isystem /opt/conda/lib/python3.11/site-packages/torch/include -isystem /opt/conda/lib/python3.11/site-packages/torch/include/torch/csrc/api/include -fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /opt/conda/include -Wall -D_GLIBCXX_USE_CXX11_ABI=1 -O3 -DNDEBUG -std=gnu++17 -fPIC -D_GLIBCXX_USE_CXX11_ABI=1 -o src/libtorio/ffmpeg/CMakeFiles/libtorchaudio_ffmpeg5.dir/stream_writer/encode_process.cpp.o -c /build_src/audio/src/libtorio/ffmpeg/stream_writer/encode_process.cpp",
+  "file": "/build_src/audio/src/libtorio/ffmpeg/stream_writer/encode_process.cpp",
+  "output": "src/libtorio/ffmpeg/CMakeFiles/libtorchaudio_ffmpeg5.dir/stream_writer/encode_process.cpp.o"
+},
+{
+  "directory": "/build_src/audio/build/temp.linux-x86_64-cpython-311",
+  "command": "/opt/conda/bin/x86_64-conda-linux-gnu-c++ -DUSE_C10D_GLOO -DUSE_C10D_MPI -DUSE_C10D_NCCL -DUSE_CUDA -DUSE_DISTRIBUTED -DUSE_RPC -DUSE_TENSORPIPE -Dlibtorchaudio_ffmpeg5_EXPORTS -I/build_src/audio/src -I/build_src/audio/build/temp.linux-x86_64-cpython-311/_deps/f5-src/include -isystem /opt/conda/lib/python3.11/site-packages/torch/include -isystem /opt/conda/lib/python3.11/site-packages/torch/include/torch/csrc/api/include -fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /opt/conda/include -Wall -D_GLIBCXX_USE_CXX11_ABI=1 -O3 -DNDEBUG -std=gnu++17 -fPIC -D_GLIBCXX_USE_CXX11_ABI=1 -o src/libtorio/ffmpeg/CMakeFiles/libtorchaudio_ffmpeg5.dir/stream_writer/encoder.cpp.o -c /build_src/audio/src/libtorio/ffmpeg/stream_writer/encoder.cpp",
+  "file": "/build_src/audio/src/libtorio/ffmpeg/stream_writer/encoder.cpp",
+  "output": "src/libtorio/ffmpeg/CMakeFiles/libtorchaudio_ffmpeg5.dir/stream_writer/encoder.cpp.o"
+},
+{
+  "directory": "/build_src/audio/build/temp.linux-x86_64-cpython-311",
+  "command": "/opt/conda/bin/x86_64-conda-linux-gnu-c++ -DUSE_C10D_GLOO -DUSE_C10D_MPI -DUSE_C10D_NCCL -DUSE_CUDA -DUSE_DISTRIBUTED -DUSE_RPC -DUSE_TENSORPIPE -Dlibtorchaudio_ffmpeg5_EXPORTS -I/build_src/audio/src -I/build_src/audio/build/temp.linux-x86_64-cpython-311/_deps/f5-src/include -isystem /opt/conda/lib/python3.11/site-packages/torch/include -isystem /opt/conda/lib/python3.11/site-packages/torch/include/torch/csrc/api/include -fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /opt/conda/include -Wall -D_GLIBCXX_USE_CXX11_ABI=1 -O3 -DNDEBUG -std=gnu++17 -fPIC -D_GLIBCXX_USE_CXX11_ABI=1 -o src/libtorio/ffmpeg/CMakeFiles/libtorchaudio_ffmpeg5.dir/stream_writer/packet_writer.cpp.o -c /build_src/audio/src/libtorio/ffmpeg/stream_writer/packet_writer.cpp",
+  "file": "/build_src/audio/src/libtorio/ffmpeg/stream_writer/packet_writer.cpp",
+  "output": "src/libtorio/ffmpeg/CMakeFiles/libtorchaudio_ffmpeg5.dir/stream_writer/packet_writer.cpp.o"
+},
+{
+  "directory": "/build_src/audio/build/temp.linux-x86_64-cpython-311",
+  "command": "/opt/conda/bin/x86_64-conda-linux-gnu-c++ -DUSE_C10D_GLOO -DUSE_C10D_MPI -DUSE_C10D_NCCL -DUSE_CUDA -DUSE_DISTRIBUTED -DUSE_RPC -DUSE_TENSORPIPE -Dlibtorchaudio_ffmpeg5_EXPORTS -I/build_src/audio/src -I/build_src/audio/build/temp.linux-x86_64-cpython-311/_deps/f5-src/include -isystem /opt/conda/lib/python3.11/site-packages/torch/include -isystem /opt/conda/lib/python3.11/site-packages/torch/include/torch/csrc/api/include -fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /opt/conda/include -Wall -D_GLIBCXX_USE_CXX11_ABI=1 -O3 -DNDEBUG -std=gnu++17 -fPIC -D_GLIBCXX_USE_CXX11_ABI=1 -o src/libtorio/ffmpeg/CMakeFiles/libtorchaudio_ffmpeg5.dir/stream_writer/stream_writer.cpp.o -c /build_src/audio/src/libtorio/ffmpeg/stream_writer/stream_writer.cpp",
+  "file": "/build_src/audio/src/libtorio/ffmpeg/stream_writer/stream_writer.cpp",
+  "output": "src/libtorio/ffmpeg/CMakeFiles/libtorchaudio_ffmpeg5.dir/stream_writer/stream_writer.cpp.o"
+},
+{
+  "directory": "/build_src/audio/build/temp.linux-x86_64-cpython-311",
+  "command": "/opt/conda/bin/x86_64-conda-linux-gnu-c++ -DUSE_C10D_GLOO -DUSE_C10D_MPI -DUSE_C10D_NCCL -DUSE_CUDA -DUSE_DISTRIBUTED -DUSE_RPC -DUSE_TENSORPIPE -Dlibtorchaudio_ffmpeg5_EXPORTS -I/build_src/audio/src -I/build_src/audio/build/temp.linux-x86_64-cpython-311/_deps/f5-src/include -isystem /opt/conda/lib/python3.11/site-packages/torch/include -isystem /opt/conda/lib/python3.11/site-packages/torch/include/torch/csrc/api/include -fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /opt/conda/include -Wall -D_GLIBCXX_USE_CXX11_ABI=1 -O3 -DNDEBUG -std=gnu++17 -fPIC -D_GLIBCXX_USE_CXX11_ABI=1 -o src/libtorio/ffmpeg/CMakeFiles/libtorchaudio_ffmpeg5.dir/stream_writer/tensor_converter.cpp.o -c /build_src/audio/src/libtorio/ffmpeg/stream_writer/tensor_converter.cpp",
+  "file": "/build_src/audio/src/libtorio/ffmpeg/stream_writer/tensor_converter.cpp",
+  "output": "src/libtorio/ffmpeg/CMakeFiles/libtorchaudio_ffmpeg5.dir/stream_writer/tensor_converter.cpp.o"
+},
+{
+  "directory": "/build_src/audio/build/temp.linux-x86_64-cpython-311",
+  "command": "/opt/conda/bin/x86_64-conda-linux-gnu-c++ -DUSE_C10D_GLOO -DUSE_C10D_MPI -DUSE_C10D_NCCL -DUSE_CUDA -DUSE_DISTRIBUTED -DUSE_RPC -DUSE_TENSORPIPE -Dlibtorchaudio_ffmpeg6_EXPORTS -I/build_src/audio/src -I/build_src/audio/build/temp.linux-x86_64-cpython-311/_deps/f6-src/include -isystem /opt/conda/lib/python3.11/site-packages/torch/include -isystem /opt/conda/lib/python3.11/site-packages/torch/include/torch/csrc/api/include -fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /opt/conda/include -Wall -D_GLIBCXX_USE_CXX11_ABI=1 -O3 -DNDEBUG -std=gnu++17 -fPIC -D_GLIBCXX_USE_CXX11_ABI=1 -o src/libtorio/ffmpeg/CMakeFiles/libtorchaudio_ffmpeg6.dir/ffmpeg.cpp.o -c /build_src/audio/src/libtorio/ffmpeg/ffmpeg.cpp",
+  "file": "/build_src/audio/src/libtorio/ffmpeg/ffmpeg.cpp",
+  "output": "src/libtorio/ffmpeg/CMakeFiles/libtorchaudio_ffmpeg6.dir/ffmpeg.cpp.o"
+},
+{
+  "directory": "/build_src/audio/build/temp.linux-x86_64-cpython-311",
+  "command": "/opt/conda/bin/x86_64-conda-linux-gnu-c++ -DUSE_C10D_GLOO -DUSE_C10D_MPI -DUSE_C10D_NCCL -DUSE_CUDA -DUSE_DISTRIBUTED -DUSE_RPC -DUSE_TENSORPIPE -Dlibtorchaudio_ffmpeg6_EXPORTS -I/build_src/audio/src -I/build_src/audio/build/temp.linux-x86_64-cpython-311/_deps/f6-src/include -isystem /opt/conda/lib/python3.11/site-packages/torch/include -isystem /opt/conda/lib/python3.11/site-packages/torch/include/torch/csrc/api/include -fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /opt/conda/include -Wall -D_GLIBCXX_USE_CXX11_ABI=1 -O3 -DNDEBUG -std=gnu++17 -fPIC -D_GLIBCXX_USE_CXX11_ABI=1 -o src/libtorio/ffmpeg/CMakeFiles/libtorchaudio_ffmpeg6.dir/filter_graph.cpp.o -c /build_src/audio/src/libtorio/ffmpeg/filter_graph.cpp",
+  "file": "/build_src/audio/src/libtorio/ffmpeg/filter_graph.cpp",
+  "output": "src/libtorio/ffmpeg/CMakeFiles/libtorchaudio_ffmpeg6.dir/filter_graph.cpp.o"
+},
+{
+  "directory": "/build_src/audio/build/temp.linux-x86_64-cpython-311",
+  "command": "/opt/conda/bin/x86_64-conda-linux-gnu-c++ -DUSE_C10D_GLOO -DUSE_C10D_MPI -DUSE_C10D_NCCL -DUSE_CUDA -DUSE_DISTRIBUTED -DUSE_RPC -DUSE_TENSORPIPE -Dlibtorchaudio_ffmpeg6_EXPORTS -I/build_src/audio/src -I/build_src/audio/build/temp.linux-x86_64-cpython-311/_deps/f6-src/include -isystem /opt/conda/lib/python3.11/site-packages/torch/include -isystem /opt/conda/lib/python3.11/site-packages/torch/include/torch/csrc/api/include -fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /opt/conda/include -Wall -D_GLIBCXX_USE_CXX11_ABI=1 -O3 -DNDEBUG -std=gnu++17 -fPIC -D_GLIBCXX_USE_CXX11_ABI=1 -o src/libtorio/ffmpeg/CMakeFiles/libtorchaudio_ffmpeg6.dir/hw_context.cpp.o -c /build_src/audio/src/libtorio/ffmpeg/hw_context.cpp",
+  "file": "/build_src/audio/src/libtorio/ffmpeg/hw_context.cpp",
+  "output": "src/libtorio/ffmpeg/CMakeFiles/libtorchaudio_ffmpeg6.dir/hw_context.cpp.o"
+},
+{
+  "directory": "/build_src/audio/build/temp.linux-x86_64-cpython-311",
+  "command": "/opt/conda/bin/x86_64-conda-linux-gnu-c++ -DUSE_C10D_GLOO -DUSE_C10D_MPI -DUSE_C10D_NCCL -DUSE_CUDA -DUSE_DISTRIBUTED -DUSE_RPC -DUSE_TENSORPIPE -Dlibtorchaudio_ffmpeg6_EXPORTS -I/build_src/audio/src -I/build_src/audio/build/temp.linux-x86_64-cpython-311/_deps/f6-src/include -isystem /opt/conda/lib/python3.11/site-packages/torch/include -isystem /opt/conda/lib/python3.11/site-packages/torch/include/torch/csrc/api/include -fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /opt/conda/include -Wall -D_GLIBCXX_USE_CXX11_ABI=1 -O3 -DNDEBUG -std=gnu++17 -fPIC -D_GLIBCXX_USE_CXX11_ABI=1 -o src/libtorio/ffmpeg/CMakeFiles/libtorchaudio_ffmpeg6.dir/stream_reader/buffer/chunked_buffer.cpp.o -c /build_src/audio/src/libtorio/ffmpeg/stream_reader/buffer/chunked_buffer.cpp",
+  "file": "/build_src/audio/src/libtorio/ffmpeg/stream_reader/buffer/chunked_buffer.cpp",
+  "output": "src/libtorio/ffmpeg/CMakeFiles/libtorchaudio_ffmpeg6.dir/stream_reader/buffer/chunked_buffer.cpp.o"
+},
+{
+  "directory": "/build_src/audio/build/temp.linux-x86_64-cpython-311",
+  "command": "/opt/conda/bin/x86_64-conda-linux-gnu-c++ -DUSE_C10D_GLOO -DUSE_C10D_MPI -DUSE_C10D_NCCL -DUSE_CUDA -DUSE_DISTRIBUTED -DUSE_RPC -DUSE_TENSORPIPE -Dlibtorchaudio_ffmpeg6_EXPORTS -I/build_src/audio/src -I/build_src/audio/build/temp.linux-x86_64-cpython-311/_deps/f6-src/include -isystem /opt/conda/lib/python3.11/site-packages/torch/include -isystem /opt/conda/lib/python3.11/site-packages/torch/include/torch/csrc/api/include -fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /opt/conda/include -Wall -D_GLIBCXX_USE_CXX11_ABI=1 -O3 -DNDEBUG -std=gnu++17 -fPIC -D_GLIBCXX_USE_CXX11_ABI=1 -o src/libtorio/ffmpeg/CMakeFiles/libtorchaudio_ffmpeg6.dir/stream_reader/buffer/unchunked_buffer.cpp.o -c /build_src/audio/src/libtorio/ffmpeg/stream_reader/buffer/unchunked_buffer.cpp",
+  "file": "/build_src/audio/src/libtorio/ffmpeg/stream_reader/buffer/unchunked_buffer.cpp",
+  "output": "src/libtorio/ffmpeg/CMakeFiles/libtorchaudio_ffmpeg6.dir/stream_reader/buffer/unchunked_buffer.cpp.o"
+},
+{
+  "directory": "/build_src/audio/build/temp.linux-x86_64-cpython-311",
+  "command": "/opt/conda/bin/x86_64-conda-linux-gnu-c++ -DUSE_C10D_GLOO -DUSE_C10D_MPI -DUSE_C10D_NCCL -DUSE_CUDA -DUSE_DISTRIBUTED -DUSE_RPC -DUSE_TENSORPIPE -Dlibtorchaudio_ffmpeg6_EXPORTS -I/build_src/audio/src -I/build_src/audio/build/temp.linux-x86_64-cpython-311/_deps/f6-src/include -isystem /opt/conda/lib/python3.11/site-packages/torch/include -isystem /opt/conda/lib/python3.11/site-packages/torch/include/torch/csrc/api/include -fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /opt/conda/include -Wall -D_GLIBCXX_USE_CXX11_ABI=1 -O3 -DNDEBUG -std=gnu++17 -fPIC -D_GLIBCXX_USE_CXX11_ABI=1 -o src/libtorio/ffmpeg/CMakeFiles/libtorchaudio_ffmpeg6.dir/stream_reader/conversion.cpp.o -c /build_src/audio/src/libtorio/ffmpeg/stream_reader/conversion.cpp",
+  "file": "/build_src/audio/src/libtorio/ffmpeg/stream_reader/conversion.cpp",
+  "output": "src/libtorio/ffmpeg/CMakeFiles/libtorchaudio_ffmpeg6.dir/stream_reader/conversion.cpp.o"
+},
+{
+  "directory": "/build_src/audio/build/temp.linux-x86_64-cpython-311",
+  "command": "/opt/conda/bin/x86_64-conda-linux-gnu-c++ -DUSE_C10D_GLOO -DUSE_C10D_MPI -DUSE_C10D_NCCL -DUSE_CUDA -DUSE_DISTRIBUTED -DUSE_RPC -DUSE_TENSORPIPE -Dlibtorchaudio_ffmpeg6_EXPORTS -I/build_src/audio/src -I/build_src/audio/build/temp.linux-x86_64-cpython-311/_deps/f6-src/include -isystem /opt/conda/lib/python3.11/site-packages/torch/include -isystem /opt/conda/lib/python3.11/site-packages/torch/include/torch/csrc/api/include -fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /opt/conda/include -Wall -D_GLIBCXX_USE_CXX11_ABI=1 -O3 -DNDEBUG -std=gnu++17 -fPIC -D_GLIBCXX_USE_CXX11_ABI=1 -o src/libtorio/ffmpeg/CMakeFiles/libtorchaudio_ffmpeg6.dir/stream_reader/packet_buffer.cpp.o -c /build_src/audio/src/libtorio/ffmpeg/stream_reader/packet_buffer.cpp",
+  "file": "/build_src/audio/src/libtorio/ffmpeg/stream_reader/packet_buffer.cpp",
+  "output": "src/libtorio/ffmpeg/CMakeFiles/libtorchaudio_ffmpeg6.dir/stream_reader/packet_buffer.cpp.o"
+},
+{
+  "directory": "/build_src/audio/build/temp.linux-x86_64-cpython-311",
+  "command": "/opt/conda/bin/x86_64-conda-linux-gnu-c++ -DUSE_C10D_GLOO -DUSE_C10D_MPI -DUSE_C10D_NCCL -DUSE_CUDA -DUSE_DISTRIBUTED -DUSE_RPC -DUSE_TENSORPIPE -Dlibtorchaudio_ffmpeg6_EXPORTS -I/build_src/audio/src -I/build_src/audio/build/temp.linux-x86_64-cpython-311/_deps/f6-src/include -isystem /opt/conda/lib/python3.11/site-packages/torch/include -isystem /opt/conda/lib/python3.11/site-packages/torch/include/torch/csrc/api/include -fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /opt/conda/include -Wall -D_GLIBCXX_USE_CXX11_ABI=1 -O3 -DNDEBUG -std=gnu++17 -fPIC -D_GLIBCXX_USE_CXX11_ABI=1 -o src/libtorio/ffmpeg/CMakeFiles/libtorchaudio_ffmpeg6.dir/stream_reader/post_process.cpp.o -c /build_src/audio/src/libtorio/ffmpeg/stream_reader/post_process.cpp",
+  "file": "/build_src/audio/src/libtorio/ffmpeg/stream_reader/post_process.cpp",
+  "output": "src/libtorio/ffmpeg/CMakeFiles/libtorchaudio_ffmpeg6.dir/stream_reader/post_process.cpp.o"
+},
+{
+  "directory": "/build_src/audio/build/temp.linux-x86_64-cpython-311",
+  "command": "/opt/conda/bin/x86_64-conda-linux-gnu-c++ -DUSE_C10D_GLOO -DUSE_C10D_MPI -DUSE_C10D_NCCL -DUSE_CUDA -DUSE_DISTRIBUTED -DUSE_RPC -DUSE_TENSORPIPE -Dlibtorchaudio_ffmpeg6_EXPORTS -I/build_src/audio/src -I/build_src/audio/build/temp.linux-x86_64-cpython-311/_deps/f6-src/include -isystem /opt/conda/lib/python3.11/site-packages/torch/include -isystem /opt/conda/lib/python3.11/site-packages/torch/include/torch/csrc/api/include -fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /opt/conda/include -Wall -D_GLIBCXX_USE_CXX11_ABI=1 -O3 -DNDEBUG -std=gnu++17 -fPIC -D_GLIBCXX_USE_CXX11_ABI=1 -o src/libtorio/ffmpeg/CMakeFiles/libtorchaudio_ffmpeg6.dir/stream_reader/stream_processor.cpp.o -c /build_src/audio/src/libtorio/ffmpeg/stream_reader/stream_processor.cpp",
+  "file": "/build_src/audio/src/libtorio/ffmpeg/stream_reader/stream_processor.cpp",
+  "output": "src/libtorio/ffmpeg/CMakeFiles/libtorchaudio_ffmpeg6.dir/stream_reader/stream_processor.cpp.o"
+},
+{
+  "directory": "/build_src/audio/build/temp.linux-x86_64-cpython-311",
+  "command": "/opt/conda/bin/x86_64-conda-linux-gnu-c++ -DUSE_C10D_GLOO -DUSE_C10D_MPI -DUSE_C10D_NCCL -DUSE_CUDA -DUSE_DISTRIBUTED -DUSE_RPC -DUSE_TENSORPIPE -Dlibtorchaudio_ffmpeg6_EXPORTS -I/build_src/audio/src -I/build_src/audio/build/temp.linux-x86_64-cpython-311/_deps/f6-src/include -isystem /opt/conda/lib/python3.11/site-packages/torch/include -isystem /opt/conda/lib/python3.11/site-packages/torch/include/torch/csrc/api/include -fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /opt/conda/include -Wall -D_GLIBCXX_USE_CXX11_ABI=1 -O3 -DNDEBUG -std=gnu++17 -fPIC -D_GLIBCXX_USE_CXX11_ABI=1 -o src/libtorio/ffmpeg/CMakeFiles/libtorchaudio_ffmpeg6.dir/stream_reader/stream_reader.cpp.o -c /build_src/audio/src/libtorio/ffmpeg/stream_reader/stream_reader.cpp",
+  "file": "/build_src/audio/src/libtorio/ffmpeg/stream_reader/stream_reader.cpp",
+  "output": "src/libtorio/ffmpeg/CMakeFiles/libtorchaudio_ffmpeg6.dir/stream_reader/stream_reader.cpp.o"
+},
+{
+  "directory": "/build_src/audio/build/temp.linux-x86_64-cpython-311",
+  "command": "/opt/conda/bin/x86_64-conda-linux-gnu-c++ -DUSE_C10D_GLOO -DUSE_C10D_MPI -DUSE_C10D_NCCL -DUSE_CUDA -DUSE_DISTRIBUTED -DUSE_RPC -DUSE_TENSORPIPE -Dlibtorchaudio_ffmpeg6_EXPORTS -I/build_src/audio/src -I/build_src/audio/build/temp.linux-x86_64-cpython-311/_deps/f6-src/include -isystem /opt/conda/lib/python3.11/site-packages/torch/include -isystem /opt/conda/lib/python3.11/site-packages/torch/include/torch/csrc/api/include -fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /opt/conda/include -Wall -D_GLIBCXX_USE_CXX11_ABI=1 -O3 -DNDEBUG -std=gnu++17 -fPIC -D_GLIBCXX_USE_CXX11_ABI=1 -o src/libtorio/ffmpeg/CMakeFiles/libtorchaudio_ffmpeg6.dir/stream_writer/encode_process.cpp.o -c /build_src/audio/src/libtorio/ffmpeg/stream_writer/encode_process.cpp",
+  "file": "/build_src/audio/src/libtorio/ffmpeg/stream_writer/encode_process.cpp",
+  "output": "src/libtorio/ffmpeg/CMakeFiles/libtorchaudio_ffmpeg6.dir/stream_writer/encode_process.cpp.o"
+},
+{
+  "directory": "/build_src/audio/build/temp.linux-x86_64-cpython-311",
+  "command": "/opt/conda/bin/x86_64-conda-linux-gnu-c++ -DUSE_C10D_GLOO -DUSE_C10D_MPI -DUSE_C10D_NCCL -DUSE_CUDA -DUSE_DISTRIBUTED -DUSE_RPC -DUSE_TENSORPIPE -Dlibtorchaudio_ffmpeg6_EXPORTS -I/build_src/audio/src -I/build_src/audio/build/temp.linux-x86_64-cpython-311/_deps/f6-src/include -isystem /opt/conda/lib/python3.11/site-packages/torch/include -isystem /opt/conda/lib/python3.11/site-packages/torch/include/torch/csrc/api/include -fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /opt/conda/include -Wall -D_GLIBCXX_USE_CXX11_ABI=1 -O3 -DNDEBUG -std=gnu++17 -fPIC -D_GLIBCXX_USE_CXX11_ABI=1 -o src/libtorio/ffmpeg/CMakeFiles/libtorchaudio_ffmpeg6.dir/stream_writer/encoder.cpp.o -c /build_src/audio/src/libtorio/ffmpeg/stream_writer/encoder.cpp",
+  "file": "/build_src/audio/src/libtorio/ffmpeg/stream_writer/encoder.cpp",
+  "output": "src/libtorio/ffmpeg/CMakeFiles/libtorchaudio_ffmpeg6.dir/stream_writer/encoder.cpp.o"
+},
+{
+  "directory": "/build_src/audio/build/temp.linux-x86_64-cpython-311",
+  "command": "/opt/conda/bin/x86_64-conda-linux-gnu-c++ -DUSE_C10D_GLOO -DUSE_C10D_MPI -DUSE_C10D_NCCL -DUSE_CUDA -DUSE_DISTRIBUTED -DUSE_RPC -DUSE_TENSORPIPE -Dlibtorchaudio_ffmpeg6_EXPORTS -I/build_src/audio/src -I/build_src/audio/build/temp.linux-x86_64-cpython-311/_deps/f6-src/include -isystem /opt/conda/lib/python3.11/site-packages/torch/include -isystem /opt/conda/lib/python3.11/site-packages/torch/include/torch/csrc/api/include -fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /opt/conda/include -Wall -D_GLIBCXX_USE_CXX11_ABI=1 -O3 -DNDEBUG -std=gnu++17 -fPIC -D_GLIBCXX_USE_CXX11_ABI=1 -o src/libtorio/ffmpeg/CMakeFiles/libtorchaudio_ffmpeg6.dir/stream_writer/packet_writer.cpp.o -c /build_src/audio/src/libtorio/ffmpeg/stream_writer/packet_writer.cpp",
+  "file": "/build_src/audio/src/libtorio/ffmpeg/stream_writer/packet_writer.cpp",
+  "output": "src/libtorio/ffmpeg/CMakeFiles/libtorchaudio_ffmpeg6.dir/stream_writer/packet_writer.cpp.o"
+},
+{
+  "directory": "/build_src/audio/build/temp.linux-x86_64-cpython-311",
+  "command": "/opt/conda/bin/x86_64-conda-linux-gnu-c++ -DUSE_C10D_GLOO -DUSE_C10D_MPI -DUSE_C10D_NCCL -DUSE_CUDA -DUSE_DISTRIBUTED -DUSE_RPC -DUSE_TENSORPIPE -Dlibtorchaudio_ffmpeg6_EXPORTS -I/build_src/audio/src -I/build_src/audio/build/temp.linux-x86_64-cpython-311/_deps/f6-src/include -isystem /opt/conda/lib/python3.11/site-packages/torch/include -isystem /opt/conda/lib/python3.11/site-packages/torch/include/torch/csrc/api/include -fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /opt/conda/include -Wall -D_GLIBCXX_USE_CXX11_ABI=1 -O3 -DNDEBUG -std=gnu++17 -fPIC -D_GLIBCXX_USE_CXX11_ABI=1 -o src/libtorio/ffmpeg/CMakeFiles/libtorchaudio_ffmpeg6.dir/stream_writer/stream_writer.cpp.o -c /build_src/audio/src/libtorio/ffmpeg/stream_writer/stream_writer.cpp",
+  "file": "/build_src/audio/src/libtorio/ffmpeg/stream_writer/stream_writer.cpp",
+  "output": "src/libtorio/ffmpeg/CMakeFiles/libtorchaudio_ffmpeg6.dir/stream_writer/stream_writer.cpp.o"
+},
+{
+  "directory": "/build_src/audio/build/temp.linux-x86_64-cpython-311",
+  "command": "/opt/conda/bin/x86_64-conda-linux-gnu-c++ -DUSE_C10D_GLOO -DUSE_C10D_MPI -DUSE_C10D_NCCL -DUSE_CUDA -DUSE_DISTRIBUTED -DUSE_RPC -DUSE_TENSORPIPE -Dlibtorchaudio_ffmpeg6_EXPORTS -I/build_src/audio/src -I/build_src/audio/build/temp.linux-x86_64-cpython-311/_deps/f6-src/include -isystem /opt/conda/lib/python3.11/site-packages/torch/include -isystem /opt/conda/lib/python3.11/site-packages/torch/include/torch/csrc/api/include -fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /opt/conda/include -Wall -D_GLIBCXX_USE_CXX11_ABI=1 -O3 -DNDEBUG -std=gnu++17 -fPIC -D_GLIBCXX_USE_CXX11_ABI=1 -o src/libtorio/ffmpeg/CMakeFiles/libtorchaudio_ffmpeg6.dir/stream_writer/tensor_converter.cpp.o -c /build_src/audio/src/libtorio/ffmpeg/stream_writer/tensor_converter.cpp",
+  "file": "/build_src/audio/src/libtorio/ffmpeg/stream_writer/tensor_converter.cpp",
+  "output": "src/libtorio/ffmpeg/CMakeFiles/libtorchaudio_ffmpeg6.dir/stream_writer/tensor_converter.cpp.o"
+},
+{
+  "directory": "/build_src/audio/build/temp.linux-x86_64-cpython-311",
+  "command": "/opt/conda/bin/x86_64-conda-linux-gnu-c++ -DTORCHAUDIO_FFMPEG_EXT_NAME=_torchaudio_ffmpeg4 -DUSE_C10D_GLOO -DUSE_C10D_MPI -DUSE_C10D_NCCL -DUSE_CUDA -DUSE_DISTRIBUTED -DUSE_RPC -DUSE_TENSORPIPE -D_torchaudio_ffmpeg4_EXPORTS -I/build_src/audio/src -I/opt/conda/include/python3.11 -I/build_src/audio/build/temp.linux-x86_64-cpython-311/_deps/f4-src/include -isystem /opt/conda/lib/python3.11/site-packages/torch/include -isystem /opt/conda/lib/python3.11/site-packages/torch/include/torch/csrc/api/include -fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /opt/conda/include -Wall -D_GLIBCXX_USE_CXX11_ABI=1 -O3 -DNDEBUG -std=gnu++17 -fPIC -D_GLIBCXX_USE_CXX11_ABI=1 -o src/libtorio/ffmpeg/CMakeFiles/_torchaudio_ffmpeg4.dir/pybind/pybind.cpp.o -c /build_src/audio/src/libtorio/ffmpeg/pybind/pybind.cpp",
+  "file": "/build_src/audio/src/libtorio/ffmpeg/pybind/pybind.cpp",
+  "output": "src/libtorio/ffmpeg/CMakeFiles/_torchaudio_ffmpeg4.dir/pybind/pybind.cpp.o"
+},
+{
+  "directory": "/build_src/audio/build/temp.linux-x86_64-cpython-311",
+  "command": "/opt/conda/bin/x86_64-conda-linux-gnu-c++ -DTORCHAUDIO_FFMPEG_EXT_NAME=_torchaudio_ffmpeg5 -DUSE_C10D_GLOO -DUSE_C10D_MPI -DUSE_C10D_NCCL -DUSE_CUDA -DUSE_DISTRIBUTED -DUSE_RPC -DUSE_TENSORPIPE -D_torchaudio_ffmpeg5_EXPORTS -I/build_src/audio/src -I/opt/conda/include/python3.11 -I/build_src/audio/build/temp.linux-x86_64-cpython-311/_deps/f5-src/include -isystem /opt/conda/lib/python3.11/site-packages/torch/include -isystem /opt/conda/lib/python3.11/site-packages/torch/include/torch/csrc/api/include -fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /opt/conda/include -Wall -D_GLIBCXX_USE_CXX11_ABI=1 -O3 -DNDEBUG -std=gnu++17 -fPIC -D_GLIBCXX_USE_CXX11_ABI=1 -o src/libtorio/ffmpeg/CMakeFiles/_torchaudio_ffmpeg5.dir/pybind/pybind.cpp.o -c /build_src/audio/src/libtorio/ffmpeg/pybind/pybind.cpp",
+  "file": "/build_src/audio/src/libtorio/ffmpeg/pybind/pybind.cpp",
+  "output": "src/libtorio/ffmpeg/CMakeFiles/_torchaudio_ffmpeg5.dir/pybind/pybind.cpp.o"
+},
+{
+  "directory": "/build_src/audio/build/temp.linux-x86_64-cpython-311",
+  "command": "/opt/conda/bin/x86_64-conda-linux-gnu-c++ -DTORCHAUDIO_FFMPEG_EXT_NAME=_torchaudio_ffmpeg6 -DUSE_C10D_GLOO -DUSE_C10D_MPI -DUSE_C10D_NCCL -DUSE_CUDA -DUSE_DISTRIBUTED -DUSE_RPC -DUSE_TENSORPIPE -D_torchaudio_ffmpeg6_EXPORTS -I/build_src/audio/src -I/opt/conda/include/python3.11 -I/build_src/audio/build/temp.linux-x86_64-cpython-311/_deps/f6-src/include -isystem /opt/conda/lib/python3.11/site-packages/torch/include -isystem /opt/conda/lib/python3.11/site-packages/torch/include/torch/csrc/api/include -fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /opt/conda/include -Wall -D_GLIBCXX_USE_CXX11_ABI=1 -O3 -DNDEBUG -std=gnu++17 -fPIC -D_GLIBCXX_USE_CXX11_ABI=1 -o src/libtorio/ffmpeg/CMakeFiles/_torchaudio_ffmpeg6.dir/pybind/pybind.cpp.o -c /build_src/audio/src/libtorio/ffmpeg/pybind/pybind.cpp",
+  "file": "/build_src/audio/src/libtorio/ffmpeg/pybind/pybind.cpp",
+  "output": "src/libtorio/ffmpeg/CMakeFiles/_torchaudio_ffmpeg6.dir/pybind/pybind.cpp.o"
+},
+{
+  "directory": "/build_src/audio/build/temp.linux-x86_64-cpython-311",
+  "command": "/opt/conda/bin/x86_64-conda-linux-gnu-c++ -DUSE_CUDA -Dlibctc_prefix_decoder_EXPORTS -I/build_src/audio/src -I/build_src/audio/src/libtorchaudio/cuctc -fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /opt/conda/include -Wall -D_GLIBCXX_USE_CXX11_ABI=1 -O3 -DNDEBUG -std=gnu++17 -fPIC -fvisibility=default -o src/libtorchaudio/cuctc/CMakeFiles/libctc_prefix_decoder.dir/src/ctc_prefix_decoder.cpp.o -c /build_src/audio/src/libtorchaudio/cuctc/src/ctc_prefix_decoder.cpp",
+  "file": "/build_src/audio/src/libtorchaudio/cuctc/src/ctc_prefix_decoder.cpp",
+  "output": "src/libtorchaudio/cuctc/CMakeFiles/libctc_prefix_decoder.dir/src/ctc_prefix_decoder.cpp.o"
+},
+{
+  "directory": "/build_src/audio/build/temp.linux-x86_64-cpython-311",
+  "command": "/opt/conda/bin/nvcc -forward-unknown-to-host-compiler -DUSE_CUDA -Dlibctc_prefix_decoder_EXPORTS -I/build_src/audio/src -I/build_src/audio/src/libtorchaudio/cuctc -I/opt/conda/include      -DCUDA_HAS_FP16=1     -D__CUDA_NO_HALF_OPERATORS__     -D__CUDA_NO_HALF_CONVERSIONS__     -D__CUDA_NO_HALF2_OPERATORS__ -DONNX_NAMESPACE=onnx_c2 -gencode arch=compute_52,code=sm_52 -gencode arch=compute_70,code=sm_70 -gencode arch=compute_75,code=sm_75 -gencode arch=compute_80,code=sm_80 -gencode arch=compute_86,code=sm_86 -gencode arch=compute_90,code=sm_90 -gencode arch=compute_70,code=compute_70 -Xcudafe --diag_suppress=cc_clobber_ignored,--diag_suppress=field_without_dll_interface,--diag_suppress=base_class_has_different_dll_interface,--diag_suppress=dll_interface_conflict_none_assumed,--diag_suppress=dll_interface_conflict_dllexport_assumed,--diag_suppress=bad_friend_decl --expt-relaxed-constexpr --expt-extended-lambda -O3 -DNDEBUG -std=c++17 -Xcompiler=-fPIC -x cu -c /build_src/audio/src/libtorchaudio/cuctc/src/ctc_prefix_decoder_kernel_v2.cu -o src/libtorchaudio/cuctc/CMakeFiles/libctc_prefix_decoder.dir/src/ctc_prefix_decoder_kernel_v2.cu.o",
+  "file": "/build_src/audio/src/libtorchaudio/cuctc/src/ctc_prefix_decoder_kernel_v2.cu",
+  "output": "src/libtorchaudio/cuctc/CMakeFiles/libctc_prefix_decoder.dir/src/ctc_prefix_decoder_kernel_v2.cu.o"
+},
+{
+  "directory": "/build_src/audio/build/temp.linux-x86_64-cpython-311",
+  "command": "/opt/conda/bin/x86_64-conda-linux-gnu-c++ -DUSE_CUDA -Dpybind11_prefixctc_EXPORTS -I/build_src/audio/src -I/opt/conda/include/python3.11 -I/opt/conda/lib/python3.11/site-packages/torch/include -I/build_src/audio/src/libtorchaudio/cuctc -fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /opt/conda/include -Wall -D_GLIBCXX_USE_CXX11_ABI=1 -O3 -DNDEBUG -std=gnu++17 -fPIC -fvisibility=default -o src/libtorchaudio/cuctc/CMakeFiles/pybind11_prefixctc.dir/src/python_binding.cpp.o -c /build_src/audio/src/libtorchaudio/cuctc/src/python_binding.cpp",
+  "file": "/build_src/audio/src/libtorchaudio/cuctc/src/python_binding.cpp",
+  "output": "src/libtorchaudio/cuctc/CMakeFiles/pybind11_prefixctc.dir/src/python_binding.cpp.o"
+}
+]

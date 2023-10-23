@@ -1,0 +1,14 @@
+prefix=/pytorch/audio/ffmpeg
+exec_prefix=${prefix}
+libdir=/pytorch/audio/ffmpeg/lib
+includedir=/pytorch/audio/ffmpeg/include
+
+Name: libavfilter
+Description: FFmpeg audio/video filtering library
+Version: 7.110.100
+Requires: 
+Requires.private: libavutil >= 56.70.100
+Conflicts:
+Libs: -L${libdir} -Wl,-rpath,/pytorch/audio/ffmpeg/lib -lavfilter 
+Libs.private: -pthread -lm
+Cflags: -I${includedir}

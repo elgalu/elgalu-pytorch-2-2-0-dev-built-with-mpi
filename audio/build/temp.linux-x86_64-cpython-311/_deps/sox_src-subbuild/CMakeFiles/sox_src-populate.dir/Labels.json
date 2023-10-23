@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/build_src/audio/build/temp.linux-x86_64-cpython-311/_deps/sox_src-subbuild/CMakeFiles/sox_src-populate"
+		},
+		{
+			"file" : "/build_src/audio/build/temp.linux-x86_64-cpython-311/_deps/sox_src-subbuild/CMakeFiles/sox_src-populate.rule"
+		},
+		{
+			"file" : "/build_src/audio/build/temp.linux-x86_64-cpython-311/_deps/sox_src-subbuild/CMakeFiles/sox_src-populate-complete.rule"
+		},
+		{
+			"file" : "/build_src/audio/build/temp.linux-x86_64-cpython-311/_deps/sox_src-subbuild/sox_src-populate-prefix/src/sox_src-populate-stamp/sox_src-populate-build.rule"
+		},
+		{
+			"file" : "/build_src/audio/build/temp.linux-x86_64-cpython-311/_deps/sox_src-subbuild/sox_src-populate-prefix/src/sox_src-populate-stamp/sox_src-populate-configure.rule"
+		},
+		{
+			"file" : "/build_src/audio/build/temp.linux-x86_64-cpython-311/_deps/sox_src-subbuild/sox_src-populate-prefix/src/sox_src-populate-stamp/sox_src-populate-download.rule"
+		},
+		{
+			"file" : "/build_src/audio/build/temp.linux-x86_64-cpython-311/_deps/sox_src-subbuild/sox_src-populate-prefix/src/sox_src-populate-stamp/sox_src-populate-install.rule"
+		},
+		{
+			"file" : "/build_src/audio/build/temp.linux-x86_64-cpython-311/_deps/sox_src-subbuild/sox_src-populate-prefix/src/sox_src-populate-stamp/sox_src-populate-mkdir.rule"
+		},
+		{
+			"file" : "/build_src/audio/build/temp.linux-x86_64-cpython-311/_deps/sox_src-subbuild/sox_src-populate-prefix/src/sox_src-populate-stamp/sox_src-populate-patch.rule"
+		},
+		{
+			"file" : "/build_src/audio/build/temp.linux-x86_64-cpython-311/_deps/sox_src-subbuild/sox_src-populate-prefix/src/sox_src-populate-stamp/sox_src-populate-test.rule"
+		},
+		{
+			"file" : "/build_src/audio/build/temp.linux-x86_64-cpython-311/_deps/sox_src-subbuild/sox_src-populate-prefix/src/sox_src-populate-stamp/sox_src-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"sox_src-populate"
+		],
+		"name" : "sox_src-populate"
+	}
+}

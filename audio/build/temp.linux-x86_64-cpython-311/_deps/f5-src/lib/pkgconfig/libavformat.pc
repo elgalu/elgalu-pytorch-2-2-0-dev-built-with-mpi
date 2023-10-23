@@ -1,0 +1,14 @@
+prefix=/work/third_party/ffmpeg
+exec_prefix=${prefix}
+libdir=/work/third_party/ffmpeg/lib
+includedir=/work/third_party/ffmpeg/include
+
+Name: libavformat
+Description: FFmpeg container format library
+Version: 59.16.100
+Requires: 
+Requires.private: libavcodec >= 59.18.100, libavutil >= 57.17.100
+Conflicts:
+Libs: -L${libdir} -Wl,-rpath,/work/third_party/ffmpeg/lib -lavformat 
+Libs.private: -lm
+Cflags: -I${includedir}

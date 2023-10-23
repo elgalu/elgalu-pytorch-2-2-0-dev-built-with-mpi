@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/build_src/audio/build/temp.linux-x86_64-cpython-311/_deps/f5-subbuild/CMakeFiles/f5-populate"
+		},
+		{
+			"file" : "/build_src/audio/build/temp.linux-x86_64-cpython-311/_deps/f5-subbuild/CMakeFiles/f5-populate.rule"
+		},
+		{
+			"file" : "/build_src/audio/build/temp.linux-x86_64-cpython-311/_deps/f5-subbuild/CMakeFiles/f5-populate-complete.rule"
+		},
+		{
+			"file" : "/build_src/audio/build/temp.linux-x86_64-cpython-311/_deps/f5-subbuild/f5-populate-prefix/src/f5-populate-stamp/f5-populate-build.rule"
+		},
+		{
+			"file" : "/build_src/audio/build/temp.linux-x86_64-cpython-311/_deps/f5-subbuild/f5-populate-prefix/src/f5-populate-stamp/f5-populate-configure.rule"
+		},
+		{
+			"file" : "/build_src/audio/build/temp.linux-x86_64-cpython-311/_deps/f5-subbuild/f5-populate-prefix/src/f5-populate-stamp/f5-populate-download.rule"
+		},
+		{
+			"file" : "/build_src/audio/build/temp.linux-x86_64-cpython-311/_deps/f5-subbuild/f5-populate-prefix/src/f5-populate-stamp/f5-populate-install.rule"
+		},
+		{
+			"file" : "/build_src/audio/build/temp.linux-x86_64-cpython-311/_deps/f5-subbuild/f5-populate-prefix/src/f5-populate-stamp/f5-populate-mkdir.rule"
+		},
+		{
+			"file" : "/build_src/audio/build/temp.linux-x86_64-cpython-311/_deps/f5-subbuild/f5-populate-prefix/src/f5-populate-stamp/f5-populate-patch.rule"
+		},
+		{
+			"file" : "/build_src/audio/build/temp.linux-x86_64-cpython-311/_deps/f5-subbuild/f5-populate-prefix/src/f5-populate-stamp/f5-populate-test.rule"
+		},
+		{
+			"file" : "/build_src/audio/build/temp.linux-x86_64-cpython-311/_deps/f5-subbuild/f5-populate-prefix/src/f5-populate-stamp/f5-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"f5-populate"
+		],
+		"name" : "f5-populate"
+	}
+}
