@@ -1,0 +1,1086 @@
+/build_src/vision/setup.py:10: DeprecationWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html
+  from pkg_resources import DistributionNotFound, get_distribution, parse_version
+Building wheel torchvision-0.17.0a0+3fb88b3
+Compiling extensions with following flags:
+  FORCE_CUDA: False
+  FORCE_MPS: False
+  DEBUG: False
+  TORCHVISION_USE_PNG: True
+  TORCHVISION_USE_JPEG: True
+  TORCHVISION_USE_NVJPEG: True
+  TORCHVISION_USE_FFMPEG: True
+  TORCHVISION_USE_VIDEO_CODEC: True
+  NVCC_FLAGS:
+Compiling with debug mode OFF
+Found PNG library
+Building torchvision with PNG image support
+  libpng version: 1.6.39
+  libpng include path: /opt/conda/include/libpng16
+Running build on conda-build: False
+Running build on conda: True
+Building torchvision with JPEG image support
+  libjpeg include path: /opt/conda/include
+  libjpeg lib path: /opt/conda/lib
+Building torchvision with NVJPEG image support
+Building torchvision with ffmpeg support
+  ffmpeg version: b'ffmpeg version 4.3 Copyright (c) 2000-2020 the FFmpeg developers\nbuilt with gcc 7.3.0 (crosstool-NG 1.23.0.449-a04d0)\nconfiguration: --prefix=/opt/conda/conda-bld/ffmpeg_1597178665428/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh --cc=/opt/conda/conda-bld/ffmpeg_1597178665428/_build_env/bin/x86_64-conda_cos6-linux-gnu-cc --disable-doc --disable-openssl --enable-avresample --enable-gnutls --enable-hardcoded-tables --enable-libfreetype --enable-libopenh264 --enable-pic --enable-pthreads --enable-shared --disable-static --enable-version3 --enable-zlib --enable-libmp3lame\nlibavutil      56. 51.100 / 56. 51.100\nlibavcodec     58. 91.100 / 58. 91.100\nlibavformat    58. 45.100 / 58. 45.100\nlibavdevice    58. 10.100 / 58. 10.100\nlibavfilter     7. 85.100 /  7. 85.100\nlibavresample   4.  0.  0 /  4.  0.  0\nlibswscale      5.  7.100 /  5.  7.100\nlibswresample   3.  7.100 /  3.  7.100\n'
+  ffmpeg include path: ['/opt/conda/include']
+  ffmpeg library_dir: ['/opt/conda/lib']
+Building torchvision without video codec support
+running develop
+/opt/conda/lib/python3.11/site-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.
+!!
+
+        ********************************************************************************
+        Please avoid running ``setup.py`` and ``easy_install``.
+        Instead, use pypa/build, pypa/installer or other
+        standards-based tools.
+
+        See https://github.com/pypa/setuptools/issues/917 for details.
+        ********************************************************************************
+
+!!
+  easy_install.initialize_options(self)
+/opt/conda/lib/python3.11/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+!!
+
+        ********************************************************************************
+        Please avoid running ``setup.py`` directly.
+        Instead, use pypa/build, pypa/installer or other
+        standards-based tools.
+
+        See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+        ********************************************************************************
+
+!!
+  self.initialize_options()
+running egg_info
+writing torchvision.egg-info/PKG-INFO
+writing dependency_links to torchvision.egg-info/dependency_links.txt
+writing requirements to torchvision.egg-info/requires.txt
+writing top-level names to torchvision.egg-info/top_level.txt
+reading manifest file 'torchvision.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+warning: no previously-included files matching '__pycache__' found under directory '*'
+warning: no previously-included files matching '*.py[co]' found under directory '*'
+adding license file 'LICENSE'
+writing manifest file 'torchvision.egg-info/SOURCES.txt'
+running build_ext
+building 'torchvision._C' extension
+Emitting ninja build file /build_src/vision/build/temp.linux-x86_64-cpython-311/build.ninja...
+Compiling objects...
+Allowing ninja to set a default number of workers... (overridable by setting the environment variable MAX_JOBS=N)
+ninja: no work to do.
+/opt/conda/bin/x86_64-conda-linux-gnu-c++ -shared -Wl,--allow-shlib-undefined -Wl,-rpath,/opt/conda/lib -Wl,-rpath-link,/opt/conda/lib -L/opt/conda/lib -Wl,--allow-shlib-undefined -Wl,-rpath,/opt/conda/lib -Wl,-rpath-link,/opt/conda/lib -L/opt/conda/lib -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/opt/conda/lib -Wl,-rpath-link,/opt/conda/lib -L/opt/conda/lib -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /opt/conda/include -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /opt/conda/include /build_src/vision/build/temp.linux-x86_64-cpython-311/build_src/vision/torchvision/csrc/ops/autocast/deform_conv2d_kernel.o /build_src/vision/build/temp.linux-x86_64-cpython-311/build_src/vision/torchvision/csrc/ops/autocast/nms_kernel.o /build_src/vision/build/temp.linux-x86_64-cpython-311/build_src/vision/torchvision/csrc/ops/autocast/ps_roi_align_kernel.o /build_src/vision/build/temp.linux-x86_64-cpython-311/build_src/vision/torchvision/csrc/ops/autocast/ps_roi_pool_kernel.o /build_src/vision/build/temp.linux-x86_64-cpython-311/build_src/vision/torchvision/csrc/ops/autocast/roi_align_kernel.o /build_src/vision/build/temp.linux-x86_64-cpython-311/build_src/vision/torchvision/csrc/ops/autocast/roi_pool_kernel.o /build_src/vision/build/temp.linux-x86_64-cpython-311/build_src/vision/torchvision/csrc/ops/autograd/deform_conv2d_kernel.o /build_src/vision/build/temp.linux-x86_64-cpython-311/build_src/vision/torchvision/csrc/ops/autograd/ps_roi_align_kernel.o /build_src/vision/build/temp.linux-x86_64-cpython-311/build_src/vision/torchvision/csrc/ops/autograd/ps_roi_pool_kernel.o /build_src/vision/build/temp.linux-x86_64-cpython-311/build_src/vision/torchvision/csrc/ops/autograd/roi_align_kernel.o /build_src/vision/build/temp.linux-x86_64-cpython-311/build_src/vision/torchvision/csrc/ops/autograd/roi_pool_kernel.o /build_src/vision/build/temp.linux-x86_64-cpython-311/build_src/vision/torchvision/csrc/ops/cpu/deform_conv2d_kernel.o /build_src/vision/build/temp.linux-x86_64-cpython-311/build_src/vision/torchvision/csrc/ops/cpu/nms_kernel.o /build_src/vision/build/temp.linux-x86_64-cpython-311/build_src/vision/torchvision/csrc/ops/cpu/ps_roi_align_kernel.o /build_src/vision/build/temp.linux-x86_64-cpython-311/build_src/vision/torchvision/csrc/ops/cpu/ps_roi_pool_kernel.o /build_src/vision/build/temp.linux-x86_64-cpython-311/build_src/vision/torchvision/csrc/ops/cpu/roi_align_kernel.o /build_src/vision/build/temp.linux-x86_64-cpython-311/build_src/vision/torchvision/csrc/ops/cpu/roi_pool_kernel.o /build_src/vision/build/temp.linux-x86_64-cpython-311/build_src/vision/torchvision/csrc/ops/cuda/deform_conv2d_kernel.o /build_src/vision/build/temp.linux-x86_64-cpython-311/build_src/vision/torchvision/csrc/ops/cuda/nms_kernel.o /build_src/vision/build/temp.linux-x86_64-cpython-311/build_src/vision/torchvision/csrc/ops/cuda/ps_roi_align_kernel.o /build_src/vision/build/temp.linux-x86_64-cpython-311/build_src/vision/torchvision/csrc/ops/cuda/ps_roi_pool_kernel.o /build_src/vision/build/temp.linux-x86_64-cpython-311/build_src/vision/torchvision/csrc/ops/cuda/roi_align_kernel.o /build_src/vision/build/temp.linux-x86_64-cpython-311/build_src/vision/torchvision/csrc/ops/cuda/roi_pool_kernel.o /build_src/vision/build/temp.linux-x86_64-cpython-311/build_src/vision/torchvision/csrc/ops/deform_conv2d.o /build_src/vision/build/temp.linux-x86_64-cpython-311/build_src/vision/torchvision/csrc/ops/nms.o /build_src/vision/build/temp.linux-x86_64-cpython-311/build_src/vision/torchvision/csrc/ops/ps_roi_align.o /build_src/vision/build/temp.linux-x86_64-cpython-311/build_src/vision/torchvision/csrc/ops/ps_roi_pool.o /build_src/vision/build/temp.linux-x86_64-cpython-311/build_src/vision/torchvision/csrc/ops/quantized/cpu/qnms_kernel.o /build_src/vision/build/temp.linux-x86_64-cpython-311/build_src/vision/torchvision/csrc/ops/quantized/cpu/qroi_align_kernel.o /build_src/vision/build/temp.linux-x86_64-cpython-311/build_src/vision/torchvision/csrc/ops/roi_align.o /build_src/vision/build/temp.linux-x86_64-cpython-311/build_src/vision/torchvision/csrc/ops/roi_pool.o /build_src/vision/build/temp.linux-x86_64-cpython-311/build_src/vision/torchvision/csrc/vision.o -L/opt/conda/lib/python3.11/site-packages/torch/lib -L/opt/conda/lib -lc10 -ltorch -ltorch_cpu -ltorch_python -lcudart -lc10_cuda -ltorch_cuda -o build/lib.linux-x86_64-cpython-311/torchvision/_C.so
+building 'torchvision.image' extension
+Emitting ninja build file /build_src/vision/build/temp.linux-x86_64-cpython-311/build.ninja...
+Compiling objects...
+Allowing ninja to set a default number of workers... (overridable by setting the environment variable MAX_JOBS=N)
+ninja: no work to do.
+/opt/conda/bin/x86_64-conda-linux-gnu-c++ -shared -Wl,--allow-shlib-undefined -Wl,-rpath,/opt/conda/lib -Wl,-rpath-link,/opt/conda/lib -L/opt/conda/lib -Wl,--allow-shlib-undefined -Wl,-rpath,/opt/conda/lib -Wl,-rpath-link,/opt/conda/lib -L/opt/conda/lib -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/opt/conda/lib -Wl,-rpath-link,/opt/conda/lib -L/opt/conda/lib -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /opt/conda/include -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /opt/conda/include /build_src/vision/build/temp.linux-x86_64-cpython-311/build_src/vision/torchvision/csrc/io/image/cpu/common_jpeg.o /build_src/vision/build/temp.linux-x86_64-cpython-311/build_src/vision/torchvision/csrc/io/image/cpu/decode_image.o /build_src/vision/build/temp.linux-x86_64-cpython-311/build_src/vision/torchvision/csrc/io/image/cpu/decode_jpeg.o /build_src/vision/build/temp.linux-x86_64-cpython-311/build_src/vision/torchvision/csrc/io/image/cpu/decode_png.o /build_src/vision/build/temp.linux-x86_64-cpython-311/build_src/vision/torchvision/csrc/io/image/cpu/encode_jpeg.o /build_src/vision/build/temp.linux-x86_64-cpython-311/build_src/vision/torchvision/csrc/io/image/cpu/encode_png.o /build_src/vision/build/temp.linux-x86_64-cpython-311/build_src/vision/torchvision/csrc/io/image/cpu/read_write_file.o /build_src/vision/build/temp.linux-x86_64-cpython-311/build_src/vision/torchvision/csrc/io/image/cuda/decode_jpeg_cuda.o /build_src/vision/build/temp.linux-x86_64-cpython-311/build_src/vision/torchvision/csrc/io/image/image.o -L/opt/conda/lib -L/opt/conda/lib -L/opt/conda/lib/python3.11/site-packages/torch/lib -L/opt/conda/lib -lpng -ljpeg -lnvjpeg -lc10 -ltorch -ltorch_cpu -ltorch_python -lcudart -lc10_cuda -ltorch_cuda -o build/lib.linux-x86_64-cpython-311/torchvision/image.so
+building 'torchvision.video_reader' extension
+Emitting ninja build file /build_src/vision/build/temp.linux-x86_64-cpython-311/build.ninja...
+Compiling objects...
+Allowing ninja to set a default number of workers... (overridable by setting the environment variable MAX_JOBS=N)
+[1/1] /opt/conda/bin/x86_64-conda-linux-gnu-c++ -MMD -MF /build_src/vision/build/temp.linux-x86_64-cpython-311/build_src/vision/torchvision/csrc/io/decoder/stream.o.d -DNDEBUG -fwrapv -O2 -Wall -fPIC -O2 -isystem /opt/conda/include -fPIC -O2 -isystem /opt/conda/include -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /opt/conda/include -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /opt/conda/include -fPIC -I/build_src/vision/torchvision/csrc/io/decoder -I/build_src/vision/torchvision/csrc/io/video_reader -I/build_src/vision/torchvision/csrc/io/video -I/build_src/vision/torchvision/csrc -I/opt/conda/include -I/build_src/vision/torchvision/csrc -I/opt/conda/lib/python3.11/site-packages/torch/include -I/opt/conda/lib/python3.11/site-packages/torch/include/torch/csrc/api/include -I/opt/conda/lib/python3.11/site-packages/torch/include/TH -I/opt/conda/lib/python3.11/site-packages/torch/include/THC -I/opt/conda/include -I/opt/conda/lib/python3.11/site-packages/torch/include -I/opt/conda/lib/python3.11/site-packages/torch/include/torch/csrc/api/include -I/opt/conda/lib/python3.11/site-packages/torch/include/TH -I/opt/conda/lib/python3.11/site-packages/torch/include/THC -I/opt/conda/include/python3.11 -c -c /build_src/vision/torchvision/csrc/io/decoder/stream.cpp -o /build_src/vision/build/temp.linux-x86_64-cpython-311/build_src/vision/torchvision/csrc/io/decoder/stream.o -std=c++17 -DTORCH_API_INCLUDE_EXTENSION_H '-DPYBIND11_COMPILER_TYPE="_gcc"' '-DPYBIND11_STDLIB="_libstdcpp"' '-DPYBIND11_BUILD_ABI="_cxxabi1016"' -DTORCH_EXTENSION_NAME=video_reader -D_GLIBCXX_USE_CXX11_ABI=1
+/opt/conda/bin/x86_64-conda-linux-gnu-c++ -shared -Wl,--allow-shlib-undefined -Wl,-rpath,/opt/conda/lib -Wl,-rpath-link,/opt/conda/lib -L/opt/conda/lib -Wl,--allow-shlib-undefined -Wl,-rpath,/opt/conda/lib -Wl,-rpath-link,/opt/conda/lib -L/opt/conda/lib -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/opt/conda/lib -Wl,-rpath-link,/opt/conda/lib -L/opt/conda/lib -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /opt/conda/include -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /opt/conda/include /build_src/vision/build/temp.linux-x86_64-cpython-311/build_src/vision/torchvision/csrc/io/decoder/audio_sampler.o /build_src/vision/build/temp.linux-x86_64-cpython-311/build_src/vision/torchvision/csrc/io/decoder/audio_stream.o /build_src/vision/build/temp.linux-x86_64-cpython-311/build_src/vision/torchvision/csrc/io/decoder/cc_stream.o /build_src/vision/build/temp.linux-x86_64-cpython-311/build_src/vision/torchvision/csrc/io/decoder/decoder.o /build_src/vision/build/temp.linux-x86_64-cpython-311/build_src/vision/torchvision/csrc/io/decoder/memory_buffer.o /build_src/vision/build/temp.linux-x86_64-cpython-311/build_src/vision/torchvision/csrc/io/decoder/seekable_buffer.o /build_src/vision/build/temp.linux-x86_64-cpython-311/build_src/vision/torchvision/csrc/io/decoder/stream.o /build_src/vision/build/temp.linux-x86_64-cpython-311/build_src/vision/torchvision/csrc/io/decoder/subtitle_sampler.o /build_src/vision/build/temp.linux-x86_64-cpython-311/build_src/vision/torchvision/csrc/io/decoder/subtitle_stream.o /build_src/vision/build/temp.linux-x86_64-cpython-311/build_src/vision/torchvision/csrc/io/decoder/sync_decoder.o /build_src/vision/build/temp.linux-x86_64-cpython-311/build_src/vision/torchvision/csrc/io/decoder/time_keeper.o /build_src/vision/build/temp.linux-x86_64-cpython-311/build_src/vision/torchvision/csrc/io/decoder/util.o /build_src/vision/build/temp.linux-x86_64-cpython-311/build_src/vision/torchvision/csrc/io/decoder/video_sampler.o /build_src/vision/build/temp.linux-x86_64-cpython-311/build_src/vision/torchvision/csrc/io/decoder/video_stream.o /build_src/vision/build/temp.linux-x86_64-cpython-311/build_src/vision/torchvision/csrc/io/video/video.o /build_src/vision/build/temp.linux-x86_64-cpython-311/build_src/vision/torchvision/csrc/io/video_reader/video_reader.o -L/opt/conda/lib -L/opt/conda/lib/python3.11/site-packages/torch/lib -lavcodec -lavformat -lavutil -lswresample -lswscale -lc10 -ltorch -ltorch_cpu -ltorch_python -o build/lib.linux-x86_64-cpython-311/torchvision/video_reader.so -std=c++17
+copying build/lib.linux-x86_64-cpython-311/torchvision/_C.so -> torchvision
+copying build/lib.linux-x86_64-cpython-311/torchvision/image.so -> torchvision
+copying build/lib.linux-x86_64-cpython-311/torchvision/video_reader.so -> torchvision
+Creating /opt/conda/lib/python3.11/site-packages/torchvision.egg-link (link to .)
+Adding torchvision 0.17.0a0+3fb88b3 to easy-install.pth file
+
+Installed /build_src/vision
+Processing dependencies for torchvision==0.17.0a0+3fb88b3
+Searching for Pillow==10.0.0
+Best match: Pillow 10.0.0
+Adding Pillow 10.0.0 to easy-install.pth file
+
+Using /opt/conda/lib/python3.11/site-packages
+Searching for torch==2.2.0a0+gitfb88760
+Best match: torch 2.2.0a0+gitfb88760
+Removing torch 2.2.0a0+gitfb88760 from easy-install.pth file
+Adding torch 2.2.0a0+gitfb88760 to easy-install.pth file
+detected new path '/build_src/pytorch'
+Installing convert-caffe2-to-onnx script to /opt/conda/bin
+Installing convert-onnx-to-caffe2 script to /opt/conda/bin
+Installing torchrun script to /opt/conda/bin
+
+Using /opt/conda/lib/python3.11/site-packages
+Searching for requests==2.31.0
+Best match: requests 2.31.0
+Adding requests 2.31.0 to easy-install.pth file
+
+Using /opt/conda/lib/python3.11/site-packages
+Searching for numpy==1.25.2
+Best match: numpy 1.25.2
+Adding numpy 1.25.2 to easy-install.pth file
+Installing f2py script to /opt/conda/bin
+Installing f2py3 script to /opt/conda/bin
+Installing f2py3.11 script to /opt/conda/bin
+
+Using /opt/conda/lib/python3.11/site-packages
+Searching for fsspec==2023.9.2
+Best match: fsspec 2023.9.2
+Adding fsspec 2023.9.2 to easy-install.pth file
+
+Using /opt/conda/lib/python3.11/site-packages
+Searching for Jinja2==3.1.2
+Best match: Jinja2 3.1.2
+Adding Jinja2 3.1.2 to easy-install.pth file
+
+Using /opt/conda/lib/python3.11/site-packages
+Searching for networkx==3.1
+Best match: networkx 3.1
+Adding networkx 3.1 to easy-install.pth file
+
+Using /opt/conda/lib/python3.11/site-packages
+Searching for sympy==1.12
+Best match: sympy 1.12
+Adding sympy 1.12 to easy-install.pth file
+Installing isympy script to /opt/conda/bin
+
+Using /opt/conda/lib/python3.11/site-packages
+Searching for typing-extensions==4.8.0
+Best match: typing-extensions 4.8.0
+Adding typing-extensions 4.8.0 to easy-install.pth file
+
+Using /opt/conda/lib/python3.11/site-packages
+Searching for filelock==3.12.4
+Best match: filelock 3.12.4
+Adding filelock 3.12.4 to easy-install.pth file
+
+Using /opt/conda/lib/python3.11/site-packages
+Searching for certifi==2023.7.22
+Best match: certifi 2023.7.22
+Adding certifi 2023.7.22 to easy-install.pth file
+
+Using /opt/conda/lib/python3.11/site-packages
+Searching for urllib3==1.26.16
+Best match: urllib3 1.26.16
+Adding urllib3 1.26.16 to easy-install.pth file
+
+Using /opt/conda/lib/python3.11/site-packages
+Searching for idna==3.4
+Best match: idna 3.4
+Adding idna 3.4 to easy-install.pth file
+
+Using /opt/conda/lib/python3.11/site-packages
+Searching for charset-normalizer==3.2.0
+Best match: charset-normalizer 3.2.0
+Adding charset-normalizer 3.2.0 to easy-install.pth file
+Installing normalizer script to /opt/conda/bin
+
+Using /opt/conda/lib/python3.11/site-packages
+Searching for MarkupSafe==2.0.1
+Best match: MarkupSafe 2.0.1
+Adding MarkupSafe 2.0.1 to easy-install.pth file
+
+Using /opt/conda/lib/python3.11/site-packages
+Searching for mpmath==1.3.0
+Best match: mpmath 1.3.0
+Adding mpmath 1.3.0 to easy-install.pth file
+
+Using /opt/conda/lib/python3.11/site-packages
+Finished processing dependencies for torchvision==0.17.0a0+3fb88b3
+
+/build_src/vision/setup.py:10: DeprecationWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html
+  from pkg_resources import DistributionNotFound, get_distribution, parse_version
+fatal: not a git repository (or any of the parent directories): .git
+Building wheel torchvision-0.17.0a0
+Compiling extensions with following flags:
+  FORCE_CUDA: False
+  FORCE_MPS: False
+  DEBUG: False
+  TORCHVISION_USE_PNG: True
+  TORCHVISION_USE_JPEG: True
+  TORCHVISION_USE_NVJPEG: True
+  TORCHVISION_USE_FFMPEG: True
+  TORCHVISION_USE_VIDEO_CODEC: True
+  NVCC_FLAGS:
+Compiling with debug mode OFF
+Found PNG library
+Building torchvision with PNG image support
+  libpng version: 1.6.39
+  libpng include path: /opt/conda/include/libpng16
+Running build on conda-build: False
+Running build on conda: True
+Building torchvision with JPEG image support
+  libjpeg include path: /opt/conda/include
+  libjpeg lib path: /opt/conda/lib
+Building torchvision with NVJPEG image support
+Building torchvision with ffmpeg support
+  ffmpeg version: b'ffmpeg version 4.3 Copyright (c) 2000-2020 the FFmpeg developers\nbuilt with gcc 7.3.0 (crosstool-NG 1.23.0.449-a04d0)\nconfiguration: --prefix=/opt/conda/conda-bld/ffmpeg_1597178665428/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh --cc=/opt/conda/conda-bld/ffmpeg_1597178665428/_build_env/bin/x86_64-conda_cos6-linux-gnu-cc --disable-doc --disable-openssl --enable-avresample --enable-gnutls --enable-hardcoded-tables --enable-libfreetype --enable-libopenh264 --enable-pic --enable-pthreads --enable-shared --disable-static --enable-version3 --enable-zlib --enable-libmp3lame\nlibavutil      56. 51.100 / 56. 51.100\nlibavcodec     58. 91.100 / 58. 91.100\nlibavformat    58. 45.100 / 58. 45.100\nlibavdevice    58. 10.100 / 58. 10.100\nlibavfilter     7. 85.100 /  7. 85.100\nlibavresample   4.  0.  0 /  4.  0.  0\nlibswscale      5.  7.100 /  5.  7.100\nlibswresample   3.  7.100 /  3.  7.100\n'
+  ffmpeg include path: ['/opt/conda/include']
+  ffmpeg library_dir: ['/opt/conda/lib']
+Building torchvision without video codec support
+running bdist_wheel
+running build
+running build_py
+copying torchvision/extension.py -> build/lib.linux-x86_64-cpython-311/torchvision
+copying torchvision/_utils.py -> build/lib.linux-x86_64-cpython-311/torchvision
+copying torchvision/__init__.py -> build/lib.linux-x86_64-cpython-311/torchvision
+copying torchvision/_internally_replaced_utils.py -> build/lib.linux-x86_64-cpython-311/torchvision
+copying torchvision/version.py -> build/lib.linux-x86_64-cpython-311/torchvision
+copying torchvision/_meta_registrations.py -> build/lib.linux-x86_64-cpython-311/torchvision
+copying torchvision/utils.py -> build/lib.linux-x86_64-cpython-311/torchvision
+creating build/lib.linux-x86_64-cpython-311/torchvision/io
+copying torchvision/io/__init__.py -> build/lib.linux-x86_64-cpython-311/torchvision/io
+copying torchvision/io/_load_gpu_decoder.py -> build/lib.linux-x86_64-cpython-311/torchvision/io
+copying torchvision/io/_video_opt.py -> build/lib.linux-x86_64-cpython-311/torchvision/io
+copying torchvision/io/image.py -> build/lib.linux-x86_64-cpython-311/torchvision/io
+copying torchvision/io/video_reader.py -> build/lib.linux-x86_64-cpython-311/torchvision/io
+copying torchvision/io/video.py -> build/lib.linux-x86_64-cpython-311/torchvision/io
+creating build/lib.linux-x86_64-cpython-311/torchvision/transforms
+copying torchvision/transforms/_functional_video.py -> build/lib.linux-x86_64-cpython-311/torchvision/transforms
+copying torchvision/transforms/functional_pil.py -> build/lib.linux-x86_64-cpython-311/torchvision/transforms
+copying torchvision/transforms/functional_tensor.py -> build/lib.linux-x86_64-cpython-311/torchvision/transforms
+copying torchvision/transforms/autoaugment.py -> build/lib.linux-x86_64-cpython-311/torchvision/transforms
+copying torchvision/transforms/transforms.py -> build/lib.linux-x86_64-cpython-311/torchvision/transforms
+copying torchvision/transforms/__init__.py -> build/lib.linux-x86_64-cpython-311/torchvision/transforms
+copying torchvision/transforms/_presets.py -> build/lib.linux-x86_64-cpython-311/torchvision/transforms
+copying torchvision/transforms/_functional_pil.py -> build/lib.linux-x86_64-cpython-311/torchvision/transforms
+copying torchvision/transforms/_transforms_video.py -> build/lib.linux-x86_64-cpython-311/torchvision/transforms
+copying torchvision/transforms/functional.py -> build/lib.linux-x86_64-cpython-311/torchvision/transforms
+copying torchvision/transforms/_functional_tensor.py -> build/lib.linux-x86_64-cpython-311/torchvision/transforms
+creating build/lib.linux-x86_64-cpython-311/torchvision/models
+copying torchvision/models/resnet.py -> build/lib.linux-x86_64-cpython-311/torchvision/models
+copying torchvision/models/shufflenetv2.py -> build/lib.linux-x86_64-cpython-311/torchvision/models
+copying torchvision/models/mnasnet.py -> build/lib.linux-x86_64-cpython-311/torchvision/models
+copying torchvision/models/maxvit.py -> build/lib.linux-x86_64-cpython-311/torchvision/models
+copying torchvision/models/mobilenet.py -> build/lib.linux-x86_64-cpython-311/torchvision/models
+copying torchvision/models/regnet.py -> build/lib.linux-x86_64-cpython-311/torchvision/models
+copying torchvision/models/densenet.py -> build/lib.linux-x86_64-cpython-311/torchvision/models
+copying torchvision/models/swin_transformer.py -> build/lib.linux-x86_64-cpython-311/torchvision/models
+copying torchvision/models/_utils.py -> build/lib.linux-x86_64-cpython-311/torchvision/models
+copying torchvision/models/__init__.py -> build/lib.linux-x86_64-cpython-311/torchvision/models
+copying torchvision/models/efficientnet.py -> build/lib.linux-x86_64-cpython-311/torchvision/models
+copying torchvision/models/vision_transformer.py -> build/lib.linux-x86_64-cpython-311/torchvision/models
+copying torchvision/models/feature_extraction.py -> build/lib.linux-x86_64-cpython-311/torchvision/models
+copying torchvision/models/_api.py -> build/lib.linux-x86_64-cpython-311/torchvision/models
+copying torchvision/models/googlenet.py -> build/lib.linux-x86_64-cpython-311/torchvision/models
+copying torchvision/models/mobilenetv3.py -> build/lib.linux-x86_64-cpython-311/torchvision/models
+copying torchvision/models/vgg.py -> build/lib.linux-x86_64-cpython-311/torchvision/models
+copying torchvision/models/inception.py -> build/lib.linux-x86_64-cpython-311/torchvision/models
+copying torchvision/models/alexnet.py -> build/lib.linux-x86_64-cpython-311/torchvision/models
+copying torchvision/models/mobilenetv2.py -> build/lib.linux-x86_64-cpython-311/torchvision/models
+copying torchvision/models/convnext.py -> build/lib.linux-x86_64-cpython-311/torchvision/models
+copying torchvision/models/_meta.py -> build/lib.linux-x86_64-cpython-311/torchvision/models
+copying torchvision/models/squeezenet.py -> build/lib.linux-x86_64-cpython-311/torchvision/models
+creating build/lib.linux-x86_64-cpython-311/torchvision/tv_tensors
+copying torchvision/tv_tensors/_image.py -> build/lib.linux-x86_64-cpython-311/torchvision/tv_tensors
+copying torchvision/tv_tensors/_tv_tensor.py -> build/lib.linux-x86_64-cpython-311/torchvision/tv_tensors
+copying torchvision/tv_tensors/_mask.py -> build/lib.linux-x86_64-cpython-311/torchvision/tv_tensors
+copying torchvision/tv_tensors/__init__.py -> build/lib.linux-x86_64-cpython-311/torchvision/tv_tensors
+copying torchvision/tv_tensors/_dataset_wrapper.py -> build/lib.linux-x86_64-cpython-311/torchvision/tv_tensors
+copying torchvision/tv_tensors/_video.py -> build/lib.linux-x86_64-cpython-311/torchvision/tv_tensors
+copying torchvision/tv_tensors/_bounding_boxes.py -> build/lib.linux-x86_64-cpython-311/torchvision/tv_tensors
+copying torchvision/tv_tensors/_torch_function_helpers.py -> build/lib.linux-x86_64-cpython-311/torchvision/tv_tensors
+creating build/lib.linux-x86_64-cpython-311/torchvision/datasets
+copying torchvision/datasets/clevr.py -> build/lib.linux-x86_64-cpython-311/torchvision/datasets
+copying torchvision/datasets/kitti.py -> build/lib.linux-x86_64-cpython-311/torchvision/datasets
+copying torchvision/datasets/semeion.py -> build/lib.linux-x86_64-cpython-311/torchvision/datasets
+copying torchvision/datasets/svhn.py -> build/lib.linux-x86_64-cpython-311/torchvision/datasets
+copying torchvision/datasets/rendered_sst2.py -> build/lib.linux-x86_64-cpython-311/torchvision/datasets
+copying torchvision/datasets/phototour.py -> build/lib.linux-x86_64-cpython-311/torchvision/datasets
+copying torchvision/datasets/moving_mnist.py -> build/lib.linux-x86_64-cpython-311/torchvision/datasets
+copying torchvision/datasets/video_utils.py -> build/lib.linux-x86_64-cpython-311/torchvision/datasets
+copying torchvision/datasets/inaturalist.py -> build/lib.linux-x86_64-cpython-311/torchvision/datasets
+copying torchvision/datasets/caltech.py -> build/lib.linux-x86_64-cpython-311/torchvision/datasets
+copying torchvision/datasets/widerface.py -> build/lib.linux-x86_64-cpython-311/torchvision/datasets
+copying torchvision/datasets/fer2013.py -> build/lib.linux-x86_64-cpython-311/torchvision/datasets
+copying torchvision/datasets/omniglot.py -> build/lib.linux-x86_64-cpython-311/torchvision/datasets
+copying torchvision/datasets/cityscapes.py -> build/lib.linux-x86_64-cpython-311/torchvision/datasets
+copying torchvision/datasets/lfw.py -> build/lib.linux-x86_64-cpython-311/torchvision/datasets
+copying torchvision/datasets/dtd.py -> build/lib.linux-x86_64-cpython-311/torchvision/datasets
+copying torchvision/datasets/kinetics.py -> build/lib.linux-x86_64-cpython-311/torchvision/datasets
+copying torchvision/datasets/pcam.py -> build/lib.linux-x86_64-cpython-311/torchvision/datasets
+copying torchvision/datasets/voc.py -> build/lib.linux-x86_64-cpython-311/torchvision/datasets
+copying torchvision/datasets/mnist.py -> build/lib.linux-x86_64-cpython-311/torchvision/datasets
+copying torchvision/datasets/lsun.py -> build/lib.linux-x86_64-cpython-311/torchvision/datasets
+copying torchvision/datasets/coco.py -> build/lib.linux-x86_64-cpython-311/torchvision/datasets
+copying torchvision/datasets/oxford_iiit_pet.py -> build/lib.linux-x86_64-cpython-311/torchvision/datasets
+copying torchvision/datasets/usps.py -> build/lib.linux-x86_64-cpython-311/torchvision/datasets
+copying torchvision/datasets/celeba.py -> build/lib.linux-x86_64-cpython-311/torchvision/datasets
+copying torchvision/datasets/imagenet.py -> build/lib.linux-x86_64-cpython-311/torchvision/datasets
+copying torchvision/datasets/flowers102.py -> build/lib.linux-x86_64-cpython-311/torchvision/datasets
+copying torchvision/datasets/__init__.py -> build/lib.linux-x86_64-cpython-311/torchvision/datasets
+copying torchvision/datasets/food101.py -> build/lib.linux-x86_64-cpython-311/torchvision/datasets
+copying torchvision/datasets/vision.py -> build/lib.linux-x86_64-cpython-311/torchvision/datasets
+copying torchvision/datasets/_optical_flow.py -> build/lib.linux-x86_64-cpython-311/torchvision/datasets
+copying torchvision/datasets/_stereo_matching.py -> build/lib.linux-x86_64-cpython-311/torchvision/datasets
+copying torchvision/datasets/hmdb51.py -> build/lib.linux-x86_64-cpython-311/torchvision/datasets
+copying torchvision/datasets/fgvc_aircraft.py -> build/lib.linux-x86_64-cpython-311/torchvision/datasets
+copying torchvision/datasets/fakedata.py -> build/lib.linux-x86_64-cpython-311/torchvision/datasets
+copying torchvision/datasets/ucf101.py -> build/lib.linux-x86_64-cpython-311/torchvision/datasets
+copying torchvision/datasets/folder.py -> build/lib.linux-x86_64-cpython-311/torchvision/datasets
+copying torchvision/datasets/places365.py -> build/lib.linux-x86_64-cpython-311/torchvision/datasets
+copying torchvision/datasets/gtsrb.py -> build/lib.linux-x86_64-cpython-311/torchvision/datasets
+copying torchvision/datasets/cifar.py -> build/lib.linux-x86_64-cpython-311/torchvision/datasets
+copying torchvision/datasets/stanford_cars.py -> build/lib.linux-x86_64-cpython-311/torchvision/datasets
+copying torchvision/datasets/stl10.py -> build/lib.linux-x86_64-cpython-311/torchvision/datasets
+copying torchvision/datasets/country211.py -> build/lib.linux-x86_64-cpython-311/torchvision/datasets
+copying torchvision/datasets/sun397.py -> build/lib.linux-x86_64-cpython-311/torchvision/datasets
+copying torchvision/datasets/sbu.py -> build/lib.linux-x86_64-cpython-311/torchvision/datasets
+copying torchvision/datasets/utils.py -> build/lib.linux-x86_64-cpython-311/torchvision/datasets
+copying torchvision/datasets/flickr.py -> build/lib.linux-x86_64-cpython-311/torchvision/datasets
+copying torchvision/datasets/eurosat.py -> build/lib.linux-x86_64-cpython-311/torchvision/datasets
+copying torchvision/datasets/sbd.py -> build/lib.linux-x86_64-cpython-311/torchvision/datasets
+creating build/lib.linux-x86_64-cpython-311/torchvision/prototype
+copying torchvision/prototype/__init__.py -> build/lib.linux-x86_64-cpython-311/torchvision/prototype
+creating build/lib.linux-x86_64-cpython-311/torchvision/ops
+copying torchvision/ops/diou_loss.py -> build/lib.linux-x86_64-cpython-311/torchvision/ops
+copying torchvision/ops/roi_align.py -> build/lib.linux-x86_64-cpython-311/torchvision/ops
+copying torchvision/ops/ciou_loss.py -> build/lib.linux-x86_64-cpython-311/torchvision/ops
+copying torchvision/ops/giou_loss.py -> build/lib.linux-x86_64-cpython-311/torchvision/ops
+copying torchvision/ops/_register_onnx_ops.py -> build/lib.linux-x86_64-cpython-311/torchvision/ops
+copying torchvision/ops/drop_block.py -> build/lib.linux-x86_64-cpython-311/torchvision/ops
+copying torchvision/ops/_box_convert.py -> build/lib.linux-x86_64-cpython-311/torchvision/ops
+copying torchvision/ops/deform_conv.py -> build/lib.linux-x86_64-cpython-311/torchvision/ops
+copying torchvision/ops/_utils.py -> build/lib.linux-x86_64-cpython-311/torchvision/ops
+copying torchvision/ops/__init__.py -> build/lib.linux-x86_64-cpython-311/torchvision/ops
+copying torchvision/ops/feature_pyramid_network.py -> build/lib.linux-x86_64-cpython-311/torchvision/ops
+copying torchvision/ops/misc.py -> build/lib.linux-x86_64-cpython-311/torchvision/ops
+copying torchvision/ops/ps_roi_align.py -> build/lib.linux-x86_64-cpython-311/torchvision/ops
+copying torchvision/ops/poolers.py -> build/lib.linux-x86_64-cpython-311/torchvision/ops
+copying torchvision/ops/boxes.py -> build/lib.linux-x86_64-cpython-311/torchvision/ops
+copying torchvision/ops/ps_roi_pool.py -> build/lib.linux-x86_64-cpython-311/torchvision/ops
+copying torchvision/ops/stochastic_depth.py -> build/lib.linux-x86_64-cpython-311/torchvision/ops
+copying torchvision/ops/focal_loss.py -> build/lib.linux-x86_64-cpython-311/torchvision/ops
+copying torchvision/ops/roi_pool.py -> build/lib.linux-x86_64-cpython-311/torchvision/ops
+creating build/lib.linux-x86_64-cpython-311/torchvision/transforms/v2
+copying torchvision/transforms/v2/_auto_augment.py -> build/lib.linux-x86_64-cpython-311/torchvision/transforms/v2
+copying torchvision/transforms/v2/_utils.py -> build/lib.linux-x86_64-cpython-311/torchvision/transforms/v2
+copying torchvision/transforms/v2/__init__.py -> build/lib.linux-x86_64-cpython-311/torchvision/transforms/v2
+copying torchvision/transforms/v2/_temporal.py -> build/lib.linux-x86_64-cpython-311/torchvision/transforms/v2
+copying torchvision/transforms/v2/_color.py -> build/lib.linux-x86_64-cpython-311/torchvision/transforms/v2
+copying torchvision/transforms/v2/_augment.py -> build/lib.linux-x86_64-cpython-311/torchvision/transforms/v2
+copying torchvision/transforms/v2/_transform.py -> build/lib.linux-x86_64-cpython-311/torchvision/transforms/v2
+copying torchvision/transforms/v2/_misc.py -> build/lib.linux-x86_64-cpython-311/torchvision/transforms/v2
+copying torchvision/transforms/v2/_container.py -> build/lib.linux-x86_64-cpython-311/torchvision/transforms/v2
+copying torchvision/transforms/v2/_geometry.py -> build/lib.linux-x86_64-cpython-311/torchvision/transforms/v2
+copying torchvision/transforms/v2/_type_conversion.py -> build/lib.linux-x86_64-cpython-311/torchvision/transforms/v2
+copying torchvision/transforms/v2/_meta.py -> build/lib.linux-x86_64-cpython-311/torchvision/transforms/v2
+copying torchvision/transforms/v2/_deprecated.py -> build/lib.linux-x86_64-cpython-311/torchvision/transforms/v2
+creating build/lib.linux-x86_64-cpython-311/torchvision/transforms/v2/functional
+copying torchvision/transforms/v2/functional/_utils.py -> build/lib.linux-x86_64-cpython-311/torchvision/transforms/v2/functional
+copying torchvision/transforms/v2/functional/__init__.py -> build/lib.linux-x86_64-cpython-311/torchvision/transforms/v2/functional
+copying torchvision/transforms/v2/functional/_temporal.py -> build/lib.linux-x86_64-cpython-311/torchvision/transforms/v2/functional
+copying torchvision/transforms/v2/functional/_color.py -> build/lib.linux-x86_64-cpython-311/torchvision/transforms/v2/functional
+copying torchvision/transforms/v2/functional/_augment.py -> build/lib.linux-x86_64-cpython-311/torchvision/transforms/v2/functional
+copying torchvision/transforms/v2/functional/_misc.py -> build/lib.linux-x86_64-cpython-311/torchvision/transforms/v2/functional
+copying torchvision/transforms/v2/functional/_geometry.py -> build/lib.linux-x86_64-cpython-311/torchvision/transforms/v2/functional
+copying torchvision/transforms/v2/functional/_type_conversion.py -> build/lib.linux-x86_64-cpython-311/torchvision/transforms/v2/functional
+copying torchvision/transforms/v2/functional/_meta.py -> build/lib.linux-x86_64-cpython-311/torchvision/transforms/v2/functional
+copying torchvision/transforms/v2/functional/_deprecated.py -> build/lib.linux-x86_64-cpython-311/torchvision/transforms/v2/functional
+creating build/lib.linux-x86_64-cpython-311/torchvision/models/quantization
+copying torchvision/models/quantization/resnet.py -> build/lib.linux-x86_64-cpython-311/torchvision/models/quantization
+copying torchvision/models/quantization/shufflenetv2.py -> build/lib.linux-x86_64-cpython-311/torchvision/models/quantization
+copying torchvision/models/quantization/mobilenet.py -> build/lib.linux-x86_64-cpython-311/torchvision/models/quantization
+copying torchvision/models/quantization/__init__.py -> build/lib.linux-x86_64-cpython-311/torchvision/models/quantization
+copying torchvision/models/quantization/googlenet.py -> build/lib.linux-x86_64-cpython-311/torchvision/models/quantization
+copying torchvision/models/quantization/mobilenetv3.py -> build/lib.linux-x86_64-cpython-311/torchvision/models/quantization
+copying torchvision/models/quantization/inception.py -> build/lib.linux-x86_64-cpython-311/torchvision/models/quantization
+copying torchvision/models/quantization/mobilenetv2.py -> build/lib.linux-x86_64-cpython-311/torchvision/models/quantization
+copying torchvision/models/quantization/utils.py -> build/lib.linux-x86_64-cpython-311/torchvision/models/quantization
+creating build/lib.linux-x86_64-cpython-311/torchvision/models/video
+copying torchvision/models/video/resnet.py -> build/lib.linux-x86_64-cpython-311/torchvision/models/video
+copying torchvision/models/video/swin_transformer.py -> build/lib.linux-x86_64-cpython-311/torchvision/models/video
+copying torchvision/models/video/__init__.py -> build/lib.linux-x86_64-cpython-311/torchvision/models/video
+copying torchvision/models/video/s3d.py -> build/lib.linux-x86_64-cpython-311/torchvision/models/video
+copying torchvision/models/video/mvit.py -> build/lib.linux-x86_64-cpython-311/torchvision/models/video
+creating build/lib.linux-x86_64-cpython-311/torchvision/models/detection
+copying torchvision/models/detection/ssd.py -> build/lib.linux-x86_64-cpython-311/torchvision/models/detection
+copying torchvision/models/detection/keypoint_rcnn.py -> build/lib.linux-x86_64-cpython-311/torchvision/models/detection
+copying torchvision/models/detection/transform.py -> build/lib.linux-x86_64-cpython-311/torchvision/models/detection
+copying torchvision/models/detection/backbone_utils.py -> build/lib.linux-x86_64-cpython-311/torchvision/models/detection
+copying torchvision/models/detection/fcos.py -> build/lib.linux-x86_64-cpython-311/torchvision/models/detection
+copying torchvision/models/detection/faster_rcnn.py -> build/lib.linux-x86_64-cpython-311/torchvision/models/detection
+copying torchvision/models/detection/_utils.py -> build/lib.linux-x86_64-cpython-311/torchvision/models/detection
+copying torchvision/models/detection/__init__.py -> build/lib.linux-x86_64-cpython-311/torchvision/models/detection
+copying torchvision/models/detection/mask_rcnn.py -> build/lib.linux-x86_64-cpython-311/torchvision/models/detection
+copying torchvision/models/detection/roi_heads.py -> build/lib.linux-x86_64-cpython-311/torchvision/models/detection
+copying torchvision/models/detection/generalized_rcnn.py -> build/lib.linux-x86_64-cpython-311/torchvision/models/detection
+copying torchvision/models/detection/anchor_utils.py -> build/lib.linux-x86_64-cpython-311/torchvision/models/detection
+copying torchvision/models/detection/rpn.py -> build/lib.linux-x86_64-cpython-311/torchvision/models/detection
+copying torchvision/models/detection/ssdlite.py -> build/lib.linux-x86_64-cpython-311/torchvision/models/detection
+copying torchvision/models/detection/image_list.py -> build/lib.linux-x86_64-cpython-311/torchvision/models/detection
+copying torchvision/models/detection/retinanet.py -> build/lib.linux-x86_64-cpython-311/torchvision/models/detection
+creating build/lib.linux-x86_64-cpython-311/torchvision/models/optical_flow
+copying torchvision/models/optical_flow/_utils.py -> build/lib.linux-x86_64-cpython-311/torchvision/models/optical_flow
+copying torchvision/models/optical_flow/__init__.py -> build/lib.linux-x86_64-cpython-311/torchvision/models/optical_flow
+copying torchvision/models/optical_flow/raft.py -> build/lib.linux-x86_64-cpython-311/torchvision/models/optical_flow
+creating build/lib.linux-x86_64-cpython-311/torchvision/models/segmentation
+copying torchvision/models/segmentation/lraspp.py -> build/lib.linux-x86_64-cpython-311/torchvision/models/segmentation
+copying torchvision/models/segmentation/_utils.py -> build/lib.linux-x86_64-cpython-311/torchvision/models/segmentation
+copying torchvision/models/segmentation/__init__.py -> build/lib.linux-x86_64-cpython-311/torchvision/models/segmentation
+copying torchvision/models/segmentation/fcn.py -> build/lib.linux-x86_64-cpython-311/torchvision/models/segmentation
+copying torchvision/models/segmentation/deeplabv3.py -> build/lib.linux-x86_64-cpython-311/torchvision/models/segmentation
+creating build/lib.linux-x86_64-cpython-311/torchvision/datasets/samplers
+copying torchvision/datasets/samplers/__init__.py -> build/lib.linux-x86_64-cpython-311/torchvision/datasets/samplers
+copying torchvision/datasets/samplers/clip_sampler.py -> build/lib.linux-x86_64-cpython-311/torchvision/datasets/samplers
+creating build/lib.linux-x86_64-cpython-311/torchvision/prototype/transforms
+copying torchvision/prototype/transforms/__init__.py -> build/lib.linux-x86_64-cpython-311/torchvision/prototype/transforms
+copying torchvision/prototype/transforms/_presets.py -> build/lib.linux-x86_64-cpython-311/torchvision/prototype/transforms
+copying torchvision/prototype/transforms/_augment.py -> build/lib.linux-x86_64-cpython-311/torchvision/prototype/transforms
+copying torchvision/prototype/transforms/_misc.py -> build/lib.linux-x86_64-cpython-311/torchvision/prototype/transforms
+copying torchvision/prototype/transforms/_geometry.py -> build/lib.linux-x86_64-cpython-311/torchvision/prototype/transforms
+copying torchvision/prototype/transforms/_type_conversion.py -> build/lib.linux-x86_64-cpython-311/torchvision/prototype/transforms
+creating build/lib.linux-x86_64-cpython-311/torchvision/prototype/models
+copying torchvision/prototype/models/__init__.py -> build/lib.linux-x86_64-cpython-311/torchvision/prototype/models
+creating build/lib.linux-x86_64-cpython-311/torchvision/prototype/tv_tensors
+copying torchvision/prototype/tv_tensors/__init__.py -> build/lib.linux-x86_64-cpython-311/torchvision/prototype/tv_tensors
+copying torchvision/prototype/tv_tensors/_label.py -> build/lib.linux-x86_64-cpython-311/torchvision/prototype/tv_tensors
+creating build/lib.linux-x86_64-cpython-311/torchvision/prototype/utils
+copying torchvision/prototype/utils/__init__.py -> build/lib.linux-x86_64-cpython-311/torchvision/prototype/utils
+copying torchvision/prototype/utils/_internal.py -> build/lib.linux-x86_64-cpython-311/torchvision/prototype/utils
+creating build/lib.linux-x86_64-cpython-311/torchvision/prototype/datasets
+copying torchvision/prototype/datasets/benchmark.py -> build/lib.linux-x86_64-cpython-311/torchvision/prototype/datasets
+copying torchvision/prototype/datasets/_folder.py -> build/lib.linux-x86_64-cpython-311/torchvision/prototype/datasets
+copying torchvision/prototype/datasets/generate_category_files.py -> build/lib.linux-x86_64-cpython-311/torchvision/prototype/datasets
+copying torchvision/prototype/datasets/__init__.py -> build/lib.linux-x86_64-cpython-311/torchvision/prototype/datasets
+copying torchvision/prototype/datasets/_api.py -> build/lib.linux-x86_64-cpython-311/torchvision/prototype/datasets
+copying torchvision/prototype/datasets/_home.py -> build/lib.linux-x86_64-cpython-311/torchvision/prototype/datasets
+creating build/lib.linux-x86_64-cpython-311/torchvision/prototype/models/depth
+copying torchvision/prototype/models/depth/__init__.py -> build/lib.linux-x86_64-cpython-311/torchvision/prototype/models/depth
+creating build/lib.linux-x86_64-cpython-311/torchvision/prototype/models/depth/stereo
+copying torchvision/prototype/models/depth/stereo/raft_stereo.py -> build/lib.linux-x86_64-cpython-311/torchvision/prototype/models/depth/stereo
+copying torchvision/prototype/models/depth/stereo/__init__.py -> build/lib.linux-x86_64-cpython-311/torchvision/prototype/models/depth/stereo
+copying torchvision/prototype/models/depth/stereo/crestereo.py -> build/lib.linux-x86_64-cpython-311/torchvision/prototype/models/depth/stereo
+creating build/lib.linux-x86_64-cpython-311/torchvision/prototype/datasets/utils
+copying torchvision/prototype/datasets/utils/_dataset.py -> build/lib.linux-x86_64-cpython-311/torchvision/prototype/datasets/utils
+copying torchvision/prototype/datasets/utils/_encoded.py -> build/lib.linux-x86_64-cpython-311/torchvision/prototype/datasets/utils
+copying torchvision/prototype/datasets/utils/__init__.py -> build/lib.linux-x86_64-cpython-311/torchvision/prototype/datasets/utils
+copying torchvision/prototype/datasets/utils/_resource.py -> build/lib.linux-x86_64-cpython-311/torchvision/prototype/datasets/utils
+copying torchvision/prototype/datasets/utils/_internal.py -> build/lib.linux-x86_64-cpython-311/torchvision/prototype/datasets/utils
+creating build/lib.linux-x86_64-cpython-311/torchvision/prototype/datasets/_builtin
+copying torchvision/prototype/datasets/_builtin/clevr.py -> build/lib.linux-x86_64-cpython-311/torchvision/prototype/datasets/_builtin
+copying torchvision/prototype/datasets/_builtin/semeion.py -> build/lib.linux-x86_64-cpython-311/torchvision/prototype/datasets/_builtin
+copying torchvision/prototype/datasets/_builtin/svhn.py -> build/lib.linux-x86_64-cpython-311/torchvision/prototype/datasets/_builtin
+copying torchvision/prototype/datasets/_builtin/caltech.py -> build/lib.linux-x86_64-cpython-311/torchvision/prototype/datasets/_builtin
+copying torchvision/prototype/datasets/_builtin/fer2013.py -> build/lib.linux-x86_64-cpython-311/torchvision/prototype/datasets/_builtin
+copying torchvision/prototype/datasets/_builtin/dtd.py -> build/lib.linux-x86_64-cpython-311/torchvision/prototype/datasets/_builtin
+copying torchvision/prototype/datasets/_builtin/pcam.py -> build/lib.linux-x86_64-cpython-311/torchvision/prototype/datasets/_builtin
+copying torchvision/prototype/datasets/_builtin/voc.py -> build/lib.linux-x86_64-cpython-311/torchvision/prototype/datasets/_builtin
+copying torchvision/prototype/datasets/_builtin/mnist.py -> build/lib.linux-x86_64-cpython-311/torchvision/prototype/datasets/_builtin
+copying torchvision/prototype/datasets/_builtin/coco.py -> build/lib.linux-x86_64-cpython-311/torchvision/prototype/datasets/_builtin
+copying torchvision/prototype/datasets/_builtin/oxford_iiit_pet.py -> build/lib.linux-x86_64-cpython-311/torchvision/prototype/datasets/_builtin
+copying torchvision/prototype/datasets/_builtin/usps.py -> build/lib.linux-x86_64-cpython-311/torchvision/prototype/datasets/_builtin
+copying torchvision/prototype/datasets/_builtin/celeba.py -> build/lib.linux-x86_64-cpython-311/torchvision/prototype/datasets/_builtin
+copying torchvision/prototype/datasets/_builtin/imagenet.py -> build/lib.linux-x86_64-cpython-311/torchvision/prototype/datasets/_builtin
+copying torchvision/prototype/datasets/_builtin/__init__.py -> build/lib.linux-x86_64-cpython-311/torchvision/prototype/datasets/_builtin
+copying torchvision/prototype/datasets/_builtin/food101.py -> build/lib.linux-x86_64-cpython-311/torchvision/prototype/datasets/_builtin
+copying torchvision/prototype/datasets/_builtin/gtsrb.py -> build/lib.linux-x86_64-cpython-311/torchvision/prototype/datasets/_builtin
+copying torchvision/prototype/datasets/_builtin/cifar.py -> build/lib.linux-x86_64-cpython-311/torchvision/prototype/datasets/_builtin
+copying torchvision/prototype/datasets/_builtin/stanford_cars.py -> build/lib.linux-x86_64-cpython-311/torchvision/prototype/datasets/_builtin
+copying torchvision/prototype/datasets/_builtin/country211.py -> build/lib.linux-x86_64-cpython-311/torchvision/prototype/datasets/_builtin
+copying torchvision/prototype/datasets/_builtin/cub200.py -> build/lib.linux-x86_64-cpython-311/torchvision/prototype/datasets/_builtin
+copying torchvision/prototype/datasets/_builtin/eurosat.py -> build/lib.linux-x86_64-cpython-311/torchvision/prototype/datasets/_builtin
+copying torchvision/prototype/datasets/_builtin/sbd.py -> build/lib.linux-x86_64-cpython-311/torchvision/prototype/datasets/_builtin
+copying torchvision/prototype/datasets/_builtin/oxford-iiit-pet.categories -> build/lib.linux-x86_64-cpython-311/torchvision/prototype/datasets/_builtin
+copying torchvision/prototype/datasets/_builtin/caltech256.categories -> build/lib.linux-x86_64-cpython-311/torchvision/prototype/datasets/_builtin
+copying torchvision/prototype/datasets/_builtin/country211.categories -> build/lib.linux-x86_64-cpython-311/torchvision/prototype/datasets/_builtin
+copying torchvision/prototype/datasets/_builtin/coco.categories -> build/lib.linux-x86_64-cpython-311/torchvision/prototype/datasets/_builtin
+copying torchvision/prototype/datasets/_builtin/dtd.categories -> build/lib.linux-x86_64-cpython-311/torchvision/prototype/datasets/_builtin
+copying torchvision/prototype/datasets/_builtin/stanford-cars.categories -> build/lib.linux-x86_64-cpython-311/torchvision/prototype/datasets/_builtin
+copying torchvision/prototype/datasets/_builtin/cifar10.categories -> build/lib.linux-x86_64-cpython-311/torchvision/prototype/datasets/_builtin
+copying torchvision/prototype/datasets/_builtin/cub200.categories -> build/lib.linux-x86_64-cpython-311/torchvision/prototype/datasets/_builtin
+copying torchvision/prototype/datasets/_builtin/sbd.categories -> build/lib.linux-x86_64-cpython-311/torchvision/prototype/datasets/_builtin
+copying torchvision/prototype/datasets/_builtin/caltech101.categories -> build/lib.linux-x86_64-cpython-311/torchvision/prototype/datasets/_builtin
+copying torchvision/prototype/datasets/_builtin/cifar100.categories -> build/lib.linux-x86_64-cpython-311/torchvision/prototype/datasets/_builtin
+copying torchvision/prototype/datasets/_builtin/food101.categories -> build/lib.linux-x86_64-cpython-311/torchvision/prototype/datasets/_builtin
+copying torchvision/prototype/datasets/_builtin/imagenet.categories -> build/lib.linux-x86_64-cpython-311/torchvision/prototype/datasets/_builtin
+copying torchvision/prototype/datasets/_builtin/voc.categories -> build/lib.linux-x86_64-cpython-311/torchvision/prototype/datasets/_builtin
+warning: build_py: byte-compiling is disabled, skipping.
+
+running build_ext
+building 'torchvision._C' extension
+Emitting ninja build file /build_src/vision/build/temp.linux-x86_64-cpython-311/build.ninja...
+Compiling objects...
+Allowing ninja to set a default number of workers... (overridable by setting the environment variable MAX_JOBS=N)
+ninja: no work to do.
+/opt/conda/bin/x86_64-conda-linux-gnu-c++ -shared -Wl,--allow-shlib-undefined -Wl,-rpath,/opt/conda/lib -Wl,-rpath-link,/opt/conda/lib -L/opt/conda/lib -Wl,--allow-shlib-undefined -Wl,-rpath,/opt/conda/lib -Wl,-rpath-link,/opt/conda/lib -L/opt/conda/lib -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/opt/conda/lib -Wl,-rpath-link,/opt/conda/lib -L/opt/conda/lib -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /opt/conda/include -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /opt/conda/include /build_src/vision/build/temp.linux-x86_64-cpython-311/build_src/vision/torchvision/csrc/ops/autocast/deform_conv2d_kernel.o /build_src/vision/build/temp.linux-x86_64-cpython-311/build_src/vision/torchvision/csrc/ops/autocast/nms_kernel.o /build_src/vision/build/temp.linux-x86_64-cpython-311/build_src/vision/torchvision/csrc/ops/autocast/ps_roi_align_kernel.o /build_src/vision/build/temp.linux-x86_64-cpython-311/build_src/vision/torchvision/csrc/ops/autocast/ps_roi_pool_kernel.o /build_src/vision/build/temp.linux-x86_64-cpython-311/build_src/vision/torchvision/csrc/ops/autocast/roi_align_kernel.o /build_src/vision/build/temp.linux-x86_64-cpython-311/build_src/vision/torchvision/csrc/ops/autocast/roi_pool_kernel.o /build_src/vision/build/temp.linux-x86_64-cpython-311/build_src/vision/torchvision/csrc/ops/autograd/deform_conv2d_kernel.o /build_src/vision/build/temp.linux-x86_64-cpython-311/build_src/vision/torchvision/csrc/ops/autograd/ps_roi_align_kernel.o /build_src/vision/build/temp.linux-x86_64-cpython-311/build_src/vision/torchvision/csrc/ops/autograd/ps_roi_pool_kernel.o /build_src/vision/build/temp.linux-x86_64-cpython-311/build_src/vision/torchvision/csrc/ops/autograd/roi_align_kernel.o /build_src/vision/build/temp.linux-x86_64-cpython-311/build_src/vision/torchvision/csrc/ops/autograd/roi_pool_kernel.o /build_src/vision/build/temp.linux-x86_64-cpython-311/build_src/vision/torchvision/csrc/ops/cpu/deform_conv2d_kernel.o /build_src/vision/build/temp.linux-x86_64-cpython-311/build_src/vision/torchvision/csrc/ops/cpu/nms_kernel.o /build_src/vision/build/temp.linux-x86_64-cpython-311/build_src/vision/torchvision/csrc/ops/cpu/ps_roi_align_kernel.o /build_src/vision/build/temp.linux-x86_64-cpython-311/build_src/vision/torchvision/csrc/ops/cpu/ps_roi_pool_kernel.o /build_src/vision/build/temp.linux-x86_64-cpython-311/build_src/vision/torchvision/csrc/ops/cpu/roi_align_kernel.o /build_src/vision/build/temp.linux-x86_64-cpython-311/build_src/vision/torchvision/csrc/ops/cpu/roi_pool_kernel.o /build_src/vision/build/temp.linux-x86_64-cpython-311/build_src/vision/torchvision/csrc/ops/cuda/deform_conv2d_kernel.o /build_src/vision/build/temp.linux-x86_64-cpython-311/build_src/vision/torchvision/csrc/ops/cuda/nms_kernel.o /build_src/vision/build/temp.linux-x86_64-cpython-311/build_src/vision/torchvision/csrc/ops/cuda/ps_roi_align_kernel.o /build_src/vision/build/temp.linux-x86_64-cpython-311/build_src/vision/torchvision/csrc/ops/cuda/ps_roi_pool_kernel.o /build_src/vision/build/temp.linux-x86_64-cpython-311/build_src/vision/torchvision/csrc/ops/cuda/roi_align_kernel.o /build_src/vision/build/temp.linux-x86_64-cpython-311/build_src/vision/torchvision/csrc/ops/cuda/roi_pool_kernel.o /build_src/vision/build/temp.linux-x86_64-cpython-311/build_src/vision/torchvision/csrc/ops/deform_conv2d.o /build_src/vision/build/temp.linux-x86_64-cpython-311/build_src/vision/torchvision/csrc/ops/nms.o /build_src/vision/build/temp.linux-x86_64-cpython-311/build_src/vision/torchvision/csrc/ops/ps_roi_align.o /build_src/vision/build/temp.linux-x86_64-cpython-311/build_src/vision/torchvision/csrc/ops/ps_roi_pool.o /build_src/vision/build/temp.linux-x86_64-cpython-311/build_src/vision/torchvision/csrc/ops/quantized/cpu/qnms_kernel.o /build_src/vision/build/temp.linux-x86_64-cpython-311/build_src/vision/torchvision/csrc/ops/quantized/cpu/qroi_align_kernel.o /build_src/vision/build/temp.linux-x86_64-cpython-311/build_src/vision/torchvision/csrc/ops/roi_align.o /build_src/vision/build/temp.linux-x86_64-cpython-311/build_src/vision/torchvision/csrc/ops/roi_pool.o /build_src/vision/build/temp.linux-x86_64-cpython-311/build_src/vision/torchvision/csrc/vision.o -L/opt/conda/lib/python3.11/site-packages/torch/lib -L/opt/conda/lib -lc10 -ltorch -ltorch_cpu -ltorch_python -lcudart -lc10_cuda -ltorch_cuda -o build/lib.linux-x86_64-cpython-311/torchvision/_C.so
+building 'torchvision.image' extension
+Emitting ninja build file /build_src/vision/build/temp.linux-x86_64-cpython-311/build.ninja...
+Compiling objects...
+Allowing ninja to set a default number of workers... (overridable by setting the environment variable MAX_JOBS=N)
+ninja: no work to do.
+/opt/conda/bin/x86_64-conda-linux-gnu-c++ -shared -Wl,--allow-shlib-undefined -Wl,-rpath,/opt/conda/lib -Wl,-rpath-link,/opt/conda/lib -L/opt/conda/lib -Wl,--allow-shlib-undefined -Wl,-rpath,/opt/conda/lib -Wl,-rpath-link,/opt/conda/lib -L/opt/conda/lib -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/opt/conda/lib -Wl,-rpath-link,/opt/conda/lib -L/opt/conda/lib -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /opt/conda/include -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /opt/conda/include /build_src/vision/build/temp.linux-x86_64-cpython-311/build_src/vision/torchvision/csrc/io/image/cpu/common_jpeg.o /build_src/vision/build/temp.linux-x86_64-cpython-311/build_src/vision/torchvision/csrc/io/image/cpu/decode_image.o /build_src/vision/build/temp.linux-x86_64-cpython-311/build_src/vision/torchvision/csrc/io/image/cpu/decode_jpeg.o /build_src/vision/build/temp.linux-x86_64-cpython-311/build_src/vision/torchvision/csrc/io/image/cpu/decode_png.o /build_src/vision/build/temp.linux-x86_64-cpython-311/build_src/vision/torchvision/csrc/io/image/cpu/encode_jpeg.o /build_src/vision/build/temp.linux-x86_64-cpython-311/build_src/vision/torchvision/csrc/io/image/cpu/encode_png.o /build_src/vision/build/temp.linux-x86_64-cpython-311/build_src/vision/torchvision/csrc/io/image/cpu/read_write_file.o /build_src/vision/build/temp.linux-x86_64-cpython-311/build_src/vision/torchvision/csrc/io/image/cuda/decode_jpeg_cuda.o /build_src/vision/build/temp.linux-x86_64-cpython-311/build_src/vision/torchvision/csrc/io/image/image.o -L/opt/conda/lib -L/opt/conda/lib -L/opt/conda/lib/python3.11/site-packages/torch/lib -L/opt/conda/lib -lpng -ljpeg -lnvjpeg -lc10 -ltorch -ltorch_cpu -ltorch_python -lcudart -lc10_cuda -ltorch_cuda -o build/lib.linux-x86_64-cpython-311/torchvision/image.so
+building 'torchvision.video_reader' extension
+Emitting ninja build file /build_src/vision/build/temp.linux-x86_64-cpython-311/build.ninja...
+Compiling objects...
+Allowing ninja to set a default number of workers... (overridable by setting the environment variable MAX_JOBS=N)
+ninja: no work to do.
+/opt/conda/bin/x86_64-conda-linux-gnu-c++ -shared -Wl,--allow-shlib-undefined -Wl,-rpath,/opt/conda/lib -Wl,-rpath-link,/opt/conda/lib -L/opt/conda/lib -Wl,--allow-shlib-undefined -Wl,-rpath,/opt/conda/lib -Wl,-rpath-link,/opt/conda/lib -L/opt/conda/lib -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/opt/conda/lib -Wl,-rpath-link,/opt/conda/lib -L/opt/conda/lib -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /opt/conda/include -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /opt/conda/include /build_src/vision/build/temp.linux-x86_64-cpython-311/build_src/vision/torchvision/csrc/io/decoder/audio_sampler.o /build_src/vision/build/temp.linux-x86_64-cpython-311/build_src/vision/torchvision/csrc/io/decoder/audio_stream.o /build_src/vision/build/temp.linux-x86_64-cpython-311/build_src/vision/torchvision/csrc/io/decoder/cc_stream.o /build_src/vision/build/temp.linux-x86_64-cpython-311/build_src/vision/torchvision/csrc/io/decoder/decoder.o /build_src/vision/build/temp.linux-x86_64-cpython-311/build_src/vision/torchvision/csrc/io/decoder/memory_buffer.o /build_src/vision/build/temp.linux-x86_64-cpython-311/build_src/vision/torchvision/csrc/io/decoder/seekable_buffer.o /build_src/vision/build/temp.linux-x86_64-cpython-311/build_src/vision/torchvision/csrc/io/decoder/stream.o /build_src/vision/build/temp.linux-x86_64-cpython-311/build_src/vision/torchvision/csrc/io/decoder/subtitle_sampler.o /build_src/vision/build/temp.linux-x86_64-cpython-311/build_src/vision/torchvision/csrc/io/decoder/subtitle_stream.o /build_src/vision/build/temp.linux-x86_64-cpython-311/build_src/vision/torchvision/csrc/io/decoder/sync_decoder.o /build_src/vision/build/temp.linux-x86_64-cpython-311/build_src/vision/torchvision/csrc/io/decoder/time_keeper.o /build_src/vision/build/temp.linux-x86_64-cpython-311/build_src/vision/torchvision/csrc/io/decoder/util.o /build_src/vision/build/temp.linux-x86_64-cpython-311/build_src/vision/torchvision/csrc/io/decoder/video_sampler.o /build_src/vision/build/temp.linux-x86_64-cpython-311/build_src/vision/torchvision/csrc/io/decoder/video_stream.o /build_src/vision/build/temp.linux-x86_64-cpython-311/build_src/vision/torchvision/csrc/io/video/video.o /build_src/vision/build/temp.linux-x86_64-cpython-311/build_src/vision/torchvision/csrc/io/video_reader/video_reader.o -L/opt/conda/lib -L/opt/conda/lib/python3.11/site-packages/torch/lib -lavcodec -lavformat -lavutil -lswresample -lswscale -lc10 -ltorch -ltorch_cpu -ltorch_python -o build/lib.linux-x86_64-cpython-311/torchvision/video_reader.so -std=c++17
+/opt/conda/lib/python3.11/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+!!
+
+        ********************************************************************************
+        Please avoid running ``setup.py`` directly.
+        Instead, use pypa/build, pypa/installer or other
+        standards-based tools.
+
+        See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+        ********************************************************************************
+
+!!
+  self.initialize_options()
+installing to build/bdist.linux-x86_64/wheel
+running install
+running install_lib
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/wheel
+creating build/bdist.linux-x86_64/wheel/torchvision
+copying build/lib.linux-x86_64-cpython-311/torchvision/_C.so -> build/bdist.linux-x86_64/wheel/torchvision
+creating build/bdist.linux-x86_64/wheel/torchvision/io
+copying build/lib.linux-x86_64-cpython-311/torchvision/io/__init__.py -> build/bdist.linux-x86_64/wheel/torchvision/io
+copying build/lib.linux-x86_64-cpython-311/torchvision/io/_load_gpu_decoder.py -> build/bdist.linux-x86_64/wheel/torchvision/io
+copying build/lib.linux-x86_64-cpython-311/torchvision/io/_video_opt.py -> build/bdist.linux-x86_64/wheel/torchvision/io
+copying build/lib.linux-x86_64-cpython-311/torchvision/io/image.py -> build/bdist.linux-x86_64/wheel/torchvision/io
+copying build/lib.linux-x86_64-cpython-311/torchvision/io/video_reader.py -> build/bdist.linux-x86_64/wheel/torchvision/io
+copying build/lib.linux-x86_64-cpython-311/torchvision/io/video.py -> build/bdist.linux-x86_64/wheel/torchvision/io
+creating build/bdist.linux-x86_64/wheel/torchvision/transforms
+copying build/lib.linux-x86_64-cpython-311/torchvision/transforms/_functional_video.py -> build/bdist.linux-x86_64/wheel/torchvision/transforms
+copying build/lib.linux-x86_64-cpython-311/torchvision/transforms/functional_pil.py -> build/bdist.linux-x86_64/wheel/torchvision/transforms
+copying build/lib.linux-x86_64-cpython-311/torchvision/transforms/functional_tensor.py -> build/bdist.linux-x86_64/wheel/torchvision/transforms
+copying build/lib.linux-x86_64-cpython-311/torchvision/transforms/autoaugment.py -> build/bdist.linux-x86_64/wheel/torchvision/transforms
+copying build/lib.linux-x86_64-cpython-311/torchvision/transforms/transforms.py -> build/bdist.linux-x86_64/wheel/torchvision/transforms
+copying build/lib.linux-x86_64-cpython-311/torchvision/transforms/__init__.py -> build/bdist.linux-x86_64/wheel/torchvision/transforms
+copying build/lib.linux-x86_64-cpython-311/torchvision/transforms/_presets.py -> build/bdist.linux-x86_64/wheel/torchvision/transforms
+copying build/lib.linux-x86_64-cpython-311/torchvision/transforms/_functional_pil.py -> build/bdist.linux-x86_64/wheel/torchvision/transforms
+copying build/lib.linux-x86_64-cpython-311/torchvision/transforms/_transforms_video.py -> build/bdist.linux-x86_64/wheel/torchvision/transforms
+copying build/lib.linux-x86_64-cpython-311/torchvision/transforms/functional.py -> build/bdist.linux-x86_64/wheel/torchvision/transforms
+creating build/bdist.linux-x86_64/wheel/torchvision/transforms/v2
+copying build/lib.linux-x86_64-cpython-311/torchvision/transforms/v2/_auto_augment.py -> build/bdist.linux-x86_64/wheel/torchvision/transforms/v2
+creating build/bdist.linux-x86_64/wheel/torchvision/transforms/v2/functional
+copying build/lib.linux-x86_64-cpython-311/torchvision/transforms/v2/functional/_utils.py -> build/bdist.linux-x86_64/wheel/torchvision/transforms/v2/functional
+copying build/lib.linux-x86_64-cpython-311/torchvision/transforms/v2/functional/__init__.py -> build/bdist.linux-x86_64/wheel/torchvision/transforms/v2/functional
+copying build/lib.linux-x86_64-cpython-311/torchvision/transforms/v2/functional/_temporal.py -> build/bdist.linux-x86_64/wheel/torchvision/transforms/v2/functional
+copying build/lib.linux-x86_64-cpython-311/torchvision/transforms/v2/functional/_color.py -> build/bdist.linux-x86_64/wheel/torchvision/transforms/v2/functional
+copying build/lib.linux-x86_64-cpython-311/torchvision/transforms/v2/functional/_augment.py -> build/bdist.linux-x86_64/wheel/torchvision/transforms/v2/functional
+copying build/lib.linux-x86_64-cpython-311/torchvision/transforms/v2/functional/_misc.py -> build/bdist.linux-x86_64/wheel/torchvision/transforms/v2/functional
+copying build/lib.linux-x86_64-cpython-311/torchvision/transforms/v2/functional/_geometry.py -> build/bdist.linux-x86_64/wheel/torchvision/transforms/v2/functional
+copying build/lib.linux-x86_64-cpython-311/torchvision/transforms/v2/functional/_type_conversion.py -> build/bdist.linux-x86_64/wheel/torchvision/transforms/v2/functional
+copying build/lib.linux-x86_64-cpython-311/torchvision/transforms/v2/functional/_meta.py -> build/bdist.linux-x86_64/wheel/torchvision/transforms/v2/functional
+copying build/lib.linux-x86_64-cpython-311/torchvision/transforms/v2/functional/_deprecated.py -> build/bdist.linux-x86_64/wheel/torchvision/transforms/v2/functional
+copying build/lib.linux-x86_64-cpython-311/torchvision/transforms/v2/_utils.py -> build/bdist.linux-x86_64/wheel/torchvision/transforms/v2
+copying build/lib.linux-x86_64-cpython-311/torchvision/transforms/v2/__init__.py -> build/bdist.linux-x86_64/wheel/torchvision/transforms/v2
+copying build/lib.linux-x86_64-cpython-311/torchvision/transforms/v2/_temporal.py -> build/bdist.linux-x86_64/wheel/torchvision/transforms/v2
+copying build/lib.linux-x86_64-cpython-311/torchvision/transforms/v2/_color.py -> build/bdist.linux-x86_64/wheel/torchvision/transforms/v2
+copying build/lib.linux-x86_64-cpython-311/torchvision/transforms/v2/_augment.py -> build/bdist.linux-x86_64/wheel/torchvision/transforms/v2
+copying build/lib.linux-x86_64-cpython-311/torchvision/transforms/v2/_transform.py -> build/bdist.linux-x86_64/wheel/torchvision/transforms/v2
+copying build/lib.linux-x86_64-cpython-311/torchvision/transforms/v2/_misc.py -> build/bdist.linux-x86_64/wheel/torchvision/transforms/v2
+copying build/lib.linux-x86_64-cpython-311/torchvision/transforms/v2/_container.py -> build/bdist.linux-x86_64/wheel/torchvision/transforms/v2
+copying build/lib.linux-x86_64-cpython-311/torchvision/transforms/v2/_geometry.py -> build/bdist.linux-x86_64/wheel/torchvision/transforms/v2
+copying build/lib.linux-x86_64-cpython-311/torchvision/transforms/v2/_type_conversion.py -> build/bdist.linux-x86_64/wheel/torchvision/transforms/v2
+copying build/lib.linux-x86_64-cpython-311/torchvision/transforms/v2/_meta.py -> build/bdist.linux-x86_64/wheel/torchvision/transforms/v2
+copying build/lib.linux-x86_64-cpython-311/torchvision/transforms/v2/_deprecated.py -> build/bdist.linux-x86_64/wheel/torchvision/transforms/v2
+copying build/lib.linux-x86_64-cpython-311/torchvision/transforms/_functional_tensor.py -> build/bdist.linux-x86_64/wheel/torchvision/transforms
+creating build/bdist.linux-x86_64/wheel/torchvision/models
+copying build/lib.linux-x86_64-cpython-311/torchvision/models/resnet.py -> build/bdist.linux-x86_64/wheel/torchvision/models
+copying build/lib.linux-x86_64-cpython-311/torchvision/models/shufflenetv2.py -> build/bdist.linux-x86_64/wheel/torchvision/models
+copying build/lib.linux-x86_64-cpython-311/torchvision/models/mnasnet.py -> build/bdist.linux-x86_64/wheel/torchvision/models
+copying build/lib.linux-x86_64-cpython-311/torchvision/models/maxvit.py -> build/bdist.linux-x86_64/wheel/torchvision/models
+copying build/lib.linux-x86_64-cpython-311/torchvision/models/mobilenet.py -> build/bdist.linux-x86_64/wheel/torchvision/models
+creating build/bdist.linux-x86_64/wheel/torchvision/models/quantization
+copying build/lib.linux-x86_64-cpython-311/torchvision/models/quantization/resnet.py -> build/bdist.linux-x86_64/wheel/torchvision/models/quantization
+copying build/lib.linux-x86_64-cpython-311/torchvision/models/quantization/shufflenetv2.py -> build/bdist.linux-x86_64/wheel/torchvision/models/quantization
+copying build/lib.linux-x86_64-cpython-311/torchvision/models/quantization/mobilenet.py -> build/bdist.linux-x86_64/wheel/torchvision/models/quantization
+copying build/lib.linux-x86_64-cpython-311/torchvision/models/quantization/__init__.py -> build/bdist.linux-x86_64/wheel/torchvision/models/quantization
+copying build/lib.linux-x86_64-cpython-311/torchvision/models/quantization/googlenet.py -> build/bdist.linux-x86_64/wheel/torchvision/models/quantization
+copying build/lib.linux-x86_64-cpython-311/torchvision/models/quantization/mobilenetv3.py -> build/bdist.linux-x86_64/wheel/torchvision/models/quantization
+copying build/lib.linux-x86_64-cpython-311/torchvision/models/quantization/inception.py -> build/bdist.linux-x86_64/wheel/torchvision/models/quantization
+copying build/lib.linux-x86_64-cpython-311/torchvision/models/quantization/mobilenetv2.py -> build/bdist.linux-x86_64/wheel/torchvision/models/quantization
+copying build/lib.linux-x86_64-cpython-311/torchvision/models/quantization/utils.py -> build/bdist.linux-x86_64/wheel/torchvision/models/quantization
+copying build/lib.linux-x86_64-cpython-311/torchvision/models/regnet.py -> build/bdist.linux-x86_64/wheel/torchvision/models
+creating build/bdist.linux-x86_64/wheel/torchvision/models/video
+copying build/lib.linux-x86_64-cpython-311/torchvision/models/video/resnet.py -> build/bdist.linux-x86_64/wheel/torchvision/models/video
+copying build/lib.linux-x86_64-cpython-311/torchvision/models/video/swin_transformer.py -> build/bdist.linux-x86_64/wheel/torchvision/models/video
+copying build/lib.linux-x86_64-cpython-311/torchvision/models/video/__init__.py -> build/bdist.linux-x86_64/wheel/torchvision/models/video
+copying build/lib.linux-x86_64-cpython-311/torchvision/models/video/s3d.py -> build/bdist.linux-x86_64/wheel/torchvision/models/video
+copying build/lib.linux-x86_64-cpython-311/torchvision/models/video/mvit.py -> build/bdist.linux-x86_64/wheel/torchvision/models/video
+copying build/lib.linux-x86_64-cpython-311/torchvision/models/densenet.py -> build/bdist.linux-x86_64/wheel/torchvision/models
+copying build/lib.linux-x86_64-cpython-311/torchvision/models/swin_transformer.py -> build/bdist.linux-x86_64/wheel/torchvision/models
+creating build/bdist.linux-x86_64/wheel/torchvision/models/detection
+copying build/lib.linux-x86_64-cpython-311/torchvision/models/detection/ssd.py -> build/bdist.linux-x86_64/wheel/torchvision/models/detection
+copying build/lib.linux-x86_64-cpython-311/torchvision/models/detection/keypoint_rcnn.py -> build/bdist.linux-x86_64/wheel/torchvision/models/detection
+copying build/lib.linux-x86_64-cpython-311/torchvision/models/detection/transform.py -> build/bdist.linux-x86_64/wheel/torchvision/models/detection
+copying build/lib.linux-x86_64-cpython-311/torchvision/models/detection/backbone_utils.py -> build/bdist.linux-x86_64/wheel/torchvision/models/detection
+copying build/lib.linux-x86_64-cpython-311/torchvision/models/detection/fcos.py -> build/bdist.linux-x86_64/wheel/torchvision/models/detection
+copying build/lib.linux-x86_64-cpython-311/torchvision/models/detection/faster_rcnn.py -> build/bdist.linux-x86_64/wheel/torchvision/models/detection
+copying build/lib.linux-x86_64-cpython-311/torchvision/models/detection/_utils.py -> build/bdist.linux-x86_64/wheel/torchvision/models/detection
+copying build/lib.linux-x86_64-cpython-311/torchvision/models/detection/__init__.py -> build/bdist.linux-x86_64/wheel/torchvision/models/detection
+copying build/lib.linux-x86_64-cpython-311/torchvision/models/detection/mask_rcnn.py -> build/bdist.linux-x86_64/wheel/torchvision/models/detection
+copying build/lib.linux-x86_64-cpython-311/torchvision/models/detection/roi_heads.py -> build/bdist.linux-x86_64/wheel/torchvision/models/detection
+copying build/lib.linux-x86_64-cpython-311/torchvision/models/detection/generalized_rcnn.py -> build/bdist.linux-x86_64/wheel/torchvision/models/detection
+copying build/lib.linux-x86_64-cpython-311/torchvision/models/detection/anchor_utils.py -> build/bdist.linux-x86_64/wheel/torchvision/models/detection
+copying build/lib.linux-x86_64-cpython-311/torchvision/models/detection/rpn.py -> build/bdist.linux-x86_64/wheel/torchvision/models/detection
+copying build/lib.linux-x86_64-cpython-311/torchvision/models/detection/ssdlite.py -> build/bdist.linux-x86_64/wheel/torchvision/models/detection
+copying build/lib.linux-x86_64-cpython-311/torchvision/models/detection/image_list.py -> build/bdist.linux-x86_64/wheel/torchvision/models/detection
+copying build/lib.linux-x86_64-cpython-311/torchvision/models/detection/retinanet.py -> build/bdist.linux-x86_64/wheel/torchvision/models/detection
+copying build/lib.linux-x86_64-cpython-311/torchvision/models/_utils.py -> build/bdist.linux-x86_64/wheel/torchvision/models
+copying build/lib.linux-x86_64-cpython-311/torchvision/models/__init__.py -> build/bdist.linux-x86_64/wheel/torchvision/models
+copying build/lib.linux-x86_64-cpython-311/torchvision/models/efficientnet.py -> build/bdist.linux-x86_64/wheel/torchvision/models
+copying build/lib.linux-x86_64-cpython-311/torchvision/models/vision_transformer.py -> build/bdist.linux-x86_64/wheel/torchvision/models
+copying build/lib.linux-x86_64-cpython-311/torchvision/models/feature_extraction.py -> build/bdist.linux-x86_64/wheel/torchvision/models
+copying build/lib.linux-x86_64-cpython-311/torchvision/models/_api.py -> build/bdist.linux-x86_64/wheel/torchvision/models
+copying build/lib.linux-x86_64-cpython-311/torchvision/models/googlenet.py -> build/bdist.linux-x86_64/wheel/torchvision/models
+copying build/lib.linux-x86_64-cpython-311/torchvision/models/mobilenetv3.py -> build/bdist.linux-x86_64/wheel/torchvision/models
+copying build/lib.linux-x86_64-cpython-311/torchvision/models/vgg.py -> build/bdist.linux-x86_64/wheel/torchvision/models
+copying build/lib.linux-x86_64-cpython-311/torchvision/models/inception.py -> build/bdist.linux-x86_64/wheel/torchvision/models
+copying build/lib.linux-x86_64-cpython-311/torchvision/models/alexnet.py -> build/bdist.linux-x86_64/wheel/torchvision/models
+creating build/bdist.linux-x86_64/wheel/torchvision/models/optical_flow
+copying build/lib.linux-x86_64-cpython-311/torchvision/models/optical_flow/_utils.py -> build/bdist.linux-x86_64/wheel/torchvision/models/optical_flow
+copying build/lib.linux-x86_64-cpython-311/torchvision/models/optical_flow/__init__.py -> build/bdist.linux-x86_64/wheel/torchvision/models/optical_flow
+copying build/lib.linux-x86_64-cpython-311/torchvision/models/optical_flow/raft.py -> build/bdist.linux-x86_64/wheel/torchvision/models/optical_flow
+copying build/lib.linux-x86_64-cpython-311/torchvision/models/mobilenetv2.py -> build/bdist.linux-x86_64/wheel/torchvision/models
+copying build/lib.linux-x86_64-cpython-311/torchvision/models/convnext.py -> build/bdist.linux-x86_64/wheel/torchvision/models
+copying build/lib.linux-x86_64-cpython-311/torchvision/models/_meta.py -> build/bdist.linux-x86_64/wheel/torchvision/models
+copying build/lib.linux-x86_64-cpython-311/torchvision/models/squeezenet.py -> build/bdist.linux-x86_64/wheel/torchvision/models
+creating build/bdist.linux-x86_64/wheel/torchvision/models/segmentation
+copying build/lib.linux-x86_64-cpython-311/torchvision/models/segmentation/lraspp.py -> build/bdist.linux-x86_64/wheel/torchvision/models/segmentation
+copying build/lib.linux-x86_64-cpython-311/torchvision/models/segmentation/_utils.py -> build/bdist.linux-x86_64/wheel/torchvision/models/segmentation
+copying build/lib.linux-x86_64-cpython-311/torchvision/models/segmentation/__init__.py -> build/bdist.linux-x86_64/wheel/torchvision/models/segmentation
+copying build/lib.linux-x86_64-cpython-311/torchvision/models/segmentation/fcn.py -> build/bdist.linux-x86_64/wheel/torchvision/models/segmentation
+copying build/lib.linux-x86_64-cpython-311/torchvision/models/segmentation/deeplabv3.py -> build/bdist.linux-x86_64/wheel/torchvision/models/segmentation
+creating build/bdist.linux-x86_64/wheel/torchvision/tv_tensors
+copying build/lib.linux-x86_64-cpython-311/torchvision/tv_tensors/_image.py -> build/bdist.linux-x86_64/wheel/torchvision/tv_tensors
+copying build/lib.linux-x86_64-cpython-311/torchvision/tv_tensors/_tv_tensor.py -> build/bdist.linux-x86_64/wheel/torchvision/tv_tensors
+copying build/lib.linux-x86_64-cpython-311/torchvision/tv_tensors/_mask.py -> build/bdist.linux-x86_64/wheel/torchvision/tv_tensors
+copying build/lib.linux-x86_64-cpython-311/torchvision/tv_tensors/__init__.py -> build/bdist.linux-x86_64/wheel/torchvision/tv_tensors
+copying build/lib.linux-x86_64-cpython-311/torchvision/tv_tensors/_dataset_wrapper.py -> build/bdist.linux-x86_64/wheel/torchvision/tv_tensors
+copying build/lib.linux-x86_64-cpython-311/torchvision/tv_tensors/_video.py -> build/bdist.linux-x86_64/wheel/torchvision/tv_tensors
+copying build/lib.linux-x86_64-cpython-311/torchvision/tv_tensors/_bounding_boxes.py -> build/bdist.linux-x86_64/wheel/torchvision/tv_tensors
+copying build/lib.linux-x86_64-cpython-311/torchvision/tv_tensors/_torch_function_helpers.py -> build/bdist.linux-x86_64/wheel/torchvision/tv_tensors
+copying build/lib.linux-x86_64-cpython-311/torchvision/extension.py -> build/bdist.linux-x86_64/wheel/torchvision
+copying build/lib.linux-x86_64-cpython-311/torchvision/image.so -> build/bdist.linux-x86_64/wheel/torchvision
+copying build/lib.linux-x86_64-cpython-311/torchvision/video_reader.so -> build/bdist.linux-x86_64/wheel/torchvision
+copying build/lib.linux-x86_64-cpython-311/torchvision/_utils.py -> build/bdist.linux-x86_64/wheel/torchvision
+copying build/lib.linux-x86_64-cpython-311/torchvision/__init__.py -> build/bdist.linux-x86_64/wheel/torchvision
+copying build/lib.linux-x86_64-cpython-311/torchvision/_internally_replaced_utils.py -> build/bdist.linux-x86_64/wheel/torchvision
+copying build/lib.linux-x86_64-cpython-311/torchvision/version.py -> build/bdist.linux-x86_64/wheel/torchvision
+copying build/lib.linux-x86_64-cpython-311/torchvision/_meta_registrations.py -> build/bdist.linux-x86_64/wheel/torchvision
+creating build/bdist.linux-x86_64/wheel/torchvision/datasets
+copying build/lib.linux-x86_64-cpython-311/torchvision/datasets/clevr.py -> build/bdist.linux-x86_64/wheel/torchvision/datasets
+copying build/lib.linux-x86_64-cpython-311/torchvision/datasets/kitti.py -> build/bdist.linux-x86_64/wheel/torchvision/datasets
+copying build/lib.linux-x86_64-cpython-311/torchvision/datasets/semeion.py -> build/bdist.linux-x86_64/wheel/torchvision/datasets
+copying build/lib.linux-x86_64-cpython-311/torchvision/datasets/svhn.py -> build/bdist.linux-x86_64/wheel/torchvision/datasets
+copying build/lib.linux-x86_64-cpython-311/torchvision/datasets/rendered_sst2.py -> build/bdist.linux-x86_64/wheel/torchvision/datasets
+copying build/lib.linux-x86_64-cpython-311/torchvision/datasets/phototour.py -> build/bdist.linux-x86_64/wheel/torchvision/datasets
+copying build/lib.linux-x86_64-cpython-311/torchvision/datasets/moving_mnist.py -> build/bdist.linux-x86_64/wheel/torchvision/datasets
+copying build/lib.linux-x86_64-cpython-311/torchvision/datasets/video_utils.py -> build/bdist.linux-x86_64/wheel/torchvision/datasets
+copying build/lib.linux-x86_64-cpython-311/torchvision/datasets/inaturalist.py -> build/bdist.linux-x86_64/wheel/torchvision/datasets
+copying build/lib.linux-x86_64-cpython-311/torchvision/datasets/caltech.py -> build/bdist.linux-x86_64/wheel/torchvision/datasets
+copying build/lib.linux-x86_64-cpython-311/torchvision/datasets/widerface.py -> build/bdist.linux-x86_64/wheel/torchvision/datasets
+copying build/lib.linux-x86_64-cpython-311/torchvision/datasets/fer2013.py -> build/bdist.linux-x86_64/wheel/torchvision/datasets
+copying build/lib.linux-x86_64-cpython-311/torchvision/datasets/omniglot.py -> build/bdist.linux-x86_64/wheel/torchvision/datasets
+copying build/lib.linux-x86_64-cpython-311/torchvision/datasets/cityscapes.py -> build/bdist.linux-x86_64/wheel/torchvision/datasets
+copying build/lib.linux-x86_64-cpython-311/torchvision/datasets/lfw.py -> build/bdist.linux-x86_64/wheel/torchvision/datasets
+copying build/lib.linux-x86_64-cpython-311/torchvision/datasets/dtd.py -> build/bdist.linux-x86_64/wheel/torchvision/datasets
+copying build/lib.linux-x86_64-cpython-311/torchvision/datasets/kinetics.py -> build/bdist.linux-x86_64/wheel/torchvision/datasets
+copying build/lib.linux-x86_64-cpython-311/torchvision/datasets/pcam.py -> build/bdist.linux-x86_64/wheel/torchvision/datasets
+copying build/lib.linux-x86_64-cpython-311/torchvision/datasets/voc.py -> build/bdist.linux-x86_64/wheel/torchvision/datasets
+copying build/lib.linux-x86_64-cpython-311/torchvision/datasets/mnist.py -> build/bdist.linux-x86_64/wheel/torchvision/datasets
+copying build/lib.linux-x86_64-cpython-311/torchvision/datasets/lsun.py -> build/bdist.linux-x86_64/wheel/torchvision/datasets
+copying build/lib.linux-x86_64-cpython-311/torchvision/datasets/coco.py -> build/bdist.linux-x86_64/wheel/torchvision/datasets
+copying build/lib.linux-x86_64-cpython-311/torchvision/datasets/oxford_iiit_pet.py -> build/bdist.linux-x86_64/wheel/torchvision/datasets
+copying build/lib.linux-x86_64-cpython-311/torchvision/datasets/usps.py -> build/bdist.linux-x86_64/wheel/torchvision/datasets
+copying build/lib.linux-x86_64-cpython-311/torchvision/datasets/celeba.py -> build/bdist.linux-x86_64/wheel/torchvision/datasets
+copying build/lib.linux-x86_64-cpython-311/torchvision/datasets/imagenet.py -> build/bdist.linux-x86_64/wheel/torchvision/datasets
+copying build/lib.linux-x86_64-cpython-311/torchvision/datasets/flowers102.py -> build/bdist.linux-x86_64/wheel/torchvision/datasets
+copying build/lib.linux-x86_64-cpython-311/torchvision/datasets/__init__.py -> build/bdist.linux-x86_64/wheel/torchvision/datasets
+copying build/lib.linux-x86_64-cpython-311/torchvision/datasets/food101.py -> build/bdist.linux-x86_64/wheel/torchvision/datasets
+copying build/lib.linux-x86_64-cpython-311/torchvision/datasets/vision.py -> build/bdist.linux-x86_64/wheel/torchvision/datasets
+copying build/lib.linux-x86_64-cpython-311/torchvision/datasets/_optical_flow.py -> build/bdist.linux-x86_64/wheel/torchvision/datasets
+copying build/lib.linux-x86_64-cpython-311/torchvision/datasets/_stereo_matching.py -> build/bdist.linux-x86_64/wheel/torchvision/datasets
+copying build/lib.linux-x86_64-cpython-311/torchvision/datasets/hmdb51.py -> build/bdist.linux-x86_64/wheel/torchvision/datasets
+copying build/lib.linux-x86_64-cpython-311/torchvision/datasets/fgvc_aircraft.py -> build/bdist.linux-x86_64/wheel/torchvision/datasets
+copying build/lib.linux-x86_64-cpython-311/torchvision/datasets/fakedata.py -> build/bdist.linux-x86_64/wheel/torchvision/datasets
+creating build/bdist.linux-x86_64/wheel/torchvision/datasets/samplers
+copying build/lib.linux-x86_64-cpython-311/torchvision/datasets/samplers/__init__.py -> build/bdist.linux-x86_64/wheel/torchvision/datasets/samplers
+copying build/lib.linux-x86_64-cpython-311/torchvision/datasets/samplers/clip_sampler.py -> build/bdist.linux-x86_64/wheel/torchvision/datasets/samplers
+copying build/lib.linux-x86_64-cpython-311/torchvision/datasets/ucf101.py -> build/bdist.linux-x86_64/wheel/torchvision/datasets
+copying build/lib.linux-x86_64-cpython-311/torchvision/datasets/folder.py -> build/bdist.linux-x86_64/wheel/torchvision/datasets
+copying build/lib.linux-x86_64-cpython-311/torchvision/datasets/places365.py -> build/bdist.linux-x86_64/wheel/torchvision/datasets
+copying build/lib.linux-x86_64-cpython-311/torchvision/datasets/gtsrb.py -> build/bdist.linux-x86_64/wheel/torchvision/datasets
+copying build/lib.linux-x86_64-cpython-311/torchvision/datasets/cifar.py -> build/bdist.linux-x86_64/wheel/torchvision/datasets
+copying build/lib.linux-x86_64-cpython-311/torchvision/datasets/stanford_cars.py -> build/bdist.linux-x86_64/wheel/torchvision/datasets
+copying build/lib.linux-x86_64-cpython-311/torchvision/datasets/stl10.py -> build/bdist.linux-x86_64/wheel/torchvision/datasets
+copying build/lib.linux-x86_64-cpython-311/torchvision/datasets/country211.py -> build/bdist.linux-x86_64/wheel/torchvision/datasets
+copying build/lib.linux-x86_64-cpython-311/torchvision/datasets/sun397.py -> build/bdist.linux-x86_64/wheel/torchvision/datasets
+copying build/lib.linux-x86_64-cpython-311/torchvision/datasets/sbu.py -> build/bdist.linux-x86_64/wheel/torchvision/datasets
+copying build/lib.linux-x86_64-cpython-311/torchvision/datasets/utils.py -> build/bdist.linux-x86_64/wheel/torchvision/datasets
+copying build/lib.linux-x86_64-cpython-311/torchvision/datasets/flickr.py -> build/bdist.linux-x86_64/wheel/torchvision/datasets
+copying build/lib.linux-x86_64-cpython-311/torchvision/datasets/eurosat.py -> build/bdist.linux-x86_64/wheel/torchvision/datasets
+copying build/lib.linux-x86_64-cpython-311/torchvision/datasets/sbd.py -> build/bdist.linux-x86_64/wheel/torchvision/datasets
+creating build/bdist.linux-x86_64/wheel/torchvision/prototype
+creating build/bdist.linux-x86_64/wheel/torchvision/prototype/transforms
+copying build/lib.linux-x86_64-cpython-311/torchvision/prototype/transforms/__init__.py -> build/bdist.linux-x86_64/wheel/torchvision/prototype/transforms
+copying build/lib.linux-x86_64-cpython-311/torchvision/prototype/transforms/_presets.py -> build/bdist.linux-x86_64/wheel/torchvision/prototype/transforms
+copying build/lib.linux-x86_64-cpython-311/torchvision/prototype/transforms/_augment.py -> build/bdist.linux-x86_64/wheel/torchvision/prototype/transforms
+copying build/lib.linux-x86_64-cpython-311/torchvision/prototype/transforms/_misc.py -> build/bdist.linux-x86_64/wheel/torchvision/prototype/transforms
+copying build/lib.linux-x86_64-cpython-311/torchvision/prototype/transforms/_geometry.py -> build/bdist.linux-x86_64/wheel/torchvision/prototype/transforms
+copying build/lib.linux-x86_64-cpython-311/torchvision/prototype/transforms/_type_conversion.py -> build/bdist.linux-x86_64/wheel/torchvision/prototype/transforms
+creating build/bdist.linux-x86_64/wheel/torchvision/prototype/models
+creating build/bdist.linux-x86_64/wheel/torchvision/prototype/models/depth
+copying build/lib.linux-x86_64-cpython-311/torchvision/prototype/models/depth/__init__.py -> build/bdist.linux-x86_64/wheel/torchvision/prototype/models/depth
+creating build/bdist.linux-x86_64/wheel/torchvision/prototype/models/depth/stereo
+copying build/lib.linux-x86_64-cpython-311/torchvision/prototype/models/depth/stereo/raft_stereo.py -> build/bdist.linux-x86_64/wheel/torchvision/prototype/models/depth/stereo
+copying build/lib.linux-x86_64-cpython-311/torchvision/prototype/models/depth/stereo/__init__.py -> build/bdist.linux-x86_64/wheel/torchvision/prototype/models/depth/stereo
+copying build/lib.linux-x86_64-cpython-311/torchvision/prototype/models/depth/stereo/crestereo.py -> build/bdist.linux-x86_64/wheel/torchvision/prototype/models/depth/stereo
+copying build/lib.linux-x86_64-cpython-311/torchvision/prototype/models/__init__.py -> build/bdist.linux-x86_64/wheel/torchvision/prototype/models
+creating build/bdist.linux-x86_64/wheel/torchvision/prototype/tv_tensors
+copying build/lib.linux-x86_64-cpython-311/torchvision/prototype/tv_tensors/__init__.py -> build/bdist.linux-x86_64/wheel/torchvision/prototype/tv_tensors
+copying build/lib.linux-x86_64-cpython-311/torchvision/prototype/tv_tensors/_label.py -> build/bdist.linux-x86_64/wheel/torchvision/prototype/tv_tensors
+copying build/lib.linux-x86_64-cpython-311/torchvision/prototype/__init__.py -> build/bdist.linux-x86_64/wheel/torchvision/prototype
+creating build/bdist.linux-x86_64/wheel/torchvision/prototype/utils
+copying build/lib.linux-x86_64-cpython-311/torchvision/prototype/utils/__init__.py -> build/bdist.linux-x86_64/wheel/torchvision/prototype/utils
+copying build/lib.linux-x86_64-cpython-311/torchvision/prototype/utils/_internal.py -> build/bdist.linux-x86_64/wheel/torchvision/prototype/utils
+creating build/bdist.linux-x86_64/wheel/torchvision/prototype/datasets
+copying build/lib.linux-x86_64-cpython-311/torchvision/prototype/datasets/benchmark.py -> build/bdist.linux-x86_64/wheel/torchvision/prototype/datasets
+copying build/lib.linux-x86_64-cpython-311/torchvision/prototype/datasets/_folder.py -> build/bdist.linux-x86_64/wheel/torchvision/prototype/datasets
+copying build/lib.linux-x86_64-cpython-311/torchvision/prototype/datasets/generate_category_files.py -> build/bdist.linux-x86_64/wheel/torchvision/prototype/datasets
+copying build/lib.linux-x86_64-cpython-311/torchvision/prototype/datasets/__init__.py -> build/bdist.linux-x86_64/wheel/torchvision/prototype/datasets
+copying build/lib.linux-x86_64-cpython-311/torchvision/prototype/datasets/_api.py -> build/bdist.linux-x86_64/wheel/torchvision/prototype/datasets
+creating build/bdist.linux-x86_64/wheel/torchvision/prototype/datasets/utils
+copying build/lib.linux-x86_64-cpython-311/torchvision/prototype/datasets/utils/_dataset.py -> build/bdist.linux-x86_64/wheel/torchvision/prototype/datasets/utils
+copying build/lib.linux-x86_64-cpython-311/torchvision/prototype/datasets/utils/_encoded.py -> build/bdist.linux-x86_64/wheel/torchvision/prototype/datasets/utils
+copying build/lib.linux-x86_64-cpython-311/torchvision/prototype/datasets/utils/__init__.py -> build/bdist.linux-x86_64/wheel/torchvision/prototype/datasets/utils
+copying build/lib.linux-x86_64-cpython-311/torchvision/prototype/datasets/utils/_resource.py -> build/bdist.linux-x86_64/wheel/torchvision/prototype/datasets/utils
+copying build/lib.linux-x86_64-cpython-311/torchvision/prototype/datasets/utils/_internal.py -> build/bdist.linux-x86_64/wheel/torchvision/prototype/datasets/utils
+copying build/lib.linux-x86_64-cpython-311/torchvision/prototype/datasets/_home.py -> build/bdist.linux-x86_64/wheel/torchvision/prototype/datasets
+creating build/bdist.linux-x86_64/wheel/torchvision/prototype/datasets/_builtin
+copying build/lib.linux-x86_64-cpython-311/torchvision/prototype/datasets/_builtin/clevr.py -> build/bdist.linux-x86_64/wheel/torchvision/prototype/datasets/_builtin
+copying build/lib.linux-x86_64-cpython-311/torchvision/prototype/datasets/_builtin/semeion.py -> build/bdist.linux-x86_64/wheel/torchvision/prototype/datasets/_builtin
+copying build/lib.linux-x86_64-cpython-311/torchvision/prototype/datasets/_builtin/svhn.py -> build/bdist.linux-x86_64/wheel/torchvision/prototype/datasets/_builtin
+copying build/lib.linux-x86_64-cpython-311/torchvision/prototype/datasets/_builtin/oxford-iiit-pet.categories -> build/bdist.linux-x86_64/wheel/torchvision/prototype/datasets/_builtin
+copying build/lib.linux-x86_64-cpython-311/torchvision/prototype/datasets/_builtin/caltech.py -> build/bdist.linux-x86_64/wheel/torchvision/prototype/datasets/_builtin
+copying build/lib.linux-x86_64-cpython-311/torchvision/prototype/datasets/_builtin/fer2013.py -> build/bdist.linux-x86_64/wheel/torchvision/prototype/datasets/_builtin
+copying build/lib.linux-x86_64-cpython-311/torchvision/prototype/datasets/_builtin/caltech256.categories -> build/bdist.linux-x86_64/wheel/torchvision/prototype/datasets/_builtin
+copying build/lib.linux-x86_64-cpython-311/torchvision/prototype/datasets/_builtin/country211.categories -> build/bdist.linux-x86_64/wheel/torchvision/prototype/datasets/_builtin
+copying build/lib.linux-x86_64-cpython-311/torchvision/prototype/datasets/_builtin/dtd.py -> build/bdist.linux-x86_64/wheel/torchvision/prototype/datasets/_builtin
+copying build/lib.linux-x86_64-cpython-311/torchvision/prototype/datasets/_builtin/pcam.py -> build/bdist.linux-x86_64/wheel/torchvision/prototype/datasets/_builtin
+copying build/lib.linux-x86_64-cpython-311/torchvision/prototype/datasets/_builtin/voc.py -> build/bdist.linux-x86_64/wheel/torchvision/prototype/datasets/_builtin
+copying build/lib.linux-x86_64-cpython-311/torchvision/prototype/datasets/_builtin/mnist.py -> build/bdist.linux-x86_64/wheel/torchvision/prototype/datasets/_builtin
+copying build/lib.linux-x86_64-cpython-311/torchvision/prototype/datasets/_builtin/coco.py -> build/bdist.linux-x86_64/wheel/torchvision/prototype/datasets/_builtin
+copying build/lib.linux-x86_64-cpython-311/torchvision/prototype/datasets/_builtin/oxford_iiit_pet.py -> build/bdist.linux-x86_64/wheel/torchvision/prototype/datasets/_builtin
+copying build/lib.linux-x86_64-cpython-311/torchvision/prototype/datasets/_builtin/usps.py -> build/bdist.linux-x86_64/wheel/torchvision/prototype/datasets/_builtin
+copying build/lib.linux-x86_64-cpython-311/torchvision/prototype/datasets/_builtin/celeba.py -> build/bdist.linux-x86_64/wheel/torchvision/prototype/datasets/_builtin
+copying build/lib.linux-x86_64-cpython-311/torchvision/prototype/datasets/_builtin/coco.categories -> build/bdist.linux-x86_64/wheel/torchvision/prototype/datasets/_builtin
+copying build/lib.linux-x86_64-cpython-311/torchvision/prototype/datasets/_builtin/imagenet.py -> build/bdist.linux-x86_64/wheel/torchvision/prototype/datasets/_builtin
+copying build/lib.linux-x86_64-cpython-311/torchvision/prototype/datasets/_builtin/__init__.py -> build/bdist.linux-x86_64/wheel/torchvision/prototype/datasets/_builtin
+copying build/lib.linux-x86_64-cpython-311/torchvision/prototype/datasets/_builtin/dtd.categories -> build/bdist.linux-x86_64/wheel/torchvision/prototype/datasets/_builtin
+copying build/lib.linux-x86_64-cpython-311/torchvision/prototype/datasets/_builtin/food101.py -> build/bdist.linux-x86_64/wheel/torchvision/prototype/datasets/_builtin
+copying build/lib.linux-x86_64-cpython-311/torchvision/prototype/datasets/_builtin/stanford-cars.categories -> build/bdist.linux-x86_64/wheel/torchvision/prototype/datasets/_builtin
+copying build/lib.linux-x86_64-cpython-311/torchvision/prototype/datasets/_builtin/cifar10.categories -> build/bdist.linux-x86_64/wheel/torchvision/prototype/datasets/_builtin
+copying build/lib.linux-x86_64-cpython-311/torchvision/prototype/datasets/_builtin/cub200.categories -> build/bdist.linux-x86_64/wheel/torchvision/prototype/datasets/_builtin
+copying build/lib.linux-x86_64-cpython-311/torchvision/prototype/datasets/_builtin/sbd.categories -> build/bdist.linux-x86_64/wheel/torchvision/prototype/datasets/_builtin
+copying build/lib.linux-x86_64-cpython-311/torchvision/prototype/datasets/_builtin/caltech101.categories -> build/bdist.linux-x86_64/wheel/torchvision/prototype/datasets/_builtin
+copying build/lib.linux-x86_64-cpython-311/torchvision/prototype/datasets/_builtin/gtsrb.py -> build/bdist.linux-x86_64/wheel/torchvision/prototype/datasets/_builtin
+copying build/lib.linux-x86_64-cpython-311/torchvision/prototype/datasets/_builtin/cifar.py -> build/bdist.linux-x86_64/wheel/torchvision/prototype/datasets/_builtin
+copying build/lib.linux-x86_64-cpython-311/torchvision/prototype/datasets/_builtin/cifar100.categories -> build/bdist.linux-x86_64/wheel/torchvision/prototype/datasets/_builtin
+copying build/lib.linux-x86_64-cpython-311/torchvision/prototype/datasets/_builtin/stanford_cars.py -> build/bdist.linux-x86_64/wheel/torchvision/prototype/datasets/_builtin
+copying build/lib.linux-x86_64-cpython-311/torchvision/prototype/datasets/_builtin/country211.py -> build/bdist.linux-x86_64/wheel/torchvision/prototype/datasets/_builtin
+copying build/lib.linux-x86_64-cpython-311/torchvision/prototype/datasets/_builtin/cub200.py -> build/bdist.linux-x86_64/wheel/torchvision/prototype/datasets/_builtin
+copying build/lib.linux-x86_64-cpython-311/torchvision/prototype/datasets/_builtin/food101.categories -> build/bdist.linux-x86_64/wheel/torchvision/prototype/datasets/_builtin
+copying build/lib.linux-x86_64-cpython-311/torchvision/prototype/datasets/_builtin/imagenet.categories -> build/bdist.linux-x86_64/wheel/torchvision/prototype/datasets/_builtin
+copying build/lib.linux-x86_64-cpython-311/torchvision/prototype/datasets/_builtin/voc.categories -> build/bdist.linux-x86_64/wheel/torchvision/prototype/datasets/_builtin
+copying build/lib.linux-x86_64-cpython-311/torchvision/prototype/datasets/_builtin/eurosat.py -> build/bdist.linux-x86_64/wheel/torchvision/prototype/datasets/_builtin
+copying build/lib.linux-x86_64-cpython-311/torchvision/prototype/datasets/_builtin/sbd.py -> build/bdist.linux-x86_64/wheel/torchvision/prototype/datasets/_builtin
+copying build/lib.linux-x86_64-cpython-311/torchvision/utils.py -> build/bdist.linux-x86_64/wheel/torchvision
+creating build/bdist.linux-x86_64/wheel/torchvision/ops
+copying build/lib.linux-x86_64-cpython-311/torchvision/ops/diou_loss.py -> build/bdist.linux-x86_64/wheel/torchvision/ops
+copying build/lib.linux-x86_64-cpython-311/torchvision/ops/roi_align.py -> build/bdist.linux-x86_64/wheel/torchvision/ops
+copying build/lib.linux-x86_64-cpython-311/torchvision/ops/ciou_loss.py -> build/bdist.linux-x86_64/wheel/torchvision/ops
+copying build/lib.linux-x86_64-cpython-311/torchvision/ops/giou_loss.py -> build/bdist.linux-x86_64/wheel/torchvision/ops
+copying build/lib.linux-x86_64-cpython-311/torchvision/ops/_register_onnx_ops.py -> build/bdist.linux-x86_64/wheel/torchvision/ops
+copying build/lib.linux-x86_64-cpython-311/torchvision/ops/drop_block.py -> build/bdist.linux-x86_64/wheel/torchvision/ops
+copying build/lib.linux-x86_64-cpython-311/torchvision/ops/_box_convert.py -> build/bdist.linux-x86_64/wheel/torchvision/ops
+copying build/lib.linux-x86_64-cpython-311/torchvision/ops/deform_conv.py -> build/bdist.linux-x86_64/wheel/torchvision/ops
+copying build/lib.linux-x86_64-cpython-311/torchvision/ops/_utils.py -> build/bdist.linux-x86_64/wheel/torchvision/ops
+copying build/lib.linux-x86_64-cpython-311/torchvision/ops/__init__.py -> build/bdist.linux-x86_64/wheel/torchvision/ops
+copying build/lib.linux-x86_64-cpython-311/torchvision/ops/feature_pyramid_network.py -> build/bdist.linux-x86_64/wheel/torchvision/ops
+copying build/lib.linux-x86_64-cpython-311/torchvision/ops/misc.py -> build/bdist.linux-x86_64/wheel/torchvision/ops
+copying build/lib.linux-x86_64-cpython-311/torchvision/ops/ps_roi_align.py -> build/bdist.linux-x86_64/wheel/torchvision/ops
+copying build/lib.linux-x86_64-cpython-311/torchvision/ops/poolers.py -> build/bdist.linux-x86_64/wheel/torchvision/ops
+copying build/lib.linux-x86_64-cpython-311/torchvision/ops/boxes.py -> build/bdist.linux-x86_64/wheel/torchvision/ops
+copying build/lib.linux-x86_64-cpython-311/torchvision/ops/ps_roi_pool.py -> build/bdist.linux-x86_64/wheel/torchvision/ops
+copying build/lib.linux-x86_64-cpython-311/torchvision/ops/stochastic_depth.py -> build/bdist.linux-x86_64/wheel/torchvision/ops
+copying build/lib.linux-x86_64-cpython-311/torchvision/ops/focal_loss.py -> build/bdist.linux-x86_64/wheel/torchvision/ops
+copying build/lib.linux-x86_64-cpython-311/torchvision/ops/roi_pool.py -> build/bdist.linux-x86_64/wheel/torchvision/ops
+warning: install_lib: byte-compiling is disabled, skipping.
+
+running install_egg_info
+running egg_info
+writing torchvision.egg-info/PKG-INFO
+writing dependency_links to torchvision.egg-info/dependency_links.txt
+writing requirements to torchvision.egg-info/requires.txt
+writing top-level names to torchvision.egg-info/top_level.txt
+reading manifest file 'torchvision.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+warning: no previously-included files matching '__pycache__' found under directory '*'
+warning: no previously-included files matching '*.py[co]' found under directory '*'
+adding license file 'LICENSE'
+writing manifest file 'torchvision.egg-info/SOURCES.txt'
+Copying torchvision.egg-info to build/bdist.linux-x86_64/wheel/torchvision-0.17.0a0-py3.11.egg-info
+running install_scripts
+creating build/bdist.linux-x86_64/wheel/torchvision-0.17.0a0.dist-info/WHEEL
+creating 'dist/torchvision-0.17.0a0-cp311-cp311-linux_x86_64.whl' and adding 'build/bdist.linux-x86_64/wheel' to it
+adding 'torchvision/_C.so'
+adding 'torchvision/__init__.py'
+adding 'torchvision/_internally_replaced_utils.py'
+adding 'torchvision/_meta_registrations.py'
+adding 'torchvision/_utils.py'
+adding 'torchvision/extension.py'
+adding 'torchvision/image.so'
+adding 'torchvision/utils.py'
+adding 'torchvision/version.py'
+adding 'torchvision/video_reader.so'
+adding 'torchvision/datasets/__init__.py'
+adding 'torchvision/datasets/_optical_flow.py'
+adding 'torchvision/datasets/_stereo_matching.py'
+adding 'torchvision/datasets/caltech.py'
+adding 'torchvision/datasets/celeba.py'
+adding 'torchvision/datasets/cifar.py'
+adding 'torchvision/datasets/cityscapes.py'
+adding 'torchvision/datasets/clevr.py'
+adding 'torchvision/datasets/coco.py'
+adding 'torchvision/datasets/country211.py'
+adding 'torchvision/datasets/dtd.py'
+adding 'torchvision/datasets/eurosat.py'
+adding 'torchvision/datasets/fakedata.py'
+adding 'torchvision/datasets/fer2013.py'
+adding 'torchvision/datasets/fgvc_aircraft.py'
+adding 'torchvision/datasets/flickr.py'
+adding 'torchvision/datasets/flowers102.py'
+adding 'torchvision/datasets/folder.py'
+adding 'torchvision/datasets/food101.py'
+adding 'torchvision/datasets/gtsrb.py'
+adding 'torchvision/datasets/hmdb51.py'
+adding 'torchvision/datasets/imagenet.py'
+adding 'torchvision/datasets/inaturalist.py'
+adding 'torchvision/datasets/kinetics.py'
+adding 'torchvision/datasets/kitti.py'
+adding 'torchvision/datasets/lfw.py'
+adding 'torchvision/datasets/lsun.py'
+adding 'torchvision/datasets/mnist.py'
+adding 'torchvision/datasets/moving_mnist.py'
+adding 'torchvision/datasets/omniglot.py'
+adding 'torchvision/datasets/oxford_iiit_pet.py'
+adding 'torchvision/datasets/pcam.py'
+adding 'torchvision/datasets/phototour.py'
+adding 'torchvision/datasets/places365.py'
+adding 'torchvision/datasets/rendered_sst2.py'
+adding 'torchvision/datasets/sbd.py'
+adding 'torchvision/datasets/sbu.py'
+adding 'torchvision/datasets/semeion.py'
+adding 'torchvision/datasets/stanford_cars.py'
+adding 'torchvision/datasets/stl10.py'
+adding 'torchvision/datasets/sun397.py'
+adding 'torchvision/datasets/svhn.py'
+adding 'torchvision/datasets/ucf101.py'
+adding 'torchvision/datasets/usps.py'
+adding 'torchvision/datasets/utils.py'
+adding 'torchvision/datasets/video_utils.py'
+adding 'torchvision/datasets/vision.py'
+adding 'torchvision/datasets/voc.py'
+adding 'torchvision/datasets/widerface.py'
+adding 'torchvision/datasets/samplers/__init__.py'
+adding 'torchvision/datasets/samplers/clip_sampler.py'
+adding 'torchvision/io/__init__.py'
+adding 'torchvision/io/_load_gpu_decoder.py'
+adding 'torchvision/io/_video_opt.py'
+adding 'torchvision/io/image.py'
+adding 'torchvision/io/video.py'
+adding 'torchvision/io/video_reader.py'
+adding 'torchvision/models/__init__.py'
+adding 'torchvision/models/_api.py'
+adding 'torchvision/models/_meta.py'
+adding 'torchvision/models/_utils.py'
+adding 'torchvision/models/alexnet.py'
+adding 'torchvision/models/convnext.py'
+adding 'torchvision/models/densenet.py'
+adding 'torchvision/models/efficientnet.py'
+adding 'torchvision/models/feature_extraction.py'
+adding 'torchvision/models/googlenet.py'
+adding 'torchvision/models/inception.py'
+adding 'torchvision/models/maxvit.py'
+adding 'torchvision/models/mnasnet.py'
+adding 'torchvision/models/mobilenet.py'
+adding 'torchvision/models/mobilenetv2.py'
+adding 'torchvision/models/mobilenetv3.py'
+adding 'torchvision/models/regnet.py'
+adding 'torchvision/models/resnet.py'
+adding 'torchvision/models/shufflenetv2.py'
+adding 'torchvision/models/squeezenet.py'
+adding 'torchvision/models/swin_transformer.py'
+adding 'torchvision/models/vgg.py'
+adding 'torchvision/models/vision_transformer.py'
+adding 'torchvision/models/detection/__init__.py'
+adding 'torchvision/models/detection/_utils.py'
+adding 'torchvision/models/detection/anchor_utils.py'
+adding 'torchvision/models/detection/backbone_utils.py'
+adding 'torchvision/models/detection/faster_rcnn.py'
+adding 'torchvision/models/detection/fcos.py'
+adding 'torchvision/models/detection/generalized_rcnn.py'
+adding 'torchvision/models/detection/image_list.py'
+adding 'torchvision/models/detection/keypoint_rcnn.py'
+adding 'torchvision/models/detection/mask_rcnn.py'
+adding 'torchvision/models/detection/retinanet.py'
+adding 'torchvision/models/detection/roi_heads.py'
+adding 'torchvision/models/detection/rpn.py'
+adding 'torchvision/models/detection/ssd.py'
+adding 'torchvision/models/detection/ssdlite.py'
+adding 'torchvision/models/detection/transform.py'
+adding 'torchvision/models/optical_flow/__init__.py'
+adding 'torchvision/models/optical_flow/_utils.py'
+adding 'torchvision/models/optical_flow/raft.py'
+adding 'torchvision/models/quantization/__init__.py'
+adding 'torchvision/models/quantization/googlenet.py'
+adding 'torchvision/models/quantization/inception.py'
+adding 'torchvision/models/quantization/mobilenet.py'
+adding 'torchvision/models/quantization/mobilenetv2.py'
+adding 'torchvision/models/quantization/mobilenetv3.py'
+adding 'torchvision/models/quantization/resnet.py'
+adding 'torchvision/models/quantization/shufflenetv2.py'
+adding 'torchvision/models/quantization/utils.py'
+adding 'torchvision/models/segmentation/__init__.py'
+adding 'torchvision/models/segmentation/_utils.py'
+adding 'torchvision/models/segmentation/deeplabv3.py'
+adding 'torchvision/models/segmentation/fcn.py'
+adding 'torchvision/models/segmentation/lraspp.py'
+adding 'torchvision/models/video/__init__.py'
+adding 'torchvision/models/video/mvit.py'
+adding 'torchvision/models/video/resnet.py'
+adding 'torchvision/models/video/s3d.py'
+adding 'torchvision/models/video/swin_transformer.py'
+adding 'torchvision/ops/__init__.py'
+adding 'torchvision/ops/_box_convert.py'
+adding 'torchvision/ops/_register_onnx_ops.py'
+adding 'torchvision/ops/_utils.py'
+adding 'torchvision/ops/boxes.py'
+adding 'torchvision/ops/ciou_loss.py'
+adding 'torchvision/ops/deform_conv.py'
+adding 'torchvision/ops/diou_loss.py'
+adding 'torchvision/ops/drop_block.py'
+adding 'torchvision/ops/feature_pyramid_network.py'
+adding 'torchvision/ops/focal_loss.py'
+adding 'torchvision/ops/giou_loss.py'
+adding 'torchvision/ops/misc.py'
+adding 'torchvision/ops/poolers.py'
+adding 'torchvision/ops/ps_roi_align.py'
+adding 'torchvision/ops/ps_roi_pool.py'
+adding 'torchvision/ops/roi_align.py'
+adding 'torchvision/ops/roi_pool.py'
+adding 'torchvision/ops/stochastic_depth.py'
+adding 'torchvision/prototype/__init__.py'
+adding 'torchvision/prototype/datasets/__init__.py'
+adding 'torchvision/prototype/datasets/_api.py'
+adding 'torchvision/prototype/datasets/_folder.py'
+adding 'torchvision/prototype/datasets/_home.py'
+adding 'torchvision/prototype/datasets/benchmark.py'
+adding 'torchvision/prototype/datasets/generate_category_files.py'
+adding 'torchvision/prototype/datasets/_builtin/__init__.py'
+adding 'torchvision/prototype/datasets/_builtin/caltech.py'
+adding 'torchvision/prototype/datasets/_builtin/caltech101.categories'
+adding 'torchvision/prototype/datasets/_builtin/caltech256.categories'
+adding 'torchvision/prototype/datasets/_builtin/celeba.py'
+adding 'torchvision/prototype/datasets/_builtin/cifar.py'
+adding 'torchvision/prototype/datasets/_builtin/cifar10.categories'
+adding 'torchvision/prototype/datasets/_builtin/cifar100.categories'
+adding 'torchvision/prototype/datasets/_builtin/clevr.py'
+adding 'torchvision/prototype/datasets/_builtin/coco.categories'
+adding 'torchvision/prototype/datasets/_builtin/coco.py'
+adding 'torchvision/prototype/datasets/_builtin/country211.categories'
+adding 'torchvision/prototype/datasets/_builtin/country211.py'
+adding 'torchvision/prototype/datasets/_builtin/cub200.categories'
+adding 'torchvision/prototype/datasets/_builtin/cub200.py'
+adding 'torchvision/prototype/datasets/_builtin/dtd.categories'
+adding 'torchvision/prototype/datasets/_builtin/dtd.py'
+adding 'torchvision/prototype/datasets/_builtin/eurosat.py'
+adding 'torchvision/prototype/datasets/_builtin/fer2013.py'
+adding 'torchvision/prototype/datasets/_builtin/food101.categories'
+adding 'torchvision/prototype/datasets/_builtin/food101.py'
+adding 'torchvision/prototype/datasets/_builtin/gtsrb.py'
+adding 'torchvision/prototype/datasets/_builtin/imagenet.categories'
+adding 'torchvision/prototype/datasets/_builtin/imagenet.py'
+adding 'torchvision/prototype/datasets/_builtin/mnist.py'
+adding 'torchvision/prototype/datasets/_builtin/oxford-iiit-pet.categories'
+adding 'torchvision/prototype/datasets/_builtin/oxford_iiit_pet.py'
+adding 'torchvision/prototype/datasets/_builtin/pcam.py'
+adding 'torchvision/prototype/datasets/_builtin/sbd.categories'
+adding 'torchvision/prototype/datasets/_builtin/sbd.py'
+adding 'torchvision/prototype/datasets/_builtin/semeion.py'
+adding 'torchvision/prototype/datasets/_builtin/stanford-cars.categories'
+adding 'torchvision/prototype/datasets/_builtin/stanford_cars.py'
+adding 'torchvision/prototype/datasets/_builtin/svhn.py'
+adding 'torchvision/prototype/datasets/_builtin/usps.py'
+adding 'torchvision/prototype/datasets/_builtin/voc.categories'
+adding 'torchvision/prototype/datasets/_builtin/voc.py'
+adding 'torchvision/prototype/datasets/utils/__init__.py'
+adding 'torchvision/prototype/datasets/utils/_dataset.py'
+adding 'torchvision/prototype/datasets/utils/_encoded.py'
+adding 'torchvision/prototype/datasets/utils/_internal.py'
+adding 'torchvision/prototype/datasets/utils/_resource.py'
+adding 'torchvision/prototype/models/__init__.py'
+adding 'torchvision/prototype/models/depth/__init__.py'
+adding 'torchvision/prototype/models/depth/stereo/__init__.py'
+adding 'torchvision/prototype/models/depth/stereo/crestereo.py'
+adding 'torchvision/prototype/models/depth/stereo/raft_stereo.py'
+adding 'torchvision/prototype/transforms/__init__.py'
+adding 'torchvision/prototype/transforms/_augment.py'
+adding 'torchvision/prototype/transforms/_geometry.py'
+adding 'torchvision/prototype/transforms/_misc.py'
+adding 'torchvision/prototype/transforms/_presets.py'
+adding 'torchvision/prototype/transforms/_type_conversion.py'
+adding 'torchvision/prototype/tv_tensors/__init__.py'
+adding 'torchvision/prototype/tv_tensors/_label.py'
+adding 'torchvision/prototype/utils/__init__.py'
+adding 'torchvision/prototype/utils/_internal.py'
+adding 'torchvision/transforms/__init__.py'
+adding 'torchvision/transforms/_functional_pil.py'
+adding 'torchvision/transforms/_functional_tensor.py'
+adding 'torchvision/transforms/_functional_video.py'
+adding 'torchvision/transforms/_presets.py'
+adding 'torchvision/transforms/_transforms_video.py'
+adding 'torchvision/transforms/autoaugment.py'
+adding 'torchvision/transforms/functional.py'
+adding 'torchvision/transforms/functional_pil.py'
+adding 'torchvision/transforms/functional_tensor.py'
+adding 'torchvision/transforms/transforms.py'
+adding 'torchvision/transforms/v2/__init__.py'
+adding 'torchvision/transforms/v2/_augment.py'
+adding 'torchvision/transforms/v2/_auto_augment.py'
+adding 'torchvision/transforms/v2/_color.py'
+adding 'torchvision/transforms/v2/_container.py'
+adding 'torchvision/transforms/v2/_deprecated.py'
+adding 'torchvision/transforms/v2/_geometry.py'
+adding 'torchvision/transforms/v2/_meta.py'
+adding 'torchvision/transforms/v2/_misc.py'
+adding 'torchvision/transforms/v2/_temporal.py'
+adding 'torchvision/transforms/v2/_transform.py'
+adding 'torchvision/transforms/v2/_type_conversion.py'
+adding 'torchvision/transforms/v2/_utils.py'
+adding 'torchvision/transforms/v2/functional/__init__.py'
+adding 'torchvision/transforms/v2/functional/_augment.py'
+adding 'torchvision/transforms/v2/functional/_color.py'
+adding 'torchvision/transforms/v2/functional/_deprecated.py'
+adding 'torchvision/transforms/v2/functional/_geometry.py'
+adding 'torchvision/transforms/v2/functional/_meta.py'
+adding 'torchvision/transforms/v2/functional/_misc.py'
+adding 'torchvision/transforms/v2/functional/_temporal.py'
+adding 'torchvision/transforms/v2/functional/_type_conversion.py'
+adding 'torchvision/transforms/v2/functional/_utils.py'
+adding 'torchvision/tv_tensors/__init__.py'
+adding 'torchvision/tv_tensors/_bounding_boxes.py'
+adding 'torchvision/tv_tensors/_dataset_wrapper.py'
+adding 'torchvision/tv_tensors/_image.py'
+adding 'torchvision/tv_tensors/_mask.py'
+adding 'torchvision/tv_tensors/_torch_function_helpers.py'
+adding 'torchvision/tv_tensors/_tv_tensor.py'
+adding 'torchvision/tv_tensors/_video.py'
+adding 'torchvision-0.17.0a0.dist-info/LICENSE'
+adding 'torchvision-0.17.0a0.dist-info/METADATA'
+adding 'torchvision-0.17.0a0.dist-info/WHEEL'
+adding 'torchvision-0.17.0a0.dist-info/top_level.txt'
+adding 'torchvision-0.17.0a0.dist-info/RECORD'
