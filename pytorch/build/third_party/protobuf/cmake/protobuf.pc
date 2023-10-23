@@ -1,0 +1,11 @@
+prefix=/build_src/pytorch/torch
+exec_prefix=/build_src/pytorch/torch
+libdir=/build_src/pytorch/torch/lib
+includedir=/build_src/pytorch/torch/include
+
+Name: Protocol Buffers
+Description: Google's Data Interchange Format
+Version: 3.13.0.0
+Libs: -L${libdir} -lprotobuf -pthread
+Cflags: -I${includedir} -pthread
+Conflicts: protobuf-lite

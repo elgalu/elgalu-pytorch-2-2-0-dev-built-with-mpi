@@ -1,0 +1,14 @@
+# Target labels
+ six
+# Source files and their labels
+/build_src/pytorch/build/confu-deps/six-download/CMakeFiles/six
+/build_src/pytorch/build/confu-deps/six-download/CMakeFiles/six.rule
+/build_src/pytorch/build/confu-deps/six-download/CMakeFiles/six-complete.rule
+/build_src/pytorch/build/confu-deps/six-download/six-prefix/src/six-stamp/six-build.rule
+/build_src/pytorch/build/confu-deps/six-download/six-prefix/src/six-stamp/six-configure.rule
+/build_src/pytorch/build/confu-deps/six-download/six-prefix/src/six-stamp/six-download.rule
+/build_src/pytorch/build/confu-deps/six-download/six-prefix/src/six-stamp/six-install.rule
+/build_src/pytorch/build/confu-deps/six-download/six-prefix/src/six-stamp/six-mkdir.rule
+/build_src/pytorch/build/confu-deps/six-download/six-prefix/src/six-stamp/six-patch.rule
+/build_src/pytorch/build/confu-deps/six-download/six-prefix/src/six-stamp/six-test.rule
+/build_src/pytorch/build/confu-deps/six-download/six-prefix/src/six-stamp/six-update.rule

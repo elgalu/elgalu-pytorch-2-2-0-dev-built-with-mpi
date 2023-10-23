@@ -1,0 +1,9 @@
+prefix=/build_src/pytorch/torch
+libdir=/build_src/pytorch/torch/lib
+includedir=/build_src/pytorch/torch/include
+
+Name: SLEEF
+Description: SIMD Library for Evaluating Elementary Functions, vectorized libm and DFT
+Version: 3.6.0
+Cflags: -I${includedir}
+Libs: -L${libdir} -lsleef

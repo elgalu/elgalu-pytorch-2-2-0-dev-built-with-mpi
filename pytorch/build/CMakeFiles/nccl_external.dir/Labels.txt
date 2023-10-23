@@ -1,0 +1,13 @@
+# Target labels
+ nccl_external
+# Source files and their labels
+/build_src/pytorch/build/CMakeFiles/nccl_external
+/build_src/pytorch/build/CMakeFiles/nccl_external.rule
+/build_src/pytorch/build/CMakeFiles/nccl_external-complete.rule
+/build_src/pytorch/build/nccl_external-prefix/src/nccl_external-stamp/nccl_external-build.rule
+/build_src/pytorch/build/nccl_external-prefix/src/nccl_external-stamp/nccl_external-configure.rule
+/build_src/pytorch/build/nccl_external-prefix/src/nccl_external-stamp/nccl_external-download.rule
+/build_src/pytorch/build/nccl_external-prefix/src/nccl_external-stamp/nccl_external-install.rule
+/build_src/pytorch/build/nccl_external-prefix/src/nccl_external-stamp/nccl_external-mkdir.rule
+/build_src/pytorch/build/nccl_external-prefix/src/nccl_external-stamp/nccl_external-patch.rule
+/build_src/pytorch/build/nccl_external-prefix/src/nccl_external-stamp/nccl_external-update.rule

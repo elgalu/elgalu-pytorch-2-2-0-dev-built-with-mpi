@@ -1,0 +1,16 @@
+filelock
+typing-extensions
+sympy
+networkx
+jinja2
+fsspec
+
+[dynamo]
+jinja2
+pytorch-triton==2.1.0+6e4932cda8
+
+[opt-einsum]
+opt-einsum>=3.3
+
+[optree]
+optree>=0.9.1

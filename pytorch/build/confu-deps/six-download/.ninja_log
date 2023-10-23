@@ -1,0 +1,21 @@
+# ninja log v5
+0	13	1698059130300853235	six-prefix/src/six-stamp/six-mkdir	17fbcdca9e295c77
+0	13	1698059130300853235	/build_src/pytorch/build/confu-deps/six-download/six-prefix/src/six-stamp/six-mkdir	17fbcdca9e295c77
+13	174	1698059130460854339	six-prefix/src/six-stamp/six-download	a6eb3404a347effa
+13	174	1698059130460854339	/build_src/pytorch/build/confu-deps/six-download/six-prefix/src/six-stamp/six-download	a6eb3404a347effa
+174	184	1698059130472854421	six-prefix/src/six-stamp/six-update	a316dd07cac6e197
+174	184	1698059130472854421	/build_src/pytorch/build/confu-deps/six-download/six-prefix/src/six-stamp/six-update	a316dd07cac6e197
+184	194	1698059130480854476	six-prefix/src/six-stamp/six-patch	56d86e3b6bec32df
+184	194	1698059130480854476	/build_src/pytorch/build/confu-deps/six-download/six-prefix/src/six-stamp/six-patch	56d86e3b6bec32df
+194	204	1698059130492854559	six-prefix/src/six-stamp/six-configure	bdc91d4b342b92b
+194	204	1698059130492854559	/build_src/pytorch/build/confu-deps/six-download/six-prefix/src/six-stamp/six-configure	bdc91d4b342b92b
+204	214	1698059130500854614	six-prefix/src/six-stamp/six-build	a828283c0feaead7
+204	214	1698059130500854614	/build_src/pytorch/build/confu-deps/six-download/six-prefix/src/six-stamp/six-build	a828283c0feaead7
+214	223	1698059130512854697	six-prefix/src/six-stamp/six-install	87354aec488b435
+214	223	1698059130512854697	/build_src/pytorch/build/confu-deps/six-download/six-prefix/src/six-stamp/six-install	87354aec488b435
+223	233	1698059130520854752	six-prefix/src/six-stamp/six-test	7943bccdc29ace01
+223	233	1698059130520854752	/build_src/pytorch/build/confu-deps/six-download/six-prefix/src/six-stamp/six-test	7943bccdc29ace01
+233	247	1698059130532854835	CMakeFiles/six-complete	d334e0002823a75a
+233	247	1698059130532854835	six-prefix/src/six-stamp/six-done	d334e0002823a75a
+233	247	1698059130532854835	/build_src/pytorch/build/confu-deps/six-download/CMakeFiles/six-complete	d334e0002823a75a
+233	247	1698059130532854835	/build_src/pytorch/build/confu-deps/six-download/six-prefix/src/six-stamp/six-done	d334e0002823a75a

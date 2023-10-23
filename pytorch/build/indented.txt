@@ -1,0 +1,12 @@
+
+      def get_ext_suffix():
+          import sys
+          import sysconfig
+          return sysconfig.get_config_var('EXT_SUFFIX')
+
+      suffix = get_ext_suffix()
+      if suffix is not None:
+          print(suffix)
+      else:
+          print()
+  

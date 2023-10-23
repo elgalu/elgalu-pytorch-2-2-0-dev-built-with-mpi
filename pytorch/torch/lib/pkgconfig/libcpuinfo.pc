@@ -1,0 +1,12 @@
+prefix=/build_src/pytorch/torch
+exec_prefix=/build_src/pytorch/torch
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libTorch
+Description: Library to detect essential performance optimization information about host CPU.
+Version: 
+URL: 
+Libs: -L${libdir} -lcpuinfo
+Cflags: -I${includedir}
+

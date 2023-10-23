@@ -1,0 +1,9 @@
+#include "common.h"
+#include "reduce_scatter.h"
+DEFINE_ncclDevKernel(ReduceScatter_Sum_f64_RING_LL, ncclFuncReduceScatter, FuncSum, double, NCCL_ALGO_RING, NCCL_PROTO_LL, 487)
+#if CUDART_VERSION >= 12010 && __CUDA_ARCH__ >= 900
+DEFINE_ncclDevFunc(ReduceScatter_Sum_f64_NVLS_SIMPLE, ncclFuncReduceScatter, FuncSum, double, NCCL_ALGO_NVLS, NCCL_PROTO_SIMPLE)
+#endif
+DEFINE_ncclDevFunc(ReduceScatter_Sum_f64_RING_LL, ncclFuncReduceScatter, FuncSum, double, NCCL_ALGO_RING, NCCL_PROTO_LL)
+DEFINE_ncclDevFunc(ReduceScatter_Sum_f64_RING_LL128, ncclFuncReduceScatter, FuncSum, double, NCCL_ALGO_RING, NCCL_PROTO_LL128)
+DEFINE_ncclDevFunc(ReduceScatter_Sum_f64_RING_SIMPLE, ncclFuncReduceScatter, FuncSum, double, NCCL_ALGO_RING, NCCL_PROTO_SIMPLE)
